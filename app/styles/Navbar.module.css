@@ -1,0 +1,33 @@
+  .flexBetween {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .padding-container {
+    padding: 0 1rem;
+  }
+  
+  .lg-flexCenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .lg-flex {
+      display: flex;
+    }
+    .lg-flexCenter {
+      display: flex;
+    }
+  }
+  
+  .ml-8 {
+    margin-left: 2rem; /* Adjust as needed */
+  }
+  
+  /* Add other necessary styles */
+  
