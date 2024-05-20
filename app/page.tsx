@@ -47,6 +47,7 @@ export default function Home() {
                                     <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.</p>
                                 </div>
                             </div>
+                            <br></br>
                             <div className="wrapper-aboutus container flex-row separate">
                                 <div className="aboutus-img">
                                     <img src={`${prefix}/aboutus.png`} alt="" />
