@@ -1,5 +1,4 @@
 import Hero from "@/components/Hero";
-import React from "react";
 
 export default function Home() {
     return (<>
@@ -13,115 +12,80 @@ export default function Home() {
                 {/* ======End Preloader ====== */}
                 <div className="wrapper" id="home">
                     <main>
-
                         {/* ====== About Us ====== */}
                         <section id="aboutus" className="ptb flex-row">
                             <div className="wrapper-feature flex-row container">
                                 <div className="single-feature align-center">
                                     <img src="/feature-1.png" alt="" />
                                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
-                                    <p>
-                                        Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.</p>
+                                    <p>Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.</p>
                                 </div>
-                                {/*/.single-feature*/}
                                 <div className="single-feature align-center">
                                     <img src="/feature-2.png" alt="" />
                                     <h3>Organisation optimisée et gain du temps</h3>
-                                    <p>
-                                        Gérez tous les aspects de votre pratique à partir d'une seule plateforme, accessible d'un simple clic, où que vous soyez et à tout moment.
-                                    </p>
+                                    <p>Gérez tous les aspects de votre pratique à partir d'une seule plateforme, accessible d'un simple clic, où que vous soyez et à tout moment.</p>
                                 </div>
-                                {/*/.single-feature*/}
                                 <div className="single-feature align-center">
                                     <img src="/feature-3.png" alt="" />
-                                    <h3>Amélioration de la gestion des données patient </h3>
-                                    <p>Saisissez des informations importantes en temps réel, améliorez la coordination des données des patients et réduisez les risques d'erreurs médicales.
-                                    </p>
+                                    <h3>Amélioration de la gestion des données patient</h3>
+                                    <p>Saisissez des informations importantes en temps réel, améliorez la coordination des données des patients et réduisez les risques d'erreurs médicales.</p>
                                 </div>
-                                {/*/.single-feature*/}
                                 <div className="single-feature align-center">
                                     <img src="/feature-4.png" alt="" />
                                     <h3>Dossiers patients centralisés et sécurisés</h3>
-                                    <p>Accédez aux dossiers patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité.
-                                    </p>
+                                    <p>Accédez aux dossiers patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité.</p>
                                 </div>
                                 <div className="single-feature align-center">
                                     <img src="/feature-4.png" alt="" />
                                     <h3>Facturation automatisée et suivi des finances</h3>
-                                    <p>Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie. </p>
+                                    <p>Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie.</p>
                                 </div>
                                 <div className="single-feature align-center">
                                     <img src="/feature-4.png" alt="" />
                                     <h3>Rapports et analyses précieuses</h3>
-                                    <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité. </p>
+                                    <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.</p>
                                 </div>
-                                {/*/.single-feature*/}
                             </div>
-                            {/*/.wrapper-feature*/}
                             <div className="wrapper-aboutus container flex-row">
                                 <div className="aboutus-img">
                                     <img src="/aboutus.png" alt="" />
                                 </div>
-                                {/*/.aboutus-img*/}
                                 <div className="aboutus-content">
                                     <span className="suptitle">En Savoir Plus</span>
-                                    <h2>
-                                        Au cœur de notre mission {" "}
-                                        <span className="selection">se trouvent votre bien-être et celui de vos patients</span>
-                                    </h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellendus perspiciatis ex voluptatem quis est. Iusto sequi
-                                        perspiciatis non cumque velit quo. Tempore, debitis molestias
-                                        officia animi obcaecati voluptatem deleniti.
-                                    </p>
+                                    <h2>Au cœur de notre mission <span className="selection">se trouvent votre bien-être et celui de vos patients</span></h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis ex voluptatem quis est. Iusto sequi perspiciatis non cumque velit quo. Tempore, debitis molestias officia animi obcaecati voluptatem deleniti.</p>
                                     <div className="wrapper-aboutus-progress">
                                         <div className="single-progress flex-row">
                                             <div className="progress-img">
                                                 <img src="/progress-1.png" alt="" />
                                             </div>
-                                            {/*/.progress-img*/}
                                             <div className="progress-content">
                                                 <h3>Service 20 Years</h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Omnis, quaerat.
-                                                </p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quaerat.</p>
                                             </div>
-                                            {/*/.progress-content*/}
                                         </div>
-                                        {/*/.single-progress*/}
                                         <div className="single-progress flex-row">
                                             <div className="progress-img">
                                                 <img src="/progress-2.png" alt="" />
                                             </div>
-                                            {/*/.progress-img*/}
                                             <div className="progress-content">
                                                 <h3>Reliable Contractors</h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Omnis, quaerat.
-                                                </p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quaerat.</p>
                                             </div>
-                                            {/*/.progress-content*/}
                                         </div>
-                                        {/*/.single-progress*/}
                                     </div>
-                                    {/*/.wrapper-aboutus-progress*/}
                                     <div className="wrapper-singnature flex-row">
                                         <img src="/img-signature.png" alt="" />
                                         <div className="signature-content">
                                             <h3>Jeremy White</h3>
                                             <img src="/signature.png" alt="" />
                                         </div>
-                                        {/*/.signature-content*/}
                                     </div>
-                                    {/*/.wrapper-singnature*/}
                                 </div>
-                                {/*/.aboutus-content*/}
                             </div>
-                            {/*/.wrapper-aboutus*/}
                         </section>
+
+
                         {/* ====== End About Us ====== */}
                         {/* ====== Services ====== */}
                         <section id="services" className="ptb">
@@ -348,7 +312,7 @@ export default function Home() {
                                         Afin de mieux répondre à vos besoins, veuillez remplir le formulaire ci-dessous. Plus vous nous fournirez d'informations, plus nous serons en mesure de vous proposer un devis précis et adapté à vos besoins
 
                                     </p>
-                                    
+
                                 </div>
                                 {/*/.booking-working-hours*/}
                             </div>

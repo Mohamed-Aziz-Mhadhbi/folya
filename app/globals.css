@@ -189,6 +189,9 @@ h3 {
 
 .align-center {
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flex-row {
@@ -420,6 +423,12 @@ h3 {
 	padding: 40px 20px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+	flex: 1 1 calc(33.333% - 20px); 
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .single-feature img {
@@ -1112,3 +1121,30 @@ h3 {
 .ml-auto {
     margin-left: auto;
 }
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+    .single-feature {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .single-feature {
+        flex: 1 1 100%;
+    }
+}
+
+.wrapper-aboutus {
+    margin-top: 40px; /* Space above the about us section */
+}
+
+.wrapper-aboutus .aboutus-img img {
+    max-width: 100%;
+}
+
+.wrapper-aboutus .aboutus-content {
+    padding: 20px;
+}
+
+
