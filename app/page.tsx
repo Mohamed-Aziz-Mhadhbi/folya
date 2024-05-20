@@ -58,7 +58,7 @@ export default function Home() {
                                     <div className="wrapper-aboutus-progress">
                                         <div className="single-progress flex-row">
                                             <div className="progress-img">
-                                                <img src="/progress-1.png" alt="" />
+                                                <img src={`${prefix}/progress-1.png`} alt="" />
                                             </div>
                                             <div className="progress-content">
                                                 <h3>Service 20 Years</h3>
