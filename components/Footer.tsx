@@ -1,4 +1,4 @@
-import React from 'react';
+import { prefix } from '@/prefix';
 
 const Footer = () => {
     return (
@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="footer-logo">
                                 <a href="#">
                                     <img
-                                        src="/logo-icon.png"
+                                        src={`${prefix}/logo-icon.png`}
                                         alt="logo"
                                         style={{ maxHeight: 40, maxWidth: 40 }}
                                     />
