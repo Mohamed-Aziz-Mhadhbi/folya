@@ -8,7 +8,7 @@ export default function Home() {
             <section className="content">
                 {/* ====== Preloader ====== */}
                 <div id="preload" style={{ display: "none" }}>
-                    <img src="assets/images/preload.png" alt="" />
+                    <img src={`${prefix}/preload.png`} alt="" />
                 </div>
                 {/* ======End Preloader ====== */}
                 <div className="wrapper" id="home">
