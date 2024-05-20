@@ -45,7 +45,7 @@ const Navbar = () => {
             <div className="wrapper-bottom-header fixedmenu">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
-                        <img src="/logo.png" alt="" style={{ width: '90px', height: '30px' }} />
+                        <img src="/folya/logo.png" alt="" style={{ width: '90px', height: '30px' }} />
                     </a>
                     <nav id="nav" style={{ left: "-320px" }}>
                         <a id="closemenu" className="btn" href="#">
