@@ -1155,4 +1155,7 @@ h3 {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+.separate {
+    margin-top: 30px; /* Adjust the value as needed */
+}
 
