@@ -52,6 +52,7 @@ export default function Home() {
                                     <img src={`${prefix}/aboutus.png`} alt="" />
                                 </div>
                                 <div className="aboutus-content">
+                                    <br></br>
                                     <span className="suptitle">En Savoir Plus</span>
                                     <h2>Au cœur de notre mission <span className="selection">se trouvent votre bien-être et celui de vos patients</span></h2>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis ex voluptatem quis est. Iusto sequi perspiciatis non cumque velit quo. Tempore, debitis molestias officia animi obcaecati voluptatem deleniti.</p>
