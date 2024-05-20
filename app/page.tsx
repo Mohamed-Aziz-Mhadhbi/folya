@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import { prefix } from "@/prefix";
 
 export default function Home() {
     return (<>
@@ -16,7 +17,7 @@ export default function Home() {
                         <section id="aboutus" className="ptb flex-row">
                             <div className="wrapper-feature flex-row container">
                                 <div className="single-feature align-center">
-                                    <img src="/feature-1.png" alt="" />
+                                    <img src={`${prefix}/feature-1.png`} alt="" />
                                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
                                     <p>Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.</p>
                                 </div>
