@@ -298,7 +298,7 @@ export default function Home() {
                                         </div>
                                         {/*/.wrapper-input*/}
                                         <div className="wrapper-input flex-row">
-                                            <input type="text" name="date" placeholder="Message" />
+                                            <input type="text" name="date" placeholder="Message" className="large-input" />
                                         </div>
                                         <button className="btn" id="sendbook" type="submit">
                                             Obtenez  un devis gratuitement
