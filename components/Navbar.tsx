@@ -1,3 +1,5 @@
+import React from 'react';
+import './Navbar.css'; // Make sure to create and import a CSS file
 
 const Navbar = () => {
     return (
@@ -14,8 +16,7 @@ const Navbar = () => {
                             +216 27 405 988
                         </a>
                     </div>
-                    {/*/.header-contact*/}
-                    <ul className="social-link">
+                    <ul className="social-link flex-row">
                         <li>
                             <a href="#">
                                 <i className="fab fa-facebook-f" />
@@ -37,21 +38,18 @@ const Navbar = () => {
                             </a>
                         </li>
                     </ul>
-                    {/*/.social-link*/}
                 </div>
-                {/*/.header-top*/}
             </div>
-            {/*/.wrapper-top-header*/}
             <div className="wrapper-bottom-header fixedmenu">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
-                        <img src="/folya/logo.png" alt="" style={{ width: '90px', height: '30px' }} />
+                        <img src="/folya/logo.png" alt="Logo" className="logo" />
                     </a>
-                    <nav id="nav" style={{ left: "-320px" }}>
+                    <nav id="nav">
                         <a id="closemenu" className="btn" href="#">
                             <i className="fa-solid fa-xmark" />
                         </a>
-                        <ul className="menu">
+                        <ul className="menu flex-row">
                             <li>
                                 <a href="#Acceuil">Acceuil</a>
                             </li>
@@ -66,7 +64,6 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-                    {/*#nav*/}
                     <a className="btn appointment" href="#booking">
                         Devis
                     </a>
@@ -74,9 +71,7 @@ const Navbar = () => {
                         <i className="fa-solid fa-bars" />
                     </a>
                 </div>
-                {/*/.bottom-header*/}
             </div>
-            {/*/.wrapper-bottom-header*/}
         </header>
     );
 }

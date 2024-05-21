@@ -29,5 +29,170 @@
     margin-left: 2rem; /* Adjust as needed */
   }
   
-  /* Add other necessary styles */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+/* Top Header */
+.wrapper-top-header {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.header-contact p,
+.header-contact a {
+  margin-right: 20px;
+  color: #666;
+}
+
+.social-link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link li {
+  margin-left: 15px;
+}
+
+.social-link a {
+  color: #666;
+  font-size: 18px;
+}
+
+.social-link a:hover {
+  color: #007bff;
+}
+
+/* Bottom Header */
+.wrapper-bottom-header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.bottom-header {
+  padding: 15px 0;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 90px;
+  height: 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+#closemenu,
+#openmenu {
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav {
+      position: absolute;
+      top: 0;
+      left: -320px;
+      width: 320px;
+      height: 100vh;
+      background-color: #fff;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      transition: left 0.3s;
+  }
+
+  nav.open {
+      left: 0;
+  }
+
+  .menu {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .menu li {
+      margin-bottom: 15px;
+  }
+
+  #closemenu,
+  #openmenu {
+      display: block;
+  }
+
+  .appointment {
+      display: none;
+  }
+}
+
   
