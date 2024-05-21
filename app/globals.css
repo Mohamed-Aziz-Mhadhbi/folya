@@ -1159,3 +1159,54 @@ h3 {
     margin-top: 30px; /* Adjust the value as needed */
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-feature {
+    flex: 0 1 calc(16.66% - 20px); /* 6 items in a row with some margin */
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.single-feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-feature h3 {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.single-feature p {
+    font-size: 0.875em;
+}
+
+@media (max-width: 1200px) {
+    .single-feature {
+        flex: 0 1 calc(33.33% - 20px); /* 3 items in a row on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .single-feature {
+        flex: 0 1 calc(50% - 20px); /* 2 items in a row on tablet screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .single-feature {
+        flex: 0 1 100%; /* 1 item in a row on mobile screens */
+    }
+}
+
