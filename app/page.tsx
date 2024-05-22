@@ -1,6 +1,6 @@
 import Hero from "@/components/Hero";
 import { prefix } from "@/prefix";
-import './styles/responsive.css';
+import './folya/styles/responsive.css';
 
 export default function Home() {
     return (<>
