@@ -70,14 +70,15 @@ const Navbar = () => {
                         <i className="fa-solid fa-bars" />
                     </a>
                 </div>
+                <Image
+                    src="/folya/menu.svg"
+                    alt="menu"
+                    width={32}
+                    height={32}
+                    className="inline-block cursor-pointer lg:hidden"
+                />
             </div>
-            <Image 
-        src="/folya/menu.svg"
-        alt="menu"
-        width={32}
-        height={32}
-        className="inline-block cursor-pointer lg:hidden"
-        />
+
         </header>
     );
 }
