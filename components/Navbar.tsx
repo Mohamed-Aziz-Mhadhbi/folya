@@ -1,4 +1,3 @@
-import Image from "@/node_modules/next/image";
 
 const Navbar = () => {
     return (
@@ -63,20 +62,13 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-                    <a className="btn appointment lg:flexCenter hidden" href="#booking">
+                    <a className="btn appointment" href="#booking">
                         Devis
                     </a>
                     <a id="openmenu" className="btn" href="#">
                         <i className="fa-solid fa-bars" />
                     </a>
                 </div>
-                <Image
-                    src="/folya/menu.svg"
-                    alt="menu"
-                    width={32}
-                    height={32}
-                    className="inline-block cursor-pointer lg:hidden"
-                />
             </div>
 
         </header>
