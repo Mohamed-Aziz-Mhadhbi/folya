@@ -63,7 +63,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-                    <a className="btn appointment" href="#booking">
+                    <a className="btn appointment lg:flexCenter hidden" href="#booking">
                         Devis
                     </a>
                     <a id="openmenu" className="btn" href="#">
