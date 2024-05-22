@@ -1,3 +1,4 @@
+import Image from "@/node_modules/next/image";
 
 const Navbar = () => {
     return (
@@ -70,6 +71,13 @@ const Navbar = () => {
                     </a>
                 </div>
             </div>
+            <Image 
+        src="/folya/menu.svg"
+        alt="menu"
+        width={32}
+        height={32}
+        className="inline-block cursor-pointer lg:hidden"
+        />
         </header>
     );
 }
