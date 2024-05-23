@@ -2,6 +2,7 @@
 import Hero from "@/components/Hero";
 import { prefix } from "@/prefix";
 import { useDynamicStyle } from "./useDynamicStyles";
+import "./styles/responsive.css";
 
 export default function Home() {
     useDynamicStyle("/styles/responsive.css");
