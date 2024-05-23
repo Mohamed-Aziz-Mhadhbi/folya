@@ -1,3 +1,4 @@
+"use client";
 import Hero from "@/components/Hero";
 import { prefix } from "@/prefix";
 import { useDynamicStyle } from "./useDynamicStyles";
