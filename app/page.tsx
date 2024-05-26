@@ -24,11 +24,11 @@ export default function Home() {
                     {/* ======End Preloader ====== */}
                     <div className="wrapper" id="home">
                         <main>
-                            <AboutUs/>
-                            <Service/>
-                            <Offers/>
-                            <FAQ/>
-                            <Devis/>
+                            <Offers />
+                            <AboutUs />
+                            <Service />
+                            <FAQ />
+                            <Devis />
                         </main>
                     </div>
                     {/*/.wrapper*/}
