@@ -5,6 +5,7 @@ import { useDynamicStyle } from "./useDynamicStyles";
 import "./styles/responsive.css";
 import AboutUs from "@/components/AboutUs";
 import Service from "@/components/Service";
+import Offers from "@/components/Offers";
 
 export default function Home() {
     useDynamicStyle("/styles/responsive.css");
@@ -23,6 +24,7 @@ export default function Home() {
                         <main>
                             <AboutUs/>
                             <Service/>
+                            <Offers/>
                             {/* ====== FAQ ====== */}
                             <section id="faq">
                                 <div className="wrapper-faq flex-row container">
