@@ -5,7 +5,6 @@ const Offers = () => {
         <section id="offer" className="ptb">
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
-                    <span className="suptitle"></span>
                     <h2>Optimisez votre flux de travail et</h2>
                     <p>
                         Gagnez du temps, augmentez votre productivité et réduisez votre stress avec Folya.
@@ -15,6 +14,18 @@ const Offers = () => {
                     <a className="btn appointment" href="#booking">
                         Réservez votre démo
                     </a>
+
+                    <a
+                        href="https://www.youtube.com/watch?v=9_nyG2TUDcQ"
+                        className="play-btn mfp-iframe"
+                    >
+                        <img
+                            className="wave1"
+                            src={`${prefix}/play-btn.png`}
+                            alt="play-btn"
+                        />
+                    </a>
+
                 </div>
                 <div className="offer-img">
                     <img src={`${prefix}/img-header.png`} alt="" />

@@ -8,17 +8,19 @@ import Offers from "@/components/Offers";
 import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
+import Hero from "@/components/Hero";
 
 export default function Home() {
     useDynamicStyle("/styles/responsive.css");
 
     return (
         <>
+            {/* <Hero/> */}
             <div className="wrap">
                 <section className="content">
                     <div className="wrapper" id="home">
                         <main>
-                            <Offers/>
+                        <Offers/>
                             <AboutUs/>
                             <Feature/>
                             <Service/>
