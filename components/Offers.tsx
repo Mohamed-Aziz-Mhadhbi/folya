@@ -16,13 +16,10 @@ const Offers = () => {
                         Réservez votre démo
                     </a>
                 </div>
-                {/*/.offer-content*/}
                 <div className="offer-img">
                     <img src={`${prefix}/img-header.png`} alt="" />
                 </div>
-                {/*/.offer-img*/}
             </div>
-            {/*/.wrapper-offer*/}
         </section>
 
     );
