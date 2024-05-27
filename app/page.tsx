@@ -8,6 +8,7 @@ import Service from "@/components/Service";
 import Offers from "@/components/Offers";
 import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
+import Feature from "@/components/Features";
 
 export default function Home() {
     useDynamicStyle("/styles/responsive.css");
@@ -24,11 +25,12 @@ export default function Home() {
                     {/* ======End Preloader ====== */}
                     <div className="wrapper" id="home">
                         <main>
-                            <Offers />
-                            <AboutUs />
-                            <Service />
-                            <FAQ />
-                            <Devis />
+                            <Offers/>
+                            <AboutUs/>
+                            <Feature/>
+                            <Service/>
+                            <FAQ/>
+                            <Devis/>
                         </main>
                     </div>
                     {/*/.wrapper*/}
