@@ -18,11 +18,6 @@ export default function Home() {
             <Hero />
             <div className="wrap">
                 <section className="content">
-                    {/* ====== Preloader ====== */}
-                    <div id="preload" style={{ display: "none" }}>
-                        <img src={`${prefix}/preload.png`} alt="" />
-                    </div>
-                    {/* ======End Preloader ====== */}
                     <div className="wrapper" id="home">
                         <main>
                             <Offers/>
