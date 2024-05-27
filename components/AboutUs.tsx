@@ -41,7 +41,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="wrapper-feature flex-row container">
+            {/* <div className="wrapper-feature flex-row container">
                 <div className="single-feature align-center">
                     <img src={`${prefix}/feature-1.png`} alt="" />
                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                     <h3>Rapports et analyses précieuses</h3>
                     <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.</p>
                 </div>
-            </div>
+            </div> */}
         </section>
     );
 }
