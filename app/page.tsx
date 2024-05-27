@@ -25,8 +25,8 @@ export default function Home() {
                     <div className="wrapper" id="home">
                         <main>
                             <Offers />
-                            <Service />
                             <AboutUs />
+                            <Service />
                             <FAQ />
                             <Devis />
                         </main>
