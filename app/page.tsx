@@ -1,6 +1,5 @@
 "use client";
-import Hero from "@/components/Hero";
-import { prefix } from "@/prefix";
+
 import { useDynamicStyle } from "./useDynamicStyles";
 import "./styles/responsive.css";
 import AboutUs from "@/components/AboutUs";
@@ -15,7 +14,6 @@ export default function Home() {
 
     return (
         <>
-            <Hero />
             <div className="wrap">
                 <section className="content">
                     <div className="wrapper" id="home">
