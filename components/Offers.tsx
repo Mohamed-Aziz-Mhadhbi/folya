@@ -11,20 +11,17 @@ const Offers = () => {
                         Notre solution vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.
                         Découvrez comment notre application peut transformer votre pratique quotidienne et améliorer votre vie professionnelle.
                     </p>
-                    <a className="btn appointment" href="#booking">
-                        Réservez votre démo
-                    </a>
 
-                    <a
-                        href="https://www.youtube.com/watch?v=9_nyG2TUDcQ"
-                        className="play-btn mfp-iframe"
-                    >
-                        <img
-                            className="wave1"
-                            src={`${prefix}/play-btn.png`}
-                            alt="play-btn"
-                        />
-                    </a>
+                    <ul>
+                        <li><a className="btn appointment" href="#booking">
+                            Réservez votre démo
+                        </a></li>
+                        <li>
+                            <a href="https://www.youtube.com/watch?v=9_nyG2TUDcQ" className="play-btn mfp-iframe">
+                                <img className="wave1" src={`${prefix}/play-btn.png`} alt="play-btn" />
+                            </a>
+                        </li>
+                    </ul>
 
                 </div>
                 <div className="offer-img">

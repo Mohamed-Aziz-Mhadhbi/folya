@@ -1369,3 +1369,8 @@ h3 {
 		font-size: 40px;
 	}
 }
+.wave1 {
+	animation: ripple 2s linear infinite;
+	border-radius: 50%;
+	transition: .5s all;
+}
