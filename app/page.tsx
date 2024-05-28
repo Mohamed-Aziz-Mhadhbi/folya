@@ -26,13 +26,9 @@ export default function Home() {
                             <Devis />
                         </main>
                     </div>
-                    {/*/.wrapper*/}
-                    {/* ====== Scroll Top ====== */}
                     <a id="scroll-top" className="btn" href="#" style={{}}>
                         <i className="fa-solid fa-arrow-up-long" />
                     </a>
-                    {/* ====== Carousel ====== */}
-                    {/* ====== Custom js ======  */}
                 </section>
             </div>
         </>
