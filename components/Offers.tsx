@@ -18,21 +18,17 @@ const Offers = () => {
                         </a></li>
                         <li>
                             <a href="https://www.youtube.com/watch?v=9_nyG2TUDcQ" className="play-btn mfp-iframe">
-                                <img className="wave1" src={`${prefix}/play-btn.png`} alt="play-btn" />
+                                <img className="wave1" src={`${prefix}/play-btn.png`} alt="Play Button" />
                             </a>
                         </li>
                     </ul>
-
                 </div>
                 <div className="offer-img">
-                    <img src={`${prefix}/img-header.png`} alt="" />
+                    <img src={`${prefix}/img-header.png`} alt="Offer Image" />
                 </div>
             </div>
         </section>
-
     );
-}
+};
 
 export default Offers;
-
-
