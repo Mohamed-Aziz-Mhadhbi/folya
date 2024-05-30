@@ -1,9 +1,3 @@
-// -*- Mode: c++; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*-
-//
-// Copyright (C) 2017 Opera Software AS.  All rights reserved.
-//
-// This file is an original work developed by Opera Software AS
-
 'use strict';
 
 class Button {
