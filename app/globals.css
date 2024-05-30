@@ -1436,40 +1436,35 @@ Version      : 1.0
   }
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/poppins/Poppins-Regular.eot');
-    src: url('../fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'), url('../fonts/poppins/Poppins-Regular.woff') format('woff'), url('../fonts/poppins/Poppins-Regular.ttf') format('truetype'), url('../fonts/poppins/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    src: url('./fonts/poppins/Poppins-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Orkney';
-    src: url('../fonts/Orkney/Orkney-Bold.eot');
-    src: url('../fonts/Orkney/Orkney-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Bold.woff2') format('woff2'), url('../fonts/Orkney/Orkney-Bold.woff') format('woff'), url('../fonts/Orkney/Orkney-Bold.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Bold.svg#Orkney-Bold') format('svg');
+    src:  url('./fonts/Orkney/Orkney-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Orkney';
-    src: url('../fonts/Orkney/Orkney-Medium.eot');
-    src: url('../fonts/Orkney/Orkney-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Medium.woff2') format('woff2'), url('../fonts/Orkney/Orkney-Medium.woff') format('woff'), url('../fonts/Orkney/Orkney-Medium.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Medium.svg#Orkney-Medium') format('svg');
+    src:  url('./fonts/Orkney/Orkney-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Orkney';
-    src: url('../fonts/Orkney/Orkney-Regular.eot');
-    src: url('../fonts/Orkney/Orkney-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Orkney/Orkney-Regular.woff2') format('woff2'), url('../fonts/Orkney/Orkney-Regular.woff') format('woff'), url('../fonts/Orkney/Orkney-Regular.ttf') format('truetype'), url('../fonts/Orkney/Orkney-Regular.svg#Orkney-Regular') format('svg');
+    src: url('./fonts/Orkney/Orkney-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Pacifico';
-    src: url('../fonts/Pacifico/Pacifico-Regular.eot');
-    src: url('../fonts/Pacifico/Pacifico-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Pacifico/Pacifico-Regular.woff2') format('woff2'), url('../fonts/Pacifico/Pacifico-Regular.woff') format('woff'), url('../fonts/Pacifico/Pacifico-Regular.ttf') format('truetype'), url('../fonts/Pacifico/Pacifico-Regular.svg#Pacifico-Regular') format('svg');
+    src: url('./fonts/Pacifico/Pacifico-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -1763,16 +1758,7 @@ Version      : 1.0
   }
   /* 03 ----------------Header area End-------------------*/
   /* 04 ----------------Hero area start-------------------*/
-  section.hero-area {
-    background-image: url(images/hero-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    padding-top: 235px;
-    padding-bottom: 200px;
-    position: relative;
-    z-index: 1;
-  }
+ 
   section.hero-area::before {
     position: absolute;
     content: "";
