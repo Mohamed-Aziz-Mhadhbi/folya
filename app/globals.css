@@ -1244,7 +1244,7 @@ h3 {
 	}
 
 	.wrapper-bottom-header {
-		background-color: var(--color-white);
+		background-color: var(--color-dark-blue);
 		position: fixed;
 		top: 0;
 		left: 0;

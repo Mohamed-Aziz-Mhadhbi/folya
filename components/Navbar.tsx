@@ -1,14 +1,7 @@
+
 const Navbar = () => {
     return (
         <header>
-            <style jsx>{`
-                .wrapper-bottom-header {
-                    background-color: #add8e6; /* Light blue color */
-                }
-                .wrapper-top-header {
-                    background-color: #f8f9fa; /* Light grey color */
-                }
-            `}</style>
             <div className="wrapper-top-header">
                 <div className="header-top container flex-row">
                     <div className="header-contact flex-row">
@@ -77,6 +70,7 @@ const Navbar = () => {
                     </a>
                 </div>
             </div>
+
         </header>
     );
 }
