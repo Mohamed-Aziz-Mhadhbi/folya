@@ -1,3 +1,4 @@
+import { prefix } from '@/prefix';
 
 const Navbar = () => {
     return (
@@ -41,7 +42,7 @@ const Navbar = () => {
             <div className="wrapper-bottom-header fixedmenu">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
-                        <img src="/folya/logo.png" alt="Logo" className="logo" />
+                        <img src={`${prefix}/logo.png`} alt="Logo" className="logo" />
                     </a>
                     <nav id="nav">
                         <a id="closemenu" className="btn" href="#">

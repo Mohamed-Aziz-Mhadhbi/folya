@@ -2,7 +2,17 @@ import { prefix } from '@/prefix';
 
 const Offers = () => {
     return (
+        
         <section id="offer" className="ptb">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
                     <h2>Optimisez votre flux de travail et</h2>
