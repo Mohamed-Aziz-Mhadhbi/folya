@@ -357,8 +357,7 @@ h3 {
 }
 
 .menu li a {
-	color: var(--color-dark);
-	text-transform: uppercase;
+	color: var(--color-white);
 }
 
 .menu li a:hover {
