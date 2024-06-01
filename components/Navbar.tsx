@@ -1,4 +1,5 @@
 import { prefix } from '@/prefix';
+import '../app/styles/Navbar.module.css';
 
 const Navbar = () => {
     return (

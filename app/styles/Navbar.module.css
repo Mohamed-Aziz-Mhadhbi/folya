@@ -29,17 +29,6 @@
     margin-left: 2rem; /* Adjust as needed */
   }
   
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
 .container {
   max-width: 1200px;
@@ -53,16 +42,6 @@ header {
 .flex-row {
   display: flex;
   align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #007bff;
 }
 
 /* Top Header */
@@ -118,10 +97,7 @@ a:hover {
   height: 30px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-}
+
 
 .menu {
   list-style: none;
@@ -154,45 +130,6 @@ nav {
 #closemenu,
 #openmenu {
   display: none;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  nav {
-      position: absolute;
-      top: 0;
-      left: -320px;
-      width: 320px;
-      height: 100vh;
-      background-color: #fff;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px;
-      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-      transition: left 0.3s;
-  }
-
-  nav.open {
-      left: 0;
-  }
-
-  .menu {
-      flex-direction: column;
-      width: 100%;
-  }
-
-  .menu li {
-      margin-bottom: 15px;
-  }
-
-  #closemenu,
-  #openmenu {
-      display: block;
-  }
-
-  .appointment {
-      display: none;
-  }
 }
 
   
