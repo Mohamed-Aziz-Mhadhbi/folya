@@ -2,17 +2,7 @@ import { prefix } from '@/prefix';
 
 const Offers = () => {
     return (
-        
         <section id="offer" className="ptb">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
                     <h2>Optimisez votre flux de travail et</h2>
@@ -23,9 +13,10 @@ const Offers = () => {
                     </p>
                     <div className="hero-btn">
                         <ul>
-                            <li><a className="btn appointment" href="#booking">
-                                Réservez votre démo
-                            </a>
+                            <li>
+                                <a className="btn appointment" href="#booking">
+                                    Réservez votre démo
+                                </a>
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/watch?v=9_nyG2TUDcQ" className="play-btn mfp-iframe">
@@ -34,7 +25,6 @@ const Offers = () => {
                             </li>
                         </ul>
                     </div>
-
                 </div>
                 <div className="offer-img">
                     <img src={`${prefix}/img-header.png`} alt="Offer Image" />

@@ -3381,9 +3381,6 @@ Version      : 1.0
     section.hero-area .hero-content .hero-btn ul li a:hover {
       color: #fff;
     }
-    section.hero-area .hero-content .hero-btn ul li:last-child a {
-      border-radius: 50%;
-    }
     section.hero-area .hero-content .hero-btn ul li a .wave1 {
       animation: ripple 2s linear infinite;
       border-radius: 50%;
