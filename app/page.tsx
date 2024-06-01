@@ -7,13 +7,15 @@ import Offers from "@/components/Offers";
 import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
+import Testhero from "@/components/Testhero";
 import { prefix } from '@/prefix';
 
 export default function Home() {
 
     return (
         <>
-            <Offers />
+        <Testhero/>
+            {/* <Offers /> */}
             <div className="wrap">
                 <section className="content">
                     <div className="wrapper" id="home">
