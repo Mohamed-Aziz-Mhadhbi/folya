@@ -16,7 +16,7 @@ const Testhero = () => {
                             <div className="hero-btn">
                                 <ul>
                                     <li>
-                                        <a className="btn appointment" href="#booking">
+                                        <a className="btn1 appointment" href="#booking">
                                             Réservez votre démo
                                         </a>
                                     </li>
