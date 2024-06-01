@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState, useEffect } from 'react';
 import "./styles/responsive.css";
 import AboutUs from "@/components/AboutUs";
 import Service from "@/components/Service";
@@ -9,13 +10,28 @@ import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Testhero from "@/components/Testhero";
 import { prefix } from '@/prefix';
+import Loader from '@/components/Loader';
 
 export default function Home() {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate a loading period
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 3000); // 3 seconds for example
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (loading) {
+        return <Loader/>;
+    }
 
     return (
         <>
-        <Testhero/>
-            {/* <Offers /> */}
+            {/* <Testhero/> */}
+            <Offers />
             <div className="wrap">
                 <section className="content">
                     <div className="wrapper" id="home">
@@ -27,24 +43,24 @@ export default function Home() {
                             <Devis />
                         </main>
                     </div>
-                    <a id="scroll-top" className="btn" href="#" style={{}}>
+                    <a id="scroll-top" className="btn" href="#" >
                         <i className="fa-solid fa-arrow-up-long" />
                     </a>
                 </section>
             </div>
-            <script src={`${prefix}/js/script.js`}  />
-            <script src={`${prefix}/js/owl.carousel.min.js`}  />
-            <script src={`${prefix}/js/jquery-2.2.4.min.js`}  />
-            <script src={`${prefix}/js/bootstrap.min.js`}  />
-            <script src={`${prefix}/js/popper.min.js`}  />
-            <script src={`${prefix}/js/jquery.sticky.js`}  />
-            <script src={`${prefix}/js/jquery.slicknav.min.js`}  />
-            <script src={`${prefix}/js/jquery.magnific-popup.min.js`}  />
-            <script src={`${prefix}/js/mixitup.min.js`}  />
-            <script src={`${prefix}/js/jquery-ui.min.js`}  />
-            <script src={`${prefix}/js/ajaxchimp.min.js`}  />
-            <script src={`${prefix}/js/form-contact.js`}  />
-            <script src={`${prefix}/js/main.js`}  />
+            <script src={`${prefix}/js/script.js`} />
+            <script src={`${prefix}/js/owl.carousel.min.js`} />
+            <script src={`${prefix}/js/jquery-2.2.4.min.js`} />
+            <script src={`${prefix}/js/bootstrap.min.js`} />
+            <script src={`${prefix}/js/popper.min.js`} />
+            <script src={`${prefix}/js/jquery.sticky.js`} />
+            <script src={`${prefix}/js/jquery.slicknav.min.js`} />
+            <script src={`${prefix}/js/jquery.magnific-popup.min.js`} />
+            <script src={`${prefix}/js/mixitup.min.js`} />
+            <script src={`${prefix}/js/jquery-ui.min.js`} />
+            <script src={`${prefix}/js/ajaxchimp.min.js`} />
+            <script src={`${prefix}/js/form-contact.js`} />
+            <script src={`${prefix}/js/main.js`} />
         </>
     );
 }
