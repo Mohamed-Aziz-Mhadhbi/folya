@@ -16,7 +16,7 @@ const Testhero = () => {
                             <div className="hero-btn">
                                 <ul>
                                     <li>
-                                        <a className="btn1 appointment" href="#booking">
+                                        <a className="btn1" href="#booking">
                                             Réservez votre démo
                                         </a>
                                     </li>
@@ -28,9 +28,9 @@ const Testhero = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="offer-img">
+                        {/* <div className="offer-img">
                             <img src={`${prefix}/img-header.png`} alt="Offer Image" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
