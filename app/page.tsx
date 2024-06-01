@@ -37,6 +37,11 @@ export default function Home() {
                     <div className="wrapper" id="home">
                         <main>
                             <AboutUs />
+                            <br />
+                            <br /><br /><br />
+                            <br /><br /><br />
+                            <br /><br /><br />
+                            <br /><br />
                             <Feature />
                             <Service />
                             <FAQ />
