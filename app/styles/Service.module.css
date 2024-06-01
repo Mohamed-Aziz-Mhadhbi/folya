@@ -1,0 +1,43 @@
+.ptb {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.wrapper-title {
+    margin-bottom: 2rem;
+}
+
+.suptitle {
+    font-size: 1.25rem;
+    color: #666;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.selection {
+    color: #0070f3;
+}
+
+.wrapper-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

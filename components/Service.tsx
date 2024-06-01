@@ -1,4 +1,5 @@
 import { prefix } from '@/prefix';
+import '../app/styles/Service.module.css';
 
 const Service = () => {
     return (
