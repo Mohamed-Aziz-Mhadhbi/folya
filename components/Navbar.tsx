@@ -50,13 +50,13 @@ const Navbar = () => {
                         </a>
                         <ul className="menu flex-row">
                             <li>
-                                <a href="#Acceuil">Acceuil</a>
+                                <a href="#Acceuil">ACCEUIL</a>
                             </li>
                             <li>
                                 <a href="#Fonctionalites">Fonctionalites</a>
                             </li>
                             <li>
-                                <a href="#A-propos">A propos</a>
+                                <a href="#A-propos">A PROPOS</a>
                             </li>
                             <li>
                                 <a href="#faq">FAQ</a>
