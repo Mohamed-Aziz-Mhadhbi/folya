@@ -3364,6 +3364,25 @@ Version      : 1.0
     section.hero-area .hero-content .hero-btn ul li:first-child {
       margin-right: 30px;
     }
+    section.hero-area .hero-content .hero-btn ul li a {
+      display: inline-block;
+    }
+    section.hero-area .hero-content .hero-btn ul li a .wave1 {
+      animation: ripple 2s linear infinite;
+      border-radius: 50%;
+      transition: .5s all;
+    }
+    section.hero-area .hero-content .hero-btn ul {
+      display: block;
+    }
+    section.hero-area .hero-content .hero-btn ul li {
+      display: block;
+      align-self: center;
+    }
+    section.hero-area .hero-content .hero-btn ul li:first-child {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
     section.hero-area .hero-content .hero-btn ul li:first-child a {
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
     }
@@ -3371,15 +3390,14 @@ Version      : 1.0
       max-width: 60px;
     }
     section.hero-area .hero-content .hero-btn ul li a {
-      display: inline-block;
+      background: #fff;
+      color: #28477D;
     }
     section.hero-area .hero-content .hero-btn ul li a:hover {
       color: #fff;
     }
-    section.hero-area .hero-content .hero-btn ul li a .wave1 {
-      animation: ripple 2s linear infinite;
+    section.hero-area .hero-content .hero-btn ul li:last-child a {
       border-radius: 50%;
-      transition: .5s all;
     }
     /* 04 ----------------Hero area End-------------------*/
     /* 05 ----------------service area Start-------------------*/
