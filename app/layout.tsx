@@ -17,13 +17,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar/>
+        <Navbar />
         <main className="relative overflow-hidden">
-        {children}
+          {children}
         </main>
-        <Footer/>
-        </body>
-        
+        <Footer />
+      </body>
+      <script src={`${prefix}/js/script.js`} />
+      <script src={`${prefix}/js/owl.carousel.min.js`} />
+      <script src={`${prefix}/js/jquery-2.2.4.min.js`} />
+      <script src={`${prefix}/js/bootstrap.min.js`} />
+      <script src={`${prefix}/js/popper.min.js`} />
+      <script src={`${prefix}/js/jquery.sticky.js`} />
+      <script src={`${prefix}/js/jquery.slicknav.min.js`} />
+      <script src={`${prefix}/js/jquery.magnific-popup.min.js`} />
+      <script src={`${prefix}/js/mixitup.min.js`} />
+      <script src={`${prefix}/js/jquery-ui.min.js`} />
+      <script src={`${prefix}/js/ajaxchimp.min.js`} />
+      <script src={`${prefix}/js/form-contact.js`} />
+      <script src={`${prefix}/js/main.js`} />
     </html>
   );
 }
