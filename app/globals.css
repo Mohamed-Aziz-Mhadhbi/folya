@@ -347,9 +347,11 @@ h3 {
 }
 
 #logo {
-	/* max-width: 100%; */
-  width: auto; /* Set the desired width */
-  height: auto;
+	  width: 100px; /* Adjust this value to your desired width */
+    height: auto; /* Ensures the logo maintains its aspect ratio */
+    max-height: 50px; /* Adjust this value to fit the navbar height */
+    /* Optionally, you can add padding or margin to adjust the positioning */
+    margin: auto 0;
 }
 
 .menu li {
