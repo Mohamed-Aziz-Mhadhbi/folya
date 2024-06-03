@@ -1406,40 +1406,35 @@ Version      : 1.0
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('fonts/poppins/Poppins-Regular.eot');
-  src: url('fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/poppins/Poppins-Regular.woff2') format('woff2'), url('fonts/poppins/Poppins-Regular.woff') format('woff'), url('fonts/poppins/Poppins-Regular.ttf') format('truetype'), url('fonts/poppins/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  src: url('./fonts/poppins/Poppins-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('fonts/Orkney/Orkney-Bold.eot');
-  src: url('fonts/Orkney/Orkney-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Orkney/Orkney-Bold.woff2') format('woff2'), url('fonts/Orkney/Orkney-Bold.woff') format('woff'), url('fonts/Orkney/Orkney-Bold.ttf') format('truetype'), url('fonts/Orkney/Orkney-Bold.svg#Orkney-Bold') format('svg');
+  src: url('./fonts/Orkney/Orkney-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('fonts/Orkney/Orkney-Medium.eot');
-  src: url('fonts/Orkney/Orkney-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/Orkney/Orkney-Medium.woff2') format('woff2'), url('fonts/Orkney/Orkney-Medium.woff') format('woff'), url('fonts/Orkney/Orkney-Medium.ttf') format('truetype'), url('fonts/Orkney/Orkney-Medium.svg#Orkney-Medium') format('svg');
+  src: url('./fonts/Orkney/Orkney-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('fonts/Orkney/Orkney-Regular.eot');
-  src: url('fonts/Orkney/Orkney-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Orkney/Orkney-Regular.woff2') format('woff2'), url('fonts/Orkney/Orkney-Regular.woff') format('woff'), url('fonts/Orkney/Orkney-Regular.ttf') format('truetype'), url('fonts/Orkney/Orkney-Regular.svg#Orkney-Regular') format('svg');
+  src: url('./fonts/Orkney/Orkney-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Pacifico';
-  src: url('fonts/Pacifico/Pacifico-Regular.eot');
-  src: url('fonts/Pacifico/Pacifico-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Pacifico/Pacifico-Regular.woff2') format('woff2'), url('fonts/Pacifico/Pacifico-Regular.woff') format('woff'), url('fonts/Pacifico/Pacifico-Regular.ttf') format('truetype'), url('fonts/Pacifico/Pacifico-Regular.svg#Pacifico-Regular') format('svg');
+  src: url('./fonts/Pacifico/Pacifico-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1453,15 +1448,6 @@ Version      : 1.0
 html {
   scroll-behavior: smooth;
   overflow-y: scroll;
-}
-body {
-  font-family: 'Poppins';
-  font-size: 16px;
-  color: #656565;
-  font-weight: 400;
-  line-height: 1.87;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 h1,
 h2,
@@ -1733,16 +1719,7 @@ header.header-area .navigation-container .navigation-area .main-menu ul li a:hov
 }
 /* 03 ----------------Header area End-------------------*/
 /* 04 ----------------Hero area start-------------------*/
-section.hero-area {
-  background-image: url(images/hero-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  padding-top: 235px;
-  padding-bottom: 200px;
-  position: relative;
-  z-index: 1;
-}
+
 section.hero-area::before {
   position: absolute;
   content: "";
@@ -1881,30 +1858,7 @@ section.services-area .single-services-item p {
 }
 /* 05 ----------------service-area End-------------------*/
 /* 06 ----------------Choose area Start-------------------*/
-section.choose-area {
-  padding-top: 105px;
-  padding-bottom: 105px;
-  background-image: url(images/choose-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
-}
-section.choose-area::after {
-  position: absolute;
-  content: "";
-  background-image: url(images/choose-img.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 54%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  z-index: -1;
-  clip-path: polygon(36% 0%, 100% 0%, 100% 100%, 1% 100%);
-}
+
 section.choose-area .heading {
   margin-bottom: 44px;
 }
@@ -2151,19 +2105,7 @@ section.our-team-area .doctor-list .doctor-item .single-doctor-item .team-detail
 section.our-team-area .doctor-list .doctor-item .single-doctor-item .team-details::-webkit-scrollbar {
   display: none;
 }
-section.our-team-area .doctor-list .doctor-item .single-doctor-item .team-details::after {
-  position: absolute;
-  content: "";
-  background-image: url(images/pretur.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 90%;
-  width: 155px;
-  height: 150px;
-  right: 10px;
-  bottom: 10px;
-  z-index: -1;
-}
+
 section.our-team-area .doctor-list .doctor-item .single-doctor-item .team-details h3 {
   font-size: 24px;
   line-height: 1.5;
@@ -2237,16 +2179,7 @@ section.our-team-area .doctor-list .doctor-item .single-doctor-item:hover .team-
 }
 /* 08 ----------------our-team area End-------------------*/
 /* 09 ----------------Experience area start----------------*/
-section.experience-area {
-  background-image: url(images/experience-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 115px;
-  padding-bottom: 115px;
-  position: relative;
-  z-index: 1;
-}
+
 section.experience-area::before {
   position: absolute;
   content: "";
@@ -2355,30 +2288,7 @@ section.testimonial-area .testimonial-wrap {
   position: relative;
   z-index: 1;
 }
-section.testimonial-area .testimonial-wrap::before {
-  position: absolute;
-  content: "";
-  background-image: url(images/path1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 180px;
-  height: 340px;
-  left: -5px;
-  top: 200px;
-  z-index: -1;
-}
-section.testimonial-area .testimonial-wrap::after {
-  position: absolute;
-  content: "";
-  background-image: url(images/path2.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 235px;
-  height: 385px;
-  right: -20px;
-  top: 140px;
-  z-index: -1;
-}
+
 section.testimonial-area .client-single {
   transition: all 1s ease;
 }
@@ -2486,19 +2396,6 @@ section.testimonial-area .client-comment .testimonial-item {
   padding: 55px 45px 55px 45px;
   position: relative;
   z-index: 1;
-}
-section.testimonial-area .client-comment .testimonial-item::before {
-  position: absolute;
-  content: "";
-  background-image: url(images/down.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 135px;
-  height: 95px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -94px;
 }
 section.testimonial-area .client-comment .testimonial-item img {
   position: absolute;
