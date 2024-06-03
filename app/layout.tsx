@@ -17,25 +17,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
+        <Navbar/>
         <main className="relative overflow-hidden">
-          {children}
+        {children}
         </main>
-        <Footer />
-      </body>
-      <script src={`${prefix}/js/script.js`} />
-      <script src={`${prefix}/js/owl.carousel.min.js`} />
-      <script src={`${prefix}/js/jquery-2.2.4.min.js`} />
-      <script src={`${prefix}/js/bootstrap.min.js`} />
-      <script src={`${prefix}/js/popper.min.js`} />
-      <script src={`${prefix}/js/jquery.sticky.js`} />
-      <script src={`${prefix}/js/jquery.slicknav.min.js`} />
-      <script src={`${prefix}/js/jquery.magnific-popup.min.js`} />
-      <script src={`${prefix}/js/mixitup.min.js`} />
-      <script src={`${prefix}/js/jquery-ui.min.js`} />
-      <script src={`${prefix}/js/ajaxchimp.min.js`} />
-      <script src={`${prefix}/js/form-contact.js`} />
-      <script src={`${prefix}/js/main.js`} />
+        <Footer/>
+        </body>
+        <script src="js/script.js" />
+            <script src="js/owl.carousel.min.js" />
+            <script src="js/jquery-2.2.4.min.js" />
+            <script src="js/bootstrap.min.js" />
+            <script src="js/popper.min.js" />
+            <script src="js/jquery.sticky.js" />
+            <script src="js/jquery.slicknav.min.js" />
+            <script src="js/jquery.magnific-popup.min.js" />
+            <script src="js/mixitup.min.js" />
+            <script src="js/jquery-ui.min.js" />
+            <script src="js/ajaxchimp.min.js" />
+            <script src="js/form-contact.js" />
+            <script src="js/main.js" />
     </html>
   );
 }
