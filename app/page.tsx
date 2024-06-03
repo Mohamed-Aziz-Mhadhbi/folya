@@ -8,7 +8,6 @@ import Offers from "@/components/Offers";
 import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
-import Testhero from "@/components/Testhero";
 import { prefix } from '@/prefix';
 import Loader from '@/components/Loader';
 
@@ -30,18 +29,12 @@ export default function Home() {
 
     return (
         <>
-            {/* <Testhero/> */}
             <Offers />
             <div className="wrap">
                 <section className="content">
                     <div className="wrapper" id="home">
                         <main>
                             <AboutUs />
-                            <br />
-                            <br /><br /><br />
-                            <br /><br /><br />
-                            <br /><br /><br />
-                            <br /><br />
                             <Feature />
                             <Service />
                             <FAQ />
