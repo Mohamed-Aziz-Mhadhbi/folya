@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
+import { prefix } from '@/prefix';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -22,6 +23,19 @@ export default function RootLayout({
         </main>
         <Footer/>
         </body>
+        <script src={`${prefix}/js/script.js`} />
+            <script src={`${prefix}/js/owl.carousel.min.js`} />
+            <script src={`${prefix}/js/jquery-2.2.4.min.js`} />
+            <script src={`${prefix}/js/bootstrap.min.js`} />
+            <script src={`${prefix}/js/popper.min.js`} />
+            <script src={`${prefix}/js/jquery.sticky.js`} />
+            <script src={`${prefix}/js/jquery.slicknav.min.js`} />
+            <script src={`${prefix}/js/jquery.magnific-popup.min.js`} />
+            <script src={`${prefix}/js/mixitup.min.js`} />
+            <script src={`${prefix}/js/jquery-ui.min.js`} />
+            <script src={`${prefix}/js/ajaxchimp.min.js`} />
+            <script src={`${prefix}/js/form-contact.js`} />
+            <script src={`${prefix}/js/main.js`} />
     </html>
   );
 }
