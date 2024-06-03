@@ -349,7 +349,7 @@ h3 {
 #logo {
 	  width: 100px; /* Adjust this value to your desired width */
     height: auto; /* Ensures the logo maintains its aspect ratio */
-    max-height: 50px; /* Adjust this value to fit the navbar height */
+    /* max-height: 50px; Adjust this value to fit the navbar height */
     margin: auto 0;
 }
 
