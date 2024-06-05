@@ -10,8 +10,8 @@ import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
 import { prefix } from '@/prefix';
-import "./styles/style.css";
-import "./styles/responsive.css";
+import "./folya/styles/style.css";
+import "./folya/styles/responsive.css";
 
 
 export default function Home() {
