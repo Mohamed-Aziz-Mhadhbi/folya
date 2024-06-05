@@ -33,9 +33,7 @@ export default function RootLayout({
       {/* Responsive CSS */}
       <link rel="stylesheet" href="css/responsive.css" />
       {/* ====== Preloader ====== */}
-      <div id="preload" style={{ display: "none" }}>
-        <img src="images/preload.png" alt="" />
-      </div>
+      
       {/* ======End Preloader ====== */}
       <div className="wrapper" id="home">
         {/* ====== Header ====== */}
