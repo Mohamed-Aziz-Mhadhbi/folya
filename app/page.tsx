@@ -10,6 +10,9 @@ import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
 import { prefix } from '@/prefix';
+import "./styles/style.css";
+import "./styles/responsive.css";
+
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -43,9 +46,7 @@ export default function Home() {
             {/* Favicon */}
             <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
             {/* Custom style CSS */}
-            <link rel="stylesheet" href={`${prefix}/styles/style.css`} />
-            {/* Responsive CSS */}
-            <link rel="stylesheet" href={`${prefix}/styles/responsive.css`} />
+            
             <div className="wrapper" id="home">
                 {/* ====== Header ====== */}
                 <header>
