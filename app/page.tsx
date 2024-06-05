@@ -11,7 +11,7 @@ import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
 import Script from 'next/script';
-import Head from 'next/Head';
+import Head from 'next/head';
 import { prefix } from '@/prefix';
 
 
