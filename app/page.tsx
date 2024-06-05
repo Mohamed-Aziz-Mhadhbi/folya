@@ -9,6 +9,7 @@ import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
+import { prefix } from '@/prefix';
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
@@ -27,20 +28,1246 @@ export default function Home() {
     }
 
     return (
+
         <>
-            <Offers />
+            <meta charSet="UTF-8" />
+            <title>
+                Glodent - Dental Clinic &amp; Medical Service Landing Page HTML5 Template
+            </title>
+            <meta name="description" content="" />
+            <meta name="keywords" content="" />
+            {/* Always force latest IE rendering engine */}
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+            {/* Mobile Specific Meta */}
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            {/* Favicon */}
+            <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+            {/* Custom style CSS */}
+            <link rel="stylesheet" href="css/style.css" />
+            {/* Responsive CSS */}
+            <link rel="stylesheet" href="css/responsive.css" />
             <div className="wrapper" id="home">
+                {/* ====== Header ====== */}
+                <header>
+                    <div className="wrapper-top-header">
+                        <div className="header-top container flex-row">
+                            <div className="header-contact flex-row">
+                                <p>
+                                    <i className="fas fa-map-marker-alt" />
+                                    2900 Lapeer Rd, Port Hurons, MI 49070
+                                </p>
+                                <a href="#">
+                                    <i className="fas fa-phone" />
+                                    +1 (800) 478-42-51
+                                </a>
+                            </div>
+                            {/*/.header-contact*/}
+                            <ul className="social-link">
+                                <li>
+                                    <a href="#">
+                                        <i className="fab fa-facebook-f" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i className="fab fa-twitter" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i className="fab fa-instagram" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i className="fab fa-youtube" />
+                                    </a>
+                                </li>
+                            </ul>
+                            {/*/.social-link*/}
+                        </div>
+                        {/*/.header-top*/}
+                    </div>
+                    {/*/.wrapper-top-header*/}
+                    <div className="wrapper-bottom-header">
+                        <div className="bottom-header container flex-row">
+                            <a id="logo" href="#home">
+                                <img src="images/logo.png" alt="" />
+                            </a>
+                            <nav id="nav">
+                                <a id="closemenu" className="btn" href="#">
+                                    <i className="fa-solid fa-xmark" />
+                                </a>
+                                <ul className="menu">
+                                    <li>
+                                        <a href="#home">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#aboutus">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#services">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#team">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#faq">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#pricing">Pricing</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contacts">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            {/*#nav*/}
+                            <a className="btn appointment" href="#booking">
+                                Appointment
+                            </a>
+                            <a id="openmenu" className="btn" href="#">
+                                <i className="fa-solid fa-bars" />
+                            </a>
+                        </div>
+                        {/*/.bottom-header*/}
+                    </div>
+                    {/*/.wrapper-bottom-header*/}
+                </header>
+                {/* ====== End Header ====== */}
                 <main>
-                    <AboutUs />
-                    <Feature />
-                    <Service />
-                    <FAQ />
-                    <Devis />
+                    {/* ====== Header Content ====== */}
+                    <div
+                        className="wrapper-header-img flex-row"
+                        style={{ backgroundImage: 'url("images/bg-header.png")' }}
+                    >
+                        <div className="wrapper-header-content container flex-row">
+                            <div className="header-content align-center">
+                                <h1>
+                                    Strengthen your smile, <br />{" "}
+                                    <span className="selection"> gain confidence</span>
+                                </h1>
+                            </div>
+                            {/*/.header-content*/}
+                        </div>
+                        {/*/.wrapper-header-content*/}
+                    </div>
+                    {/* ====== End Header Content ====== */}
+                    {/* ====== About Us ====== */}
+                    <section id="aboutus" className="ptb flex-row">
+                        <div className="wrapper-feature flex-row container">
+                            <div className="single-feature align-center">
+                                <img src="images/feature-1.png" alt="" />
+                                <h3>Qualified Staff</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+                                    autem.
+                                </p>
+                            </div>
+                            {/*/.single-feature*/}
+                            <div className="single-feature align-center">
+                                <img src="images/feature-2.png" alt="" />
+                                <h3>Modern Equipment</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+                                    autem.
+                                </p>
+                            </div>
+                            {/*/.single-feature*/}
+                            <div className="single-feature align-center">
+                                <img src="images/feature-3.png" alt="" />
+                                <h3>Wide Range of Services</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+                                    autem.
+                                </p>
+                            </div>
+                            {/*/.single-feature*/}
+                            <div className="single-feature align-center">
+                                <img src="images/feature-4.png" alt="" />
+                                <h3>Patient Care and Comfort</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+                                    autem.
+                                </p>
+                            </div>
+                            {/*/.single-feature*/}
+                        </div>
+                        {/*/.wrapper-feature*/}
+                        <div className="wrapper-aboutus container flex-row">
+                            <div className="aboutus-img">
+                                <img src="images/aboutus.png" alt="" />
+                            </div>
+                            {/*/.aboutus-img*/}
+                            <div className="aboutus-content">
+                                <span className="suptitle">About Us</span>
+                                <h2>
+                                    Our Clinic for Family{" "}
+                                    <span className="selection">Dental Health</span>
+                                </h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Repellendus perspiciatis ex voluptatem quis est. Iusto sequi
+                                    perspiciatis non cumque velit quo. Tempore, debitis molestias
+                                    officia animi obcaecati voluptatem deleniti.
+                                </p>
+                                <div className="wrapper-aboutus-progress">
+                                    <div className="single-progress flex-row">
+                                        <div className="progress-img">
+                                            <img src="images/progress-1.png" alt="" />
+                                        </div>
+                                        {/*/.progress-img*/}
+                                        <div className="progress-content">
+                                            <h3>Service 20 Years</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Omnis, quaerat.
+                                            </p>
+                                        </div>
+                                        {/*/.progress-content*/}
+                                    </div>
+                                    {/*/.single-progress*/}
+                                    <div className="single-progress flex-row">
+                                        <div className="progress-img">
+                                            <img src="images/progress-2.png" alt="" />
+                                        </div>
+                                        {/*/.progress-img*/}
+                                        <div className="progress-content">
+                                            <h3>Reliable Contractors</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Omnis, quaerat.
+                                            </p>
+                                        </div>
+                                        {/*/.progress-content*/}
+                                    </div>
+                                    {/*/.single-progress*/}
+                                </div>
+                                {/*/.wrapper-aboutus-progress*/}
+                                <div className="wrapper-singnature flex-row">
+                                    <img src="images/img-signature.png" alt="" />
+                                    <div className="signature-content">
+                                        <h3>Jeremy White</h3>
+                                        <img src="images/signature.png" alt="" />
+                                    </div>
+                                    {/*/.signature-content*/}
+                                </div>
+                                {/*/.wrapper-singnature*/}
+                            </div>
+                            {/*/.aboutus-content*/}
+                        </div>
+                        {/*/.wrapper-aboutus*/}
+                    </section>
+                    {/* ====== End About Us ====== */}
+                    {/* ====== Services ====== */}
+                    <section id="services" className="ptb">
+                        <div className="wrapper-title container align-center">
+                            <span className="suptitle">Our Service</span>
+                            <h2>
+                                We Offer Different <span className="selection">Services</span>
+                            </h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
+                                tempora, eius sint pariatur quas nemo cum. Ratione incidunt,
+                                praesentium doloribus quaerat animi ipsam id perspiciatis deserunt
+                                similique iste itaque nulla!
+                            </p>
+                        </div>
+                        {/*/wrapper-title*/}
+                        <div className="wrapper-service container flex-row">
+                            <article className="align-center">
+                                <img src="images/service-1.png" alt="" />
+                                <h3>Teeth Whitening</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                            <article className="align-center">
+                                <img src="images/service-2.png" alt="" />
+                                <h3>Teeth Checkup</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                            <article className="align-center">
+                                <img src="images/service-3.png" alt="" />
+                                <h3>Teeth Implants</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                            <article className="align-center">
+                                <img src="images/service-4.png" alt="" />
+                                <h3>Orthodontics</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                            <article className="align-center">
+                                <img src="images/service-5.png" alt="" />
+                                <h3>Dental Crown</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                            <article className="align-center">
+                                <img src="images/service-6.png" alt="" />
+                                <h3>Dental Filling</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                    consectetur alias voluptate omnis nam nostrum fuga
+                                </p>
+                            </article>
+                        </div>
+                        {/*/.wrapper-service*/}
+                    </section>
+                    {/* ====== End Services ====== */}
+                    {/* ====== Offer ====== */}
+                    <section id="offer" className="ptb">
+                        <div className="wrapper-offer container flex-row">
+                            <div className="offer-content">
+                                <span className="suptitle">Free Consultation</span>
+                                <h2>Special Discounts of 50% on All Dental Procedures!</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                    quis dolorem quas esse reprehenderit possimus alias numquam, odit
+                                    iure commodi.
+                                </p>
+                                <a className="btn appointment" href="#booking">
+                                    Appointment
+                                </a>
+                            </div>
+                            {/*/.offer-content*/}
+                            <div className="offer-img">
+                                <img src="images/img-header.png" alt="" />
+                            </div>
+                            {/*/.offer-img*/}
+                        </div>
+                        {/*/.wrapper-offer*/}
+                    </section>
+                    {/* ====== End Offer ====== */}
+                    {/* ====== Team ====== */}
+                    <section id="team" className="ptb">
+                        <div className="wrapper-title container align-center">
+                            <span className="suptitle">Team</span>
+                            <h2>
+                                Meet Our Expert <span className="selection">Dental Team</span>
+                            </h2>
+                        </div>
+                        {/*/wrapper-title*/}
+                        <div className="wrapper-team container">
+                            <div className="owl-carousel owl-theme team-carousel owl-loaded owl-drag">
+                                {/*/.single-team*/}
+                                {/*/.single-team*/}
+                                {/*/.single-team*/}
+                                {/*/.single-team*/}
+                                <div className="owl-stage-outer">
+                                    <div
+                                        className="owl-stage"
+                                        style={{
+                                            transform: "translate3d(-775px, 0px, 0px)",
+                                            transition: "all 0s ease 0s",
+                                            width: 3103
+                                        }}
+                                    >
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-3.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-3.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Howard Holmes</h3>
+                                                    <p>Prosthodontist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-4.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-1.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Carlie Addison</h3>
+                                                    <p>Dental Nurse</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item active"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-1.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-1.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Howard Holmes</h3>
+                                                    <p>Prosthodontist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item active"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-2.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-2.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Ella Thompson</h3>
+                                                    <p>Pediatric Dentist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-3.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-3.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Howard Holmes</h3>
+                                                    <p>Prosthodontist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-4.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-1.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Carlie Addison</h3>
+                                                    <p>Dental Nurse</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-1.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-1.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Howard Holmes</h3>
+                                                    <p>Prosthodontist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "367.8px", marginRight: 20 }}
+                                        >
+                                            <div className="item single-team">
+                                                <img src="images/team-2.jpg" alt="" />
+                                                <div className="team-content flex-row">
+                                                    <div className="wrapper-team-icon flex-row">
+                                                        <img src="images/team-icon-2.png" alt="" />
+                                                    </div>
+                                                    {/*/.wrapper-team-icon*/}
+                                                    <h3>Ella Thompson</h3>
+                                                    <p>Pediatric Dentist</p>
+                                                    <ul className="social-link">
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-facebook-f" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-twitter" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-instagram" />
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <i className="fab fa-youtube" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    {/*/social-link*/}
+                                                </div>
+                                                {/*/.team-content*/}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-nav disabled">
+                                    <button type="button" role="presentation" className="owl-prev">
+                                        <span aria-label="Previous">‹</span>
+                                    </button>
+                                    <button type="button" role="presentation" className="owl-next">
+                                        <span aria-label="Next">›</span>
+                                    </button>
+                                </div>
+                                <div className="owl-dots">
+                                    <button role="button" className="owl-dot active">
+                                        <span />
+                                    </button>
+                                    <button role="button" className="owl-dot">
+                                        <span />
+                                    </button>
+                                </div>
+                            </div>
+                            {/*/.team-carousel*/}
+                        </div>
+                        {/*/.wrapper-team*/}
+                    </section>
+                    {/* ====== End Team ====== */}
+                    {/* ====== FAQ ====== */}
+                    <section id="faq">
+                        <div className="wrapper-faq flex-row container">
+                            <div className="faq-content">
+                                <span className="suptitle">Faq</span>
+                                <h2>FAQ</h2>
+                                <div className="wrapper-accordion">
+                                    <h3>
+                                        <i className="fa-solid fa-chevron-up" />
+                                        When is the next appointment?
+                                    </h3>
+                                    <div className="content-accordion" style={{ display: "block" }}>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Libero voluptatibus veniam, ratione praesentium facere
+                                            expedita earum saepe id quod fuga consequatur perspiciatis
+                                            distinctio error! Soluta numquam dolorum consequuntur sit
+                                            illum.
+                                        </p>
+                                    </div>
+                                    {/*/.content-accordion*/}
+                                    <h3>
+                                        <i className="fa-solid fa-chevron-down" />
+                                        What about tooth sensitivity?
+                                    </h3>
+                                    <div className="content-accordion">
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Libero voluptatibus veniam, ratione praesentium facere
+                                            expedita earum saepe id quod fuga consequatur perspiciatis
+                                            distinctio error! Soluta numquam dolorum consequuntur sit
+                                            illum.
+                                        </p>
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    {/*/.content-accordion*/}
+                                    <h3>
+                                        <i className="fa-solid fa-chevron-down" />
+                                        How to brush my teeth?
+                                    </h3>
+                                    <div className="content-accordion">
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Libero voluptatibus veniam, ratione praesentium facere
+                                            expedita earum saepe id quod fuga consequatur perspiciatis
+                                            distinctio error! Soluta numquam dolorum consequuntur sit
+                                            illum.
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Libero voluptatibus veniam, ratione praesentium facere
+                                            expedita earum saepe id quod fuga consequatur perspiciatis
+                                            distinctio error! Soluta numquam dolorum consequuntur sit
+                                            illum.
+                                        </p>
+                                    </div>
+                                    {/*/.content-accordion*/}
+                                    <h3>
+                                        <i className="fa-solid fa-chevron-down" />
+                                        How to strengthen enamel?
+                                    </h3>
+                                    <div className="content-accordion">
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Libero voluptatibus veniam, ratione praesentium facere
+                                            expedita earum saepe id quod fuga consequatur perspiciatis
+                                            distinctio error! Soluta numquam dolorum consequuntur sit
+                                            illum.
+                                        </p>
+                                    </div>
+                                    {/*/.content-accordion*/}
+                                </div>
+                                {/*wrapper-accordion*/}
+                            </div>
+                            <div className="faq-img">
+                                <img src="images/faq.png" alt="" />
+                            </div>
+                        </div>
+                        {/*/.wrapper-faq */}
+                    </section>
+                    {/* ====== End FAQ ====== */}
+                    {/* ====== Pricing ====== */}
+                    <section id="pricing" className="ptb">
+                        <div className="wrapper-title container align-center">
+                            <span className="suptitle">Pricing</span>
+                            <h2>
+                                We Are Offering The <span className="selection">Best Pricing</span>
+                            </h2>
+                        </div>
+                        {/*/wrapper-title*/}
+                        <div className="wrapper-pricing container flex-row">
+                            <div className="single-pricing align-center">
+                                <div className="pricing-title">
+                                    <img src="images/service-1.png" alt="" />
+                                    <h3>
+                                        Teeth <br /> Whitening
+                                    </h3>
+                                </div>
+                                {/*/pricing-title*/}
+                                <div className="pricing-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                                        ab perferendis, voluptatum magni natus sunt dolorem quibusdam
+                                        esse eaque repellendus?
+                                    </p>
+                                </div>
+                                {/*/pricing-content*/}
+                                <div className="single-price">
+                                    <p>$130</p>
+                                    <span>Per Monthly</span>
+                                </div>
+                                {/*/.single-price*/}
+                            </div>
+                            {/*/.single-pricing*/}
+                            <div className="single-pricing align-center">
+                                <div className="pricing-title">
+                                    <img src="images/service-2.png" alt="" />
+                                    <h3>
+                                        Cosmetic <br /> Treatments
+                                    </h3>
+                                </div>
+                                {/*/pricing-title*/}
+                                <div className="pricing-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                                        ab perferendis, voluptatum magni natus sunt dolorem quibusdam
+                                        esse eaque repellendus?
+                                    </p>
+                                </div>
+                                {/*/pricing-content*/}
+                                <div className="single-price">
+                                    <p>$240</p>
+                                    <span>Per Monthly</span>
+                                </div>
+                                {/*/.single-price*/}
+                            </div>
+                            {/*/.single-pricing*/}
+                            <div className="single-pricing align-center">
+                                <div className="pricing-title">
+                                    <img src="images/service-3.png" alt="" />
+                                    <h3>
+                                        Dental <br /> Essentials
+                                    </h3>
+                                </div>
+                                {/*/pricing-title*/}
+                                <div className="pricing-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                                        ab perferendis, voluptatum magni natus sunt dolorem quibusdam
+                                        esse eaque repellendus?
+                                    </p>
+                                </div>
+                                {/*/pricing-content*/}
+                                <div className="single-price">
+                                    <p>$420</p>
+                                    <span>Per Monthly</span>
+                                </div>
+                                {/*/.single-price*/}
+                            </div>
+                            {/*/.single-pricing*/}
+                            <div className="single-pricing align-center">
+                                <div className="pricing-title">
+                                    <img src="images/service-4.png" alt="" />
+                                    <h3>
+                                        Cosmetic <br /> Treatments
+                                    </h3>
+                                </div>
+                                {/*/pricing-title*/}
+                                <div className="pricing-content">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                                        ab perferendis, voluptatum magni natus sunt dolorem quibusdam
+                                        esse eaque repellendus?
+                                    </p>
+                                </div>
+                                {/*/pricing-content*/}
+                                <div className="single-price">
+                                    <p>$380</p>
+                                    <span>Per Monthly</span>
+                                </div>
+                                {/*/.single-price*/}
+                            </div>
+                            {/*/.single-pricing*/}
+                        </div>
+                        {/*/.wrapper-pricing*/}
+                    </section>
+                    {/* ====== End Pricing ====== */}
+                    {/* ====== Testimonials ====== */}
+                    <section
+                        id="testimonials"
+                        className="ptb"
+                        style={{ backgroundImage: 'url("images/bg-testimonials.png")' }}
+                    >
+                        <div className="wrapper-testimonials container align-center">
+                            <span className="suptitle">Testimonials</span>
+                            <h2>What clients say</h2>
+                            <div className="owl-carousel owl-theme testimonials-carousel owl-loaded owl-drag">
+                                {/*/.single-testimonials*/}
+                                {/*/.single-testimonials*/}
+                                {/*/.single-testimonials*/}
+                                <div className="owl-stage-outer">
+                                    <div
+                                        className="owl-stage"
+                                        style={{
+                                            transform: "translate3d(-1531px, 0px, 0px)",
+                                            transition: "all 0s ease 0s",
+                                            width: 5360
+                                        }}
+                                    >
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author2.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Sofia Mayer</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author3.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Marco Williams</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item active"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author1.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Olivia Grosh</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author2.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Sofia Mayer</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author3.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Marco Williams</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author1.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Olivia Grosh</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                        <div
+                                            className="owl-item cloned"
+                                            style={{ width: "755.6px", marginRight: 10 }}
+                                        >
+                                            <div className="item single-testimonials align-center">
+                                                <img src="images/author2.jpg" alt="" />
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Distinctio consequatur ab aperiam molestiae ipsum nemo
+                                                    suscipit itaque laudantium recusandae, laborum iste nobis
+                                                    ad officiis velit praesentium aspernatur vero quod
+                                                    consequuntur.
+                                                </p>
+                                                <div className="wrapper-author">
+                                                    <h3>Sofia Mayer</h3>
+                                                    <p>Client</p>
+                                                </div>
+                                                {/*/.wrapper-author*/}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="owl-nav disabled">
+                                    <button type="button" role="presentation" className="owl-prev">
+                                        <span aria-label="Previous">‹</span>
+                                    </button>
+                                    <button type="button" role="presentation" className="owl-next">
+                                        <span aria-label="Next">›</span>
+                                    </button>
+                                </div>
+                                <div className="owl-dots">
+                                    <button role="button" className="owl-dot active">
+                                        <span />
+                                    </button>
+                                    <button role="button" className="owl-dot">
+                                        <span />
+                                    </button>
+                                    <button role="button" className="owl-dot">
+                                        <span />
+                                    </button>
+                                </div>
+                            </div>
+                            {/*/.testimonials-carousel*/}
+                        </div>
+                        {/*/.wrapper-testimonials*/}
+                    </section>
+                    {/* ====== End Testimonials ====== */}
+                    {/* ====== Booking ====== */}
+                    <section id="booking" className="ptb">
+                        <div className="container">
+                            <span className="suptitle">Booking</span>
+                            <h2>Request an appointment</h2>
+                        </div>
+                        <div className="container wrapper-booking flex-row">
+                            <div className="bookong-form">
+                                <form method="POST">
+                                    <div className="wrapper-input flex-row">
+                                        <input type="text" name="name" placeholder="Name" />
+                                        <input type="text" name="lastname" placeholder="Last Name" />
+                                    </div>
+                                    {/*/.wrapper-input*/}
+                                    <div className="wrapper-input flex-row">
+                                        <input type="text" name="phone" placeholder="Phone" />
+                                        <input type="text" name="email" placeholder="Email" />
+                                    </div>
+                                    {/*/.wrapper-input*/}
+                                    <div className="wrapper-input flex-row">
+                                        <input type="text" name="date" placeholder="mm-dd-yy" />
+                                        <input type="text" name="time" placeholder="12:00" />
+                                    </div>
+                                    {/*/.wrapper-input*/}
+                                    <button className="btn" id="sendbook" type="submit">
+                                        Make Appointment
+                                    </button>
+                                    <p className="res-booking" />
+                                </form>
+                            </div>
+                            {/*/.bookong-form*/}
+                            <div className="booking-working-hours">
+                                <h3>Opening Hours</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+                                    rerum cupiditate ad ullam dolor velit et id enim, dolorem nisi
+                                    nobis excepturi doloremque iure porro quia fugit, suscipit omnis
+                                    eius?
+                                </p>
+                                <div className="wrapper-hours">
+                                    <div className="flex-row table-hours">
+                                        <p>Monday - Friday</p>
+                                        <p>8AM - 6PM</p>
+                                    </div>
+                                    {/*/.table-hours*/}
+                                    <div className="flex-row table-hours">
+                                        <p>Saturday</p>
+                                        <p>9AM - 5PM</p>
+                                    </div>
+                                    {/*/.table-hours*/}
+                                    <div className="flex-row table-hours">
+                                        <p>Sunday</p>
+                                        <p>9AM - 4PM</p>
+                                    </div>
+                                    {/*/.table-hours*/}
+                                </div>
+                            </div>
+                            {/*/.booking-working-hours*/}
+                        </div>
+                        {/*/.wrapper-booking*/}
+                    </section>
+                    {/* ====== End Booking ====== */}
                 </main>
+                {/* ====== Footer ====== */}
+                <footer>
+                    {/* ====== Contacts ====== */}
+                    <div id="contacts" className="ptb">
+                        <div className="container">
+                            <span className="suptitle">Address</span>
+                            <h2>Contacts</h2>
+                        </div>
+                        <div className="container wrapper-contact flex-row">
+                            <div>
+                                <h3>Our location</h3>
+                                <p>2900 Lapeer Rd, Port Hurons, MI 49070</p>
+                                <ul className="social-link flex-row">
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-facebook-f" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-twitter" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fa-brands fa-dribbble" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fa-brands fa-pinterest" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                {/*/.social-link*/}
+                            </div>
+                            <div>
+                                <h3>Working Hours</h3>
+                                <p>Monday - Friday 8AM - 6PM</p>
+                                <p>Saturday - Sunday 9AM - 5PM</p>
+                            </div>
+                            <div>
+                                <h3>Office Phone</h3>
+                                <p>
+                                    <a href="#">+1 (800) 478-42-51</a>
+                                </p>
+                                <p>
+                                    <a href="#">+1 (800) 474-23-82</a>
+                                </p>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>
+                                    <a href="#">info@companyname.com</a>
+                                </p>
+                                <p>
+                                    <a href="#">fixup@companyname.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        {/*/.wrapper-contact*/}
+                    </div>
+                    {/* ====== End Contacts ====== */}
+                    <div className="wrapper-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.8840785320544!2d-82.49493468465671!3d42.980715479150156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88259e93ea837f03%3A0x9eaf24e841d574ed!2zNDIzOSBMYXBlZXIgUmQsIFBvcnQgSHVyb24sIE1JIDQ4MDYwLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1640107647193!5m2!1sru!2sua"
+                            style={{ border: 0 }}
+                            loading="lazy"
+                        />
+                    </div>
+                    {/*/.wrapper-map*/}
+                    <div className="copyright">
+                        <p>Copyright © All rights reserved.</p>
+                    </div>
+                    {/*/.copyright*/}
+                </footer>
+                {/* ====== End Footer ====== */}
             </div>
-            <a id="scroll-top" className="btn" href="#" >
+            {/*/.wrapper*/}
+            {/* ====== Scroll Top ====== */}
+            <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
                 <i className="fa-solid fa-arrow-up-long" />
             </a>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
+            <script src={`${prefix}/js/owl.carousel.min.js`} />
+            <script src={`${prefix}/js/script.js`} />
+            {/* ====== jQuery ====== */}
+            {/* ====== Carousel ====== */}
+            {/* ====== Custom js ======  */}
         </>
+
+        // <>
+        //     <Offers />
+        //     <div className="wrapper" id="home">
+        //         <main>
+        //             <AboutUs />
+        //             <Feature />
+        //             <Service />
+        //             <FAQ />
+        //             <Devis />
+        //         </main>
+        //     </div>
+        //     <a id="scroll-top" className="btn" href="#" >
+        //         <i className="fa-solid fa-arrow-up-long" />
+        //     </a>
+        // </>
     );
 }
