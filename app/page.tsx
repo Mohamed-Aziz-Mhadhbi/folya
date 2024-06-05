@@ -43,9 +43,9 @@ export default function Home() {
             {/* Favicon */}
             <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
             {/* Custom style CSS */}
-            <link rel="stylesheet" href="styles/style.css" />
+            <link rel="stylesheet" href={`${prefix}/styles/style.css`} />
             {/* Responsive CSS */}
-            <link rel="stylesheet" href="styles/responsive.css" />
+            <link rel="stylesheet" href={`${prefix}/styles/responsive.css`} />
             <div className="wrapper" id="home">
                 {/* ====== Header ====== */}
                 <header>
