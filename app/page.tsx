@@ -23,28 +23,24 @@ export default function Home() {
     }, []);
 
     if (loading) {
-        return <Loader/>;
+        return <Loader />;
     }
 
     return (
         <>
             <Offers />
-            <div className="wrap">
-                <section className="content">
-                    <div className="wrapper" id="home">
-                        <main>
-                            <AboutUs />
-                            <Feature />
-                            <Service />
-                            <FAQ />
-                            <Devis />
-                        </main>
-                    </div>
-                    <a id="scroll-top" className="btn" href="#" >
-                        <i className="fa-solid fa-arrow-up-long" />
-                    </a>
-                </section>
+            <div className="wrapper" id="home">
+                <main>
+                    <AboutUs />
+                    <Feature />
+                    <Service />
+                    <FAQ />
+                    <Devis />
+                </main>
             </div>
+            <a id="scroll-top" className="btn" href="#" >
+                <i className="fa-solid fa-arrow-up-long" />
+            </a>
         </>
     );
 }
