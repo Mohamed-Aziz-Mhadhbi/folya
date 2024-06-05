@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import "./styles/responsive.css";
-import "./styles/style.css";
+// import "./styles/style.css";
 import AboutUs from "@/components/AboutUs";
 import Service from "@/components/Service";
 import Offers from "@/components/Offers";
