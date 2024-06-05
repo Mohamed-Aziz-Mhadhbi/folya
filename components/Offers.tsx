@@ -20,7 +20,7 @@ const Offers = () => {
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/watch?v=9_nyG2TUDcQ" className="play-btn mfp-iframe">
-                                    <img className="wave1" src={`${prefix}/play-btn.png`} alt="play-btn" />
+                                    <img className="wave1" src={`${prefix}/image/play-btn.png`} alt="play-btn" />
                                 </a>
                             </li>
                         </ul>
