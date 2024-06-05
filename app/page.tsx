@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import "./styles/responsive.css";
+import "./styles/style.css";
 import AboutUs from "@/components/AboutUs";
 import Service from "@/components/Service";
 import Offers from "@/components/Offers";
@@ -10,8 +11,7 @@ import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
 import { prefix } from '@/prefix';
-import "./folya/styles/style.css";
-import "./folya/styles/responsive.css";
+
 
 
 export default function Home() {
