@@ -86,7 +86,7 @@ const FAQ = () => {
                     {/*wrapper-accordion*/}
                 </div>
                 <div className="faq-img">
-                    <img src={`${prefix}/faq.png`} alt="" />
+                    <img src={`${prefix}/image/faq.png`} alt="" />
                 </div>
             </div>
             {/*/.wrapper-faq */}

@@ -3,7 +3,7 @@ import { prefix } from '@/prefix';
 const Footer = () => {
     return (
         <footer>
-            {/* ====== Contacts ====== */}
+            
             <div id="contacts" className="ptb">
                 <div className="container">
                     <div className="row wrapper-contact flex-row">
@@ -11,7 +11,7 @@ const Footer = () => {
                             <div className="footer-logo">
                                 <a href="#">
                                     <img
-                                        src={`${prefix}/logo-icon.png`}
+                                        src={`${prefix}/image/logo-icon.png`}
                                         alt="logo"
                                         style={{ maxHeight: 40, maxWidth: 40 }}
                                     />

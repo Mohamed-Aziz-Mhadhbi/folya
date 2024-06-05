@@ -27,7 +27,7 @@ const Offers = () => {
                     </div>
                 </div>
                 <div className="offer-img">
-                    <img src={`${prefix}/img-header.png`} alt="Offer Image" />
+                    <img src={`${prefix}/image/img-header.png`} alt="Offer Image" />
                 </div>
             </div>
         </section>

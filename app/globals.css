@@ -23,15 +23,15 @@ TABLE OF CONTENTS
 
 */
 
-@import 'styles/reset.css';
-@import 'styles/all.min.css';
-@import 'styles/owl.carousel.min.css';
-@import 'styles/owl.theme.default.min.css';
-@import 'styles/responsive.css';
-@import 'styles/bootstrap.min.css';
-@import 'styles/jquery-ui.min.css';
-@import 'styles/magnific-popup.css';
-@import 'styles/slicknav.min.css';
+@import '/reset.css';
+@import '/all.min.css';
+@import '/owl.carousel.min.css';
+@import '/owl.theme.default.min.css';
+@import '/responsive.css';
+@import '/bootstrap.min.css';
+@import '/jquery-ui.min.css';
+@import '/magnific-popup.css';
+@import '/slicknav.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
 
 
@@ -1409,35 +1409,35 @@ Version      : 1.0
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('./fonts/poppins/Poppins-Regular.woff2') format('woff2');
+  src: url('/poppins/Poppins-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('./fonts/Orkney/Orkney-Bold.woff2') format('woff2');
+  src: url('/Orkney/Orkney-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('./fonts/Orkney/Orkney-Medium.woff2') format('woff2');
+  src: url('/Orkney/Orkney-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Orkney';
-  src: url('./fonts/Orkney/Orkney-Regular.woff2') format('woff2');
+  src: url('/Orkney/Orkney-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Pacifico';
-  src: url('./fonts/Pacifico/Pacifico-Regular.woff2') format('woff2');
+  src: url('/Pacifico/Pacifico-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1451,17 +1451,6 @@ Version      : 1.0
 html {
   scroll-behavior: smooth;
   overflow-y: scroll;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Orkney';
-  color: #28477D;
-  line-height: 1.6;
-  font-weight: 700;
 }
 a:focus {
   color: #fff;

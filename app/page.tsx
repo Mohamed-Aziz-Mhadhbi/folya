@@ -13,7 +13,6 @@ export default function Home() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Simulate a loading period
         const timer = setTimeout(() => {
             setLoading(false);
         }, 3000); // 3 seconds for example
@@ -26,7 +25,6 @@ export default function Home() {
     }
 
     return (
-
         <>
             <Offers />
             <div className="wrapper" id="home">
