@@ -10,6 +10,8 @@ import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
+import Script from 'next/script';
+import Head from 'next/Head';
 import { prefix } from '@/prefix';
 
 
@@ -33,20 +35,25 @@ export default function Home() {
     return (
 
         <>
-            <meta charSet="UTF-8" />
-            <title>
-                Glodent - Dental Clinic &amp; Medical Service Landing Page HTML5 Template
-            </title>
-            <meta name="description" content="" />
-            <meta name="keywords" content="" />
-            {/* Always force latest IE rendering engine */}
-            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-            {/* Mobile Specific Meta */}
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            {/* Favicon */}
-            <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-            {/* Custom style CSS */}
-            
+            <Head>
+                <meta charSet="UTF-8" />
+                <title>
+                    Folya
+                </title>
+                <meta name="description" content="" />
+                <meta name="keywords" content="" />
+                {/* Always force latest IE rendering engine */}
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                {/* Mobile Specific Meta */}
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                {/* Favicon */}
+                <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+                {/* Custom style CSS */}
+                <link rel="stylesheet" href="css/style.css" />
+                {/* Responsive CSS */}
+                <link rel="stylesheet" href="css/responsive.css" />
+            </Head>
+
             <div className="wrapper" id="home">
                 {/* ====== Header ====== */}
                 <header>
@@ -1247,12 +1254,10 @@ export default function Home() {
             <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
                 <i className="fa-solid fa-arrow-up-long" />
             </a>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
-            <script src={`${prefix}/js/owl.carousel.min.js`} />
-            <script src={`${prefix}/js/script.js`} />
-            {/* ====== jQuery ====== */}
-            {/* ====== Carousel ====== */}
-            {/* ====== Custom js ======  */}
+            <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></Script>
+            <Script src="js/owl.carousel.min.js"></Script>
+            <Script src="js/script.js"></Script>
+
         </>
 
         // <>
