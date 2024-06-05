@@ -28,6 +28,10 @@ TABLE OF CONTENTS
 @import 'styles/owl.carousel.min.css';
 @import 'styles/owl.theme.default.min.css';
 @import 'styles/responsive.css';
+@import 'styles/bootstrap.min.css';
+@import 'styles/jquery-ui.min.css';
+@import 'styles/magnific-popup.css';
+@import 'styles/slicknav.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
 
 
