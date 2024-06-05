@@ -1,7 +1,8 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
-import { prefix } from '@/prefix';
+import Head from 'next/head';
+import Script from 'next/script';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,27 +18,34 @@ export default function RootLayout({
   return (
 
     <html lang="en">
+      <Head>
+        <meta charSet="UTF-8" />
+        <title>
+          Folya
+        </title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        {/* Always force latest IE rendering engine */}
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        {/* Mobile Specific Meta */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* Favicon */}
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        {/* Custom style CSS */}
+        <link rel="stylesheet" href="css/style.css" />
+        {/* Responsive CSS */}
+        <link rel="stylesheet" href="css/responsive.css" />
+      </Head>
       <body>
-        {/* <Navbar /> */}
+        <Navbar />
         <main className="relative overflow-hidden">
           {children}
         </main>
         <Footer />
+        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></Script>
+        <Script src="js/owl.carousel.min.js"></Script>
+        <Script src="js/script.js"></Script>
       </body>
-      {/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
-      <script src={`${prefix}/js/owl.carousel.min.js`} />
-      <script src={`${prefix}/js/script.js`} /> */}
-      {/* <script src={`${prefix}/js/jquery-2.2.4.min.js`} />
-      <script src={`${prefix}/js/bootstrap.min.js`} />
-      <script src={`${prefix}/js/popper.min.js`} />
-      <script src={`${prefix}/js/jquery.sticky.js`} />
-      <script src={`${prefix}/js/jquery.slicknav.min.js`} />
-      <script src={`${prefix}/js/jquery.magnific-popup.min.js`} />
-      <script src={`${prefix}/js/mixitup.min.js`} />
-      <script src={`${prefix}/js/jquery-ui.min.js`} />
-      <script src={`${prefix}/js/ajaxchimp.min.js`} />
-      <script src={`${prefix}/js/form-contact.js`} />
-      <script src={`${prefix}/js/main.js`} /> */}
     </html>
   );
 }
