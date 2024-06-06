@@ -10,11 +10,7 @@ const Devis = () => {
                 <form method="POST">
                     <div className="wrapper-input flex-row">
                         <input type="text" name="name" placeholder="Prénom" />
-                        <input
-                            type="text"
-                            name="lastname"
-                            placeholder="Nom"
-                        />
+                        <input type="text" name="lastname" placeholder="Nom"/>
                     </div>
                     {/*/.wrapper-input*/}
                     <div className="wrapper-input flex-row">
