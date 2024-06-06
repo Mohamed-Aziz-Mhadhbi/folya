@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
 import AboutUs from "@/components/AboutUs";
 import Service from "@/components/Service";
 import Offers from "@/components/Offers";
@@ -10,22 +9,10 @@ import Feature from "@/components/Features";
 import Loader from '@/components/Loader';
 
 export default function Home() {
-    const [loading, setLoading] = useState(true);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-        }, 3000); // 3 seconds for example
-
-        return () => clearTimeout(timer);
-    }, []);
-
-    if (loading) {
-        return <Loader />;
-    }
 
     return (
         <>
+            <Loader />
             <Offers />
             <div className="wrapper" id="home">
                 <main>
