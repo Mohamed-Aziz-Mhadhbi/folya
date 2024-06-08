@@ -1497,7 +1497,7 @@ button:focus {
   padding-right: 80px;
 }
 .row {
-  display: -webkit-box;
+  /* display: -webkit-box; */
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -2793,7 +2793,6 @@ footer.footer-area .active-top {
   font-size: 2em;
   margin-bottom: 20px;
 }
-
 
 
 .hero-btn ul {
