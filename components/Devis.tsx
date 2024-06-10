@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import { useToast } from "@chakra-ui/react";
 import { sendContactForm } from "../lib/api";
@@ -15,12 +13,12 @@ const Devis = () => {
 
     const { values, isLoading, error } = state;
 
-    const onBlur = (e: any) => {
+    const onBlur = (e:any) => {
         const { name } = e.target;
         setTouched((prev) => ({ ...prev, [name]: true }));
     };
 
-    const handleChange = (e: any) => {
+    const handleChange = (e:any) => {
         const { name, value } = e.target;
         setState((prev) => ({
             ...prev,
@@ -31,7 +29,7 @@ const Devis = () => {
         }));
     };
 
-    const onSubmit = async (e: any) => {
+    const onSubmit = async (e:any) => {
         e.preventDefault();
         setState((prev) => ({
             ...prev,
@@ -47,7 +45,7 @@ const Devis = () => {
                 duration: 2000,
                 position: "top",
             });
-        } catch (error: any) {
+        } catch (error:any) {
             setState((prev) => ({
                 ...prev,
                 isLoading: false,
