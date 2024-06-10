@@ -1,3 +1,5 @@
+
+
 import { useState } from "react";
 import { useToast } from "@chakra-ui/react";
 import { sendContactForm } from "../lib/api";
@@ -13,12 +15,12 @@ const Devis = () => {
 
     const { values, isLoading, error } = state;
 
-    const onBlur = (e:any) => {
+    const onBlur = (e: any) => {
         const { name } = e.target;
         setTouched((prev) => ({ ...prev, [name]: true }));
     };
 
-    const handleChange = (e:any) => {
+    const handleChange = (e: any) => {
         const { name, value } = e.target;
         setState((prev) => ({
             ...prev,
@@ -29,7 +31,7 @@ const Devis = () => {
         }));
     };
 
-    const onSubmit = async (e:any) => {
+    const onSubmit = async (e: any) => {
         e.preventDefault();
         setState((prev) => ({
             ...prev,
@@ -45,7 +47,7 @@ const Devis = () => {
                 duration: 2000,
                 position: "top",
             });
-        } catch (error:any) {
+        } catch (error: any) {
             setState((prev) => ({
                 ...prev,
                 isLoading: false,
@@ -145,3 +147,116 @@ const Devis = () => {
 };
 
 export default Devis;
+
+
+
+// import { useState } from "react";
+// import {
+//     useToast,
+// } from "@chakra-ui/react";
+// import { sendContactForm } from "../lib/api";
+
+// const initValues = { name: "", lastname: "", phone: "", email: "", ville: "", sp: "", message: "" };
+// const initState = { isLoading: false, error: "", values: initValues };
+
+
+// const Devis = () => {
+//     const toast = useToast();
+
+//     const [state, setState] = useState(initState);
+//     const [touched, setTouched] = useState({});
+
+//     const { values, isLoading, error } = state;
+
+//     const onBlur = (e: React.FocusEvent<HTMLInputElement>) => {
+//         const { name } = e.target;
+//         setTouched((prev) => ({ ...prev, [name]: true }));
+//     };
+
+//     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+//         const { name, value } = e.target;
+//         setState((prev) => ({
+//             ...prev,
+//             values: {
+//                 ...prev.values,
+//                 [name]: value,
+//             },
+//         }));
+//     };
+
+//     const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+//         e.preventDefault();
+//         setState((prev) => ({
+//             ...prev,
+//             isLoading: true,
+//         }));
+//         try {
+//             await sendContactForm(values);
+//             setTouched({});
+//             setState(initState);
+//             toast({
+//                 title: "Message sent.",
+//                 status: "success",
+//                 duration: 2000,
+//                 position: "top",
+//             });
+//         } catch (error: any) {
+//             setState((prev) => ({
+//                 ...prev,
+//                 isLoading: false,
+//                 error: error.message,
+//             }));
+//         }
+//     };
+
+//     return (
+//         <section id="booking" className="ptb">
+//             <div className="container">
+//                 <h2>Devis</h2>
+//             </div>
+//             <div className="container wrapper-booking flex-row">
+//                 <div className="bookong-form">
+//                     <form method="POST">
+//                         <div className="wrapper-input flex-row">
+//                             <input type="text" name="name" placeholder="Prénom" />
+//                             <input type="text" name="lastname" placeholder="Nom" />
+//                         </div>
+//                         {/*/.wrapper-input*/}
+//                         <div className="wrapper-input flex-row">
+//                             <input type="text" name="phone" placeholder="Numéro de téléphone" />
+//                             <input type="text" name="email" placeholder="Adresse email" />
+//                         </div>
+//                         {/*/.wrapper-input*/}
+//                         <div className="wrapper-input flex-row">
+//                             <input type="text" name="ville" placeholder="Ville d'exercice" />
+//                             <input type="text" name="sp" placeholder="Votre spécialité paramédicale" />
+//                         </div>
+//                         {/*/.wrapper-input*/}
+//                         <div className="wrapper-input flex-row">
+//                             <input type="text" name="message" placeholder="Message" className="large-input" />
+//                         </div>
+//                         <button className="btn" id="sendbook" type="submit">
+//                             Obtenez  un devis gratuitement
+//                         </button>
+//                         <p className="res-booking" />
+//                     </form>
+//                 </div>
+//                 {/*/.bookong-form*/}
+//                 <div className="booking-working-hours">
+//                     <h3>Nous sommes heureux de vous proposer un devis gratuit pour nos services.</h3>
+//                     <p>
+//                         Afin de mieux répondre à vos besoins, veuillez remplir le formulaire ci-dessous. Plus vous nous fournirez d'informations, plus nous serons en mesure de vous proposer un devis précis et adapté à vos besoins
+
+//                     </p>
+
+//                 </div>
+//                 {/*/.booking-working-hours*/}
+//             </div>
+//             {/*/.wrapper-booking*/}
+//         </section>
+//     );
+// }
+
+// export default Devis;
+
+
