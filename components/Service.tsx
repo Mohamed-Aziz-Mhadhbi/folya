@@ -8,12 +8,7 @@ const Service = () => {
                 <h2>
                     Fonctionnalités clés <span className="selection">de Folya</span>
                 </h2>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel
-                    tempora, eius sint pariatur quas nemo cum. Ratione incidunt,
-                    praesentium doloribus quaerat animi ipsam id perspiciatis
-                    deserunt similique iste itaque nulla!
-                </p>
+               
             </div>
             {/*/wrapper-title*/}
             <div className="wrapper-service container flex-row">
