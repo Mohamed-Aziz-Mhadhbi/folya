@@ -227,9 +227,11 @@ h3 {
 	color: var(--color-dark-blue);
 	font-size: 14px;
 	letter-spacing: 2px;
+  text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	position: relative;
+  margin-bottom: 1rem;
 }
 
 .suptitle:before {
@@ -400,12 +402,21 @@ h3 {
 
 
 #aboutus {
+  padding-top: 2rem;
 	position: relative;
 	padding-bottom: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .wrapper-feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 	max-width: 1400px;
+  margin: 0 auto;
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -420,6 +431,7 @@ h3 {
 .single-feature {
 	width: 25%;
 	padding: 40px 20px;
+  text-align: center;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	display: flex;
