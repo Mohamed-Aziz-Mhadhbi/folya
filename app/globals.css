@@ -47,6 +47,152 @@ TABLE OF CONTENTS
 	--color-light-gray: #808586;
 }
 
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Wrapper Bottom Header */
+.wrapper-bottom-header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Bottom Header Container */
+.bottom-header.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Logo Styling */
+#logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* Navigation Styling */
+#nav {
+  display: flex;
+  align-items: center;
+}
+
+#nav .menu {
+  list-style: none;
+  display: flex;
+}
+
+#nav .menu li {
+  margin: 0 10px;
+}
+
+#nav .menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+#nav .menu li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Button Styling */
+.btn {
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Appointment Button */
+.btn.appointment {
+  background-color: #28a745;
+}
+
+.btn.appointment:hover {
+  background-color: #218838;
+}
+
+/* Menu Toggle Buttons */
+#openmenu, #closemenu {
+  display: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  #nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-100%);
+      transition: transform 0.3s ease;
+  }
+
+  #nav.open {
+      transform: translateY(0);
+  }
+
+  #nav .menu {
+      flex-direction: column;
+  }
+
+  #nav .menu li {
+      margin: 20px 0;
+  }
+
+  #openmenu, #closemenu {
+      display: block;
+  }
+
+  #closemenu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 24px;
+      color: #fff;
+  }
+}
+
+
+
+
+
 @-webkit-keyframes load {
 	0% {
 		opacity: 0;
