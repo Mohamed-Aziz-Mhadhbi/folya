@@ -4,6 +4,8 @@ const Feature = () => {
     return (
         <section id="aboutus" className="ptb flex-row">
             <div className="wrapper-feature flex-row container">
+            <span className="suptitle">Avantages</span>
+                    <h2>Avantages</h2>
                 <div className="single-feature align-center">
                     <img src={`${prefix}/image/feature-1.png`} alt="" />
                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
