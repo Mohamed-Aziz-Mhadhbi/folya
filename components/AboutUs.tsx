@@ -17,20 +17,12 @@ const AboutUs = () => {
                     </p>
                     <div className="wrapper-aboutus-progress">
                         <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/progress-1.png`} alt="" />
-                            </div>
                             <div className="progress-content">
-                                <h3>Service 20 Years</h3>
                                 <p>Folya est votre allié, conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients. </p>
                             </div>
                         </div>
                         <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/progress-2.png`} alt="" />
-                            </div>
                             <div className="progress-content">
-                                <h3>Reliable Contractors</h3>
                                 <p>Folya vous permet de centraliser et de gérer facilement tous les aspects de votre cabinet, où que vous soyez et quand vous le désirez. Dossiers patients, planification de rendez-vous, intégration des comptes rendus et suivi des finances... </p>
                             </div>
                         </div>
