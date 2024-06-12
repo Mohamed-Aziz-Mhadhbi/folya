@@ -30,10 +30,10 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-                    <a className="btn appointment" href="#booking">
+                    <a className="btn" href="#booking">
                         Contact
                     </a>
-                    <a className="btn appointment" href="">
+                    <a className="btn" href="">
                         Connexion
                     </a>
                     <a className="btn appointment" href="">
