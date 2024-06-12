@@ -15,18 +15,10 @@ const AboutUs = () => {
                         Imaginez votre quotidien libéré de la paperasse et des tâches chronophages.
                         En tant que professionnel paramédical, votre dévouement contribue à sauver des vies chaque jour, mais la gestion administrative ne devrait pas vous ralentir.
                     </p>
-                    <div className="progress-content">
-                        <p>Folya est votre allié, conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients. </p>
-                    </div>
-                    <div className="progress-content">
-                        <p>Folya vous permet de centraliser et de gérer facilement tous les aspects de votre cabinet, où que vous soyez et quand vous le désirez. Dossiers patients, planification de rendez-vous, intégration des comptes rendus et suivi des finances... </p>
-                    </div>
-
-                    <div className="progress-content">
-                        <p>Nous vous offrons une solution, clés en main, complète pour une organisation optimale.
-                            Découvrez la différence et voyez comment Folya peut vous aider à atteindre vos objectifs professionnels en toute sérénité.
-                        </p>
-                    </div>
+                    <p>Folya est votre allié, conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients. </p>
+                    <p>Folya vous permet de centraliser et de gérer facilement tous les aspects de votre cabinet, où que vous soyez et quand vous le désirez. Dossiers patients, planification de rendez-vous, intégration des comptes rendus et suivi des finances... </p>
+                    <p>Nous vous offrons une solution, clés en main, complète pour une organisation optimale.</p>
+                    <p>Découvrez la différence et voyez comment Folya peut vous aider à atteindre vos objectifs professionnels en toute sérénité.</p>
                 </div>
             </div>
         </section>
