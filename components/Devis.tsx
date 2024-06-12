@@ -88,7 +88,7 @@ const Devis = () => {
                 duration: 2000,
                 position: "top",
             });
-        } catch (error:any) {
+        } catch (error: any) {
             setState((prev) => ({
                 ...prev,
                 isLoading: false,
@@ -100,6 +100,7 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
+                <span className="suptitle">Devis</span>
                 <h2>Devis</h2>
             </div>
             <div className="container wrapper-booking flex-row">
