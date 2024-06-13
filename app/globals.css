@@ -183,13 +183,12 @@ h3 {
 
 .title-section {
   position: absolute;
-    top: -40px; /* Adjust this value as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    background-color: white; /* Add a background color if needed */
-    padding: 0 20px; /* Adjust padding as needed */
-    z-index: 1;
+  margin-bottom: 50px;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: white; /* Add a background color if needed */
+  padding: 0 20px; /* Adjust padding as needed */
+  z-index: 1;
 }
 
 .ptb {
@@ -425,8 +424,8 @@ h3 {
 .wrapper-feature {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
-  justify-content: space-between;
+  justify-content: space-around;
+  /* justify-content: space-between; */
   align-items: center;
 	max-width: 1400px;
   margin: 0 auto;
