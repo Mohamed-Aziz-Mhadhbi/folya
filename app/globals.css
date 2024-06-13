@@ -168,6 +168,7 @@ h3 {
 }
 
 .container {
+  position: relative;
 	max-width: 1200px;
 	width: 100%;
 	padding: 0 20px;
@@ -181,13 +182,20 @@ h3 {
 }
 
 .title-section {
-  text-align: center;
-  margin-bottom: 2rem;
+  position: absolute;
+    top: -40px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: white; /* Add a background color if needed */
+    padding: 0 20px; /* Adjust padding as needed */
+    z-index: 1;
 }
 
 .ptb {
 	padding-top: 50px;
-	padding-bottom: 50px;
+  padding-bottom: 50px;
+  position: relative;
 }
 
 .align-center {
