@@ -1378,3 +1378,58 @@ h3 {
 	border-radius: 50%;
 	transition: .5s all;
 }
+
+section.hero-area .hero-content .hero-btn ul {
+  display: flex;
+  justify-content: flex-start;
+}
+section.hero-area .hero-content .hero-btn ul li {
+  display: inline-block;
+  align-self: center;
+}
+section.hero-area .hero-content .hero-btn ul li:first-child {
+  margin-right: 30px;
+}
+section.hero-area .hero-content .hero-btn ul li a {
+  display: inline-block;
+}
+section.hero-area .hero-content .hero-btn ul li a .wave1 {
+  animation: ripple 2s linear infinite;
+  border-radius: 50%;
+  transition: .5s all;
+}
+.hero-btn .play-btn {
+  display: inline-block;
+  position: relative;
+}
+
+.hero-btn .play-btn img.wave1 {
+  width: 40px;
+  height: 40px;
+}
+
+.hero-btn .btn.appointment:hover {
+background-color: #0056b3;
+}
+
+.hero-btn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-btn ul li {
+  margin: 0;
+}
+
+.hero-btn .btn.appointment {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--color-blue);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
