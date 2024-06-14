@@ -3,10 +3,10 @@ import { prefix } from '@/prefix';
 const Feature = () => {
     return (
         <section id="aboutus" className="ptb">
-            <div className="wrapper-title container align-center">
+            {/* <div className="wrapper-title container align-center">
                     <span className="suptitle">Avantages</span>
                     <h2>Avantages</h2>
-                </div>
+                </div> */}
                 <div className="wrapper-feature container flex-row">
                     <div className="single-feature">
                         <img src={`${prefix}/image/feature-1.png`} alt="Digitalisation de votre travail" />

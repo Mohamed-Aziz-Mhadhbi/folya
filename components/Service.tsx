@@ -39,10 +39,10 @@ const Service = () => {
                     <img src={`${prefix}/image/service-4.png`} alt="" />
                     <h3>Configuration des bilans et tests d’évaluation</h3>
                     <p>
-                        stockez et accédez à tous vos tests d’évaluation spécifiques à votre métier. Avec Folya, plus besoin d’imprimer vos grilles ou de noter vos observations sur papier. Profitez d’un annuaire de bilans personnalisé et accessible partout
+                        Stockez et accédez à tous vos tests d’évaluation spécifiques à votre métier. Avec Folya, plus besoin d’imprimer vos grilles ou de noter vos observations sur papier. Profitez d’un annuaire de bilans personnalisé et accessible partout
                     </p>
                 </article>
-                
+
                 <article className="align-center">
                     <img src={`${prefix}/image/service-5.png`} alt="" />
                     <h3>Facturation des actes</h3>
