@@ -3,12 +3,11 @@ import { prefix } from '@/prefix';
 const Feature = () => {
     return (
         <section id="aboutus" className="ptb">
-            <div className="container">
-                <div className="title-section">
+            <div className="wrapper-title container align-center">
                     <span className="suptitle">Avantages</span>
                     <h2>Avantages</h2>
                 </div>
-                <div className="wrapper-feature">
+                <div className="wrapper-feature container flex-row">
                     <div className="single-feature">
                         <img src={`${prefix}/image/feature-1.png`} alt="Digitalisation de votre travail" />
                         <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
@@ -40,7 +39,6 @@ const Feature = () => {
                         <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.</p>
                     </div>
                 </div>
-            </div>
         </section>
     );
 }

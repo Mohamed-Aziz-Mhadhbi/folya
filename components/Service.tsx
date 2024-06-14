@@ -8,7 +8,6 @@ const Service = () => {
                 <h2>
                     Fonctionnalités clés <span className="selection">de Folya</span>
                 </h2>
-               
             </div>
             {/*/wrapper-title*/}
             <div className="wrapper-service container flex-row">
