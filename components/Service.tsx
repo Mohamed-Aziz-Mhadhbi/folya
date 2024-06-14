@@ -5,9 +5,7 @@ const Service = () => {
         <section id="services" className="ptb">
             <div className="wrapper-title container align-center">
                 <span className="suptitle">Nos Fonctionnalités</span>
-                <h2>
-                    Fonctionnalités clés <span className="selection">de Folya</span>
-                </h2>
+                <h2>Fonctionnalités clés <span className="selection">de Folya</span></h2>
             </div>
             {/*/wrapper-title*/}
             <div className="wrapper-service container flex-row">
@@ -18,13 +16,7 @@ const Service = () => {
                         Planifiez, modifiez et annulez vos rendez-vous en quelques clics en consultant votre calendrier.
                     </p>
                 </article>
-                <article className="align-center">
-                    <img src={`${prefix}/image/service-2.png`} alt="" />
-                    <h3>Dossier patients paramédical standardisé et complet</h3>
-                    <p>
-                        Enregistrez et consultez les fiches administratives et médicales, effectuez des évaluations spécifiques à votre profession et conservez les ordonnances de prise en charge.
-                    </p>
-                </article>
+                
                 <article className="align-center">
                     <img src={`${prefix}/image/service-3.png`} alt="" />
                     <h3>Suivi des patients</h3>
@@ -51,6 +43,13 @@ const Service = () => {
                     <h3>Rapports et analyses</h3>
                     <p>
                         Accédez à des informations clés sur votre pratique grâce à des rapports personnalisés.  Identifiez les tendances et optimisez vos processus, votre trésorerie, vos dépenses et votre comptabilité.
+                    </p>
+                </article>
+                <article className="align-center">
+                    <img src={`${prefix}/image/service-2.png`} alt="" />
+                    <h3>Dossier patients paramédical standardisé et complet</h3>
+                    <p>
+                        Enregistrez et consultez les fiches administratives et médicales, effectuez des évaluations spécifiques à votre profession et conservez les ordonnances de prise en charge.
                     </p>
                 </article>
             </div>
