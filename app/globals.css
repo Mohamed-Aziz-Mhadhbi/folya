@@ -428,10 +428,10 @@ h3 {
 	z-index: 100;
 } */
 
-#closemenu,
+/* #closemenu,
 #openmenu {
 	display: none;
-}
+} */
 
 .res-booking {
 	display: none;
@@ -497,7 +497,7 @@ h3 {
 	margin-left: 20px;
 }
 
-.bottom-header {
+/* .bottom-header {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
@@ -506,13 +506,13 @@ h3 {
 	align-items: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-}
+} */
 
-#logo {
-	  width: 100px; /* Adjust this value to your desired width */
-    height: 50px; /* Ensures the logo maintains its aspect ratio */
+/* #logo {
+	  width: 100px; 
+    height: 50px; 
     margin: auto 0;
-}
+} */
 
 /* .menu li {
 	float: left;
