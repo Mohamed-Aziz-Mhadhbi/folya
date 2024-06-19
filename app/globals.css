@@ -233,12 +233,11 @@ nav {
         padding: 10px;
         font-size: 12px;
         margin: 5px 0;
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
 		/* padding: 15px 30px; */
 	    color: var(--color-white);
 	    text-transform: uppercase;
-	    background-color: var(--color-blue);
 	    border-radius: 3px;
 	    letter-spacing: 3px;
     }
