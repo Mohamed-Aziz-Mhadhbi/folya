@@ -121,20 +121,8 @@ body {
 }
 
 /* General Styles */
-.menu li {
-    float: left;
-    margin-left: 20px;
-}
-
-.menu li a {
-    color: var(--color-white);
-}
-
-.menu li a:hover {
-    color: var(--color-blue);
-}
-
-.fixedmenu {
+.wrapper-bottom-header {
+    width: 100%;
     background-color: var(--color-white);
     position: fixed;
     top: 0;
@@ -143,52 +131,82 @@ body {
     z-index: 100;
 }
 
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: var(--color-black);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    color: var(--color-blue);
+}
+
 .btn {
-    padding: 15px 30px;
+    padding: 10px 20px;
     font-size: 14px;
     color: var(--color-white);
     text-transform: uppercase;
     background-color: var(--color-blue);
     border-radius: 3px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
     background-color: var(--color-dark-blue);
 }
 
-.hero-btn .btn.appointment {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--color-blue);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.hero-btn .btn.appointment:hover {
-    background-color: #0056b3;
-}
-
-.wrapper-bottom-header .appointment,
-.wrapper-top-header {
+#openmenu,
+#closemenu {
     display: none;
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .container {
-        display: flex;
+    .bottom-header {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .menu {
-        display: none;
         flex-direction: column;
         width: 100%;
+        display: none;
         text-align: center;
         background-color: var(--color-white);
         position: absolute;
@@ -196,10 +214,10 @@ body {
         left: 0;
         right: 0;
         z-index: 99;
+        border-top: 1px solid var(--color-light-gray);
     }
 
     .menu li {
-        float: none;
         margin: 10px 0;
     }
 
@@ -211,8 +229,12 @@ body {
         display: none;
     }
 
-    .fixedmenu .btn {
-        display: none;
+    .btn {
+        padding: 10px;
+        font-size: 12px;
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
     }
 
     #nav.open .menu {
