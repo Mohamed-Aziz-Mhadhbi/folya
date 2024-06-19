@@ -151,6 +151,7 @@ body {
     background-color: var(--color-blue);
     border-radius: 3px;
     letter-spacing: 3px;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -178,16 +179,28 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .menu {
         display: none;
         flex-direction: column;
         width: 100%;
+        text-align: center;
+        background-color: var(--color-white);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 99;
     }
 
     .menu li {
         float: none;
-        margin-left: 0;
-        margin-bottom: 20px;
+        margin: 10px 0;
     }
 
     #openmenu {
@@ -196,17 +209,10 @@ body {
 
     #closemenu {
         display: none;
-        float: right;
-        margin-bottom: 30px;
     }
 
     .fixedmenu .btn {
         display: none;
-    }
-
-    .wrapper-bottom-header .appointment,
-    .wrapper-top-header {
-        display: inline-block;
     }
 
     #nav.open .menu {
@@ -219,6 +225,24 @@ body {
 
     #nav.open #openmenu {
         display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .menu {
+        display: flex !important;
+    }
+
+    #openmenu {
+        display: none;
+    }
+
+    #closemenu {
+        display: none;
+    }
+
+    .fixedmenu .btn {
+        display: inline-block;
     }
 }
 
