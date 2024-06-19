@@ -1,6 +1,13 @@
+import { useState } from 'react';
 import { prefix } from '@/prefix';
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <header>
             <div className="wrapper-bottom-header fixedmenu">
@@ -8,8 +15,8 @@ const Navbar = () => {
                     <a id="logo" href="#home">
                         <img src={`${prefix}/image/logo.png`} alt="Logo" className="logo" />
                     </a>
-                    <nav id="nav">
-                        <a id="closemenu" className="btn" href="#">
+                    <nav id="nav" className={menuOpen ? 'open' : ''}>
+                        <a id="closemenu" className="btn" href="#" onClick={toggleMenu}>
                             <i className="fa-solid fa-xmark" />
                         </a>
                         <ul className="menu flex-row">
@@ -39,12 +46,11 @@ const Navbar = () => {
                     <a className="btn appointment" href="">
                         Démo
                     </a>
-                    <a id="openmenu" className="btn" href="#">
+                    <a id="openmenu" className="btn" href="#" onClick={toggleMenu}>
                         <i className="fa-solid fa-bars" />
                     </a>
                 </div>
             </div>
-
         </header>
     );
 }
