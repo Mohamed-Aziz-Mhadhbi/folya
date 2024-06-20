@@ -233,13 +233,8 @@ nav {
         padding: 10px;
         font-size: 12px;
         margin: 5px 0;
-        width: 40%;
+        width: 100%;
         text-align: center;
-		/* padding: 15px 30px; */
-	    color: var(--color-white);
-	    text-transform: uppercase;
-	    border-radius: 3px;
-	    letter-spacing: 3px;
     }
 
     #nav.open .menu {
@@ -272,7 +267,6 @@ nav {
         display: inline-block;
     }
 }
-
 
 a {
 	display: inline-block;
