@@ -43,7 +43,7 @@ const Navbar = () => {
                         </ul>
                     </nav>
                     <div className="buttons">
-                        <a className="btn" href="#">Démo</a>
+                        <a className="btn appointment" href="#">Démo</a>
                         <a id="openmenu" className="btn" href="#" onClick={toggleMenu}>
                             <i className="fa-solid fa-bars" />
                         </a>
