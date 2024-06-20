@@ -229,10 +229,20 @@ nav {
         display: none;
     }
 
-    .btn {
+    .buttons {
+        display: none;
+    }
+
+    .menu-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-buttons .btn {
         padding: 10px;
-        font-size: 12px;
-        margin: 5px 0;
+        font-size: 14px;
+        margin: 10px 0;
         width: 100%;
         text-align: center;
     }
@@ -263,10 +273,15 @@ nav {
         display: none;
     }
 
-    .fixedmenu .btn {
-        display: inline-block;
+    .buttons {
+        display: flex;
+    }
+
+    .menu-buttons {
+        display: none;
     }
 }
+
 
 a {
 	display: inline-block;
