@@ -5,12 +5,12 @@ const Feature = () => {
         <section id="aboutus" className="ptb">
             <div className="wrapper-feature container">
                 <div className="single-feature">
-                    <img src={`${prefix}/image/feature-1.png`} alt="Digitalisation de votre travail" />
+                    <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
                     <p>Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.</p>
                 </div>
                 <div className="single-feature">
-                    <img src={`${prefix}/image/feature-2.png`} alt="Organisation optimisée" />
+                    <img src={`${prefix}/image/temps.png`} alt="Organisation optimisée" />
                     <h3>Organisation optimisée et gain du temps</h3>
                     <p>Gérez tous les aspects de votre pratique à partir d'une seule plateforme, accessible d'un simple clic, où que vous soyez et à tout moment.</p>
                 </div>
