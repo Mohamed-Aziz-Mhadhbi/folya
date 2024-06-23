@@ -44,13 +44,13 @@ const Service = () => {
                 </article>
 
                 <article className="align-center">
-                    <img src={`${prefix}/image/service-5.png`} alt="" />
+                    <img src={`${prefix}/image/facturation.png`} alt="" />
                     <h3>Facturation des actes</h3>
                     <p>
                         Automatisez la création, la consultation et l'envoi des factures, suivez les paiements en temps réel et obtenez des rapports détaillés sur vos revenus.
                     </p>
                 </article>
-                
+
                 <article className="align-center">
                     <img src={`${prefix}/image/dossiersPatients.png`} alt="" />
                     <h3>Dossier patients paramédical standardisé et complet</h3>
