@@ -15,12 +15,12 @@ const Feature = () => {
                     <p>Gérez tous les aspects de votre pratique à partir d'une seule plateforme, accessible d'un simple clic, où que vous soyez et à tout moment.</p>
                 </div>
                 <div className="single-feature">
-                    <img src={`${prefix}/image/feature-3.png`} alt="Amélioration de la gestion des données" />
+                    <img src={`${prefix}/image/gestionDonnees.png`} alt="Amélioration de la gestion des données" />
                     <h3>Amélioration de la gestion des données patient</h3>
                     <p>Saisissez des informations importantes en temps réel, améliorez la coordination des données des patients et réduisez les risques d'erreurs médicales.</p>
                 </div>
                 <div className="single-feature">
-                    <img src={`${prefix}/image/feature-4.png`} alt="Dossiers patients centralisés" />
+                    <img src={`${prefix}/image/dossiersPatients.png`} alt="Dossiers patients centralisés" />
                     <h3>Dossiers patients centralisés et sécurisés</h3>
                     <p>Accédez aux dossiers patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité.</p>
                 </div>
