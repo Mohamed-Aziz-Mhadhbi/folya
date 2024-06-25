@@ -18,11 +18,11 @@ TABLE OF CONTENTS
 
 */
 
-@import 'reset.css';
-@import 'all.min.css';
-@import 'owl.carousel.min.css';
-@import 'owl.theme.default.min.css';
-@import 'responsive.css';
+@import '/reset.css';
+@import '/all.min.css';
+@import '/owl.carousel.min.css';
+@import '/owl.theme.default.min.css';
+@import '/responsive.css';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
 
 
