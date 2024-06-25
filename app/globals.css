@@ -98,6 +98,101 @@ body {
     color: var(--color-light-gray);
 }
 
+
+/* Base styles */
+.wrapper-bottom-header {
+    background-color: #333; /* Example background color */
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.buttons {
+    display: none; /* Hide buttons initially for small screens */
+}
+
+.buttons a {
+    margin-left: 10px;
+}
+
+.menu-buttons {
+    display: none; /* Hide menu buttons initially for small screens */
+}
+
+/* Navigation Menu */
+nav {
+    position: absolute;
+    top: 100%; /* Position below the header */
+    left: 0;
+    width: 100%;
+    background-color: #444; /* Example menu background color */
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+nav.open {
+    transform: translateY(0);
+    z-index: 1;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+.menu li:last-child {
+    margin-bottom: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: #fff; /* Example menu link color */
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #555; /* Example hover background color */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-buttons {
+        display: block;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-top: 20px; /* Space below logo */
+    }
+
+    nav {
+        padding-top: 60px; /* Space for fixed header */
+    }
+}
+
+
 /* General Styles */
 .wrapper-bottom-header {
     width: 100%;
