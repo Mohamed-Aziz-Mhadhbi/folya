@@ -9,15 +9,6 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
 
-    const handleNavLinkClick = (e:any, targetId:any) => {
-        e.preventDefault();
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth' });
-            toggleMenu(); // Close the menu after navigation on mobile
-        }
-    };
-
     return (
         <header>
             <div className="wrapper-bottom-header fixedmenu">
@@ -62,14 +53,6 @@ const Navbar = () => {
                             </div>
                         </ul>
                     </nav>
-                    <div className="buttons">
-                        <a className="btn" href="#">Contact</a>
-                        <a className="btn" href="#">Connexion</a>
-                        <a className="btn" href="#">Devis</a>
-                        <a id="openmenu" className="btn" href="#" onClick={toggleMenu}>
-                            <i className="fa-solid fa-bars" />
-                        </a>
-                    </div>
                 </div>
             </div>
         </header>
