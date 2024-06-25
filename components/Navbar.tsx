@@ -31,27 +31,27 @@ const Navbar = () => {
                         </a>
                         <ul className="menu">
                             <li>
-                                <a href="#acceuil" onClick={(e) => handleNavLinkClick(e, 'acceuil')}>
+                                <a href="#acceuil" >
                                     ACCEUIL
                                 </a>
                             </li>
                             <li>
-                                <a href="#a-propos" onClick={(e) => handleNavLinkClick(e, 'a-propos')}>
+                                <a href="#a-propos" >
                                     A PROPOS
                                 </a>
                             </li>
                             <li>
-                                <a href="#avantages" onClick={(e) => handleNavLinkClick(e, 'avantages')}>
+                                <a href="#avantages" >
                                     AVANTAGES
                                 </a>
                             </li>
                             <li>
-                                <a href="#fonctionalites" onClick={(e) => handleNavLinkClick(e, 'fonctionalites')}>
+                                <a href="#fonctionalites" >
                                     FONCTIONALITES
                                 </a>
                             </li>
                             <li>
-                                <a href="#faq" onClick={(e) => handleNavLinkClick(e, 'faq')}>
+                                <a href="#faq" >
                                     FAQ
                                 </a>
                             </li>
