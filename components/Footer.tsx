@@ -2,8 +2,7 @@ import { prefix } from '@/prefix';
 
 const Footer = () => {
     return (
-        <footer>
-            
+        <footer> 
             <div id="contacts" className="ptb">
                 <div className="container">
                     <div className="row wrapper-contact flex-row">

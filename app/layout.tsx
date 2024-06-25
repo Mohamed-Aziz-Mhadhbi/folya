@@ -23,6 +23,8 @@ export default function RootLayout({
         <title>
           Folya
         </title>
+        <meta name="description" content="Folya - Optimize your workflow and enhance productivity" />
+        <meta name="keywords" content="Folya, healthcare, management, productivity" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         {/* Always force latest IE rendering engine */}
