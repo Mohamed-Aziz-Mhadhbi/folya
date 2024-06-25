@@ -9,6 +9,15 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
 
+    const handleNavLinkClick = (e:any, targetId:any) => {
+        e.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+            toggleMenu(); // Close the menu after navigation on mobile
+        }
+    };
+
     return (
         <header>
             <div className="wrapper-bottom-header fixedmenu">
@@ -22,29 +31,41 @@ const Navbar = () => {
                         </a>
                         <ul className="menu">
                             <li>
-                                <a href="#Acceuil">ACCEUIL</a>
+                                <a href="#acceuil" onClick={(e) => handleNavLinkClick(e, 'acceuil')}>
+                                    ACCEUIL
+                                </a>
                             </li>
                             <li>
-                                <a href="#A-propos">A PROPOS</a>
+                                <a href="#a-propos" onClick={(e) => handleNavLinkClick(e, 'a-propos')}>
+                                    A PROPOS
+                                </a>
                             </li>
                             <li>
-                                <a href="#Avantages">AVANTAGES</a>
+                                <a href="#avantages" onClick={(e) => handleNavLinkClick(e, 'avantages')}>
+                                    AVANTAGES
+                                </a>
                             </li>
                             <li>
-                                <a href="#Fonctionalites">FONCTIONALITES</a>
+                                <a href="#fonctionalites" onClick={(e) => handleNavLinkClick(e, 'fonctionalites')}>
+                                    FONCTIONALITES
+                                </a>
                             </li>
                             <li>
-                                <a href="#faq">FAQ</a>
+                                <a href="#faq" onClick={(e) => handleNavLinkClick(e, 'faq')}>
+                                    FAQ
+                                </a>
                             </li>
                             <div className="menu-buttons">
                                 <a className="btn" href="#booking">Contact</a>
                                 <a className="btn" href="#">Connexion</a>
+                                <a className="btn" href="#">Devis</a>
                             </div>
                         </ul>
                     </nav>
                     <div className="buttons">
                         <a className="btn" href="#">Contact</a>
                         <a className="btn" href="#">Connexion</a>
+                        <a className="btn" href="#">Devis</a>
                         <a id="openmenu" className="btn" href="#" onClick={toggleMenu}>
                             <i className="fa-solid fa-bars" />
                         </a>
