@@ -3,7 +3,7 @@ import { prefix } from '@/prefix';
 const Feature = () => {
     return (
         <section id="aboutus" className="ptb">
-            <div className="wrapper-feature">
+            <div className="wrapper-feature container flex-row">
                 <div className="single-feature">
                     <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
                     <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
