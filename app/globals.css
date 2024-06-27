@@ -1164,6 +1164,10 @@ h3 {
 }
 
 @media all and (max-width: 1000px) {
+	.menu-buttons {
+        display: none;
+    }
+	
     #nav {
         position: fixed;
         top: 0;

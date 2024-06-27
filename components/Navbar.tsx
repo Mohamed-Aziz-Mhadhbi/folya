@@ -17,42 +17,45 @@ const Navbar = () => {
                         <img src={`${prefix}/image/logo.png`} alt="Logo" className="logo" />
                     </a>
                     <nav id="nav" className={menuOpen ? 'open' : ''}>
-                        <a id="closemenu" className="btn" href="#" onClick={toggleMenu}>
+                        <a id="closemenu" className="btn close-btn" href="#" onClick={toggleMenu}>
                             <i className="fa-solid fa-xmark" />
                         </a>
                         <ul className="menu">
                             <li>
-                                <a href="#acceuil" >
+                                <a href="#acceuil">
                                     ACCEUIL
                                 </a>
                             </li>
                             <li>
-                                <a href="#a-propos" >
+                                <a href="#a-propos">
                                     A PROPOS
                                 </a>
                             </li>
                             <li>
-                                <a href="#avantages" >
+                                <a href="#avantages">
                                     AVANTAGES
                                 </a>
                             </li>
                             <li>
-                                <a href="#fonctionalites" >
+                                <a href="#fonctionalites">
                                     FONCTIONALITES
                                 </a>
                             </li>
                             <li>
-                                <a href="#faq" >
+                                <a href="#faq">
                                     FAQ
                                 </a>
                             </li>
-                            <div className="menu-buttons">
-                                <a className="btn" href="#booking">Contact</a>
-                                <a className="btn" href="#">Connexion</a>
-                                <a className="btn" href="#">Devis</a>
-                            </div>
                         </ul>
+                        <div className="menu-buttons">
+                            <a className="btn" href="#booking">Contact</a>
+                            <a className="btn" href="#">Connexion</a>
+                            <a className="btn" href="#">Devis</a>
+                        </div>
                     </nav>
+                    <a className="btn menu-toggle-btn" href="#" onClick={toggleMenu}>
+                        <i className="fa-solid fa-bars" />
+                    </a>
                 </div>
             </div>
         </header>
