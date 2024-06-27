@@ -2,7 +2,7 @@ import { prefix } from '@/prefix';
 
 const AboutUs = () => {
     return (
-        <section id="aboutus" className="ptb">
+        <section id="aboutus" className="ptb flex-row">
             <div className="wrapper-aboutus container flex-row">
                 <div className="aboutus-img">
                     <img src={`${prefix}/image/aboutus.png`} alt="" />
