@@ -204,7 +204,14 @@ nav {
     }
 
     #closemenu {
-        display: none;
+        /* display: none; */
+		display: block;
+        color: #fff;
+        font-size: 2rem;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
     }
 
     .buttons {
