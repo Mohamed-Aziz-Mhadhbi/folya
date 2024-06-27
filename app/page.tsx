@@ -27,6 +27,5 @@ export default function Home() {
                 <i className="fa-solid fa-arrow-up-long" />
             </a>
         </>
-
     );
 }

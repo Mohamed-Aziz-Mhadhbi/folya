@@ -103,6 +103,7 @@ body {
     width: 100%;
     background-color: var(--color-navy);
     position: fixed;
+	justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
