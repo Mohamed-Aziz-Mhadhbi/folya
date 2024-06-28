@@ -46,12 +46,12 @@ const Navbar = () => {
                                     FAQ
                                 </a>
                             </li>
-                        </ul>
-                        <div className="menu-buttons">
+                            <div className="menu-buttons">
                             <a className="btn" href="#booking">Contact</a>
                             <a className="btn" href="#">Connexion</a>
                             <a className="btn" href="#">Devis</a>
                         </div>
+                        </ul>
                     </nav>
                     <a className="btn menu-toggle-btn" href="#" onClick={toggleMenu}>
                         <i className="fa-solid fa-bars" />
