@@ -527,10 +527,14 @@ h3 {
 }
 
 .header-top {
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    -webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .header-top a {
@@ -569,7 +573,9 @@ h3 {
 }
 
 .wrapper-header-content {
-    align-items: center;
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .header-content {

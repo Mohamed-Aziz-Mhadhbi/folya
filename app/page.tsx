@@ -24,7 +24,7 @@ export default function Home() {
                 </main>
             </div>
             <a id="scroll-top" className="btn" href="#" >
-                <i className="fa-solid fa-arrow-up-long" />
+                <i className="fa-solid fa-arrow-up-long"></i>
             </a>
         </>
     );
