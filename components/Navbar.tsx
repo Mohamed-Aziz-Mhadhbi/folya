@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { prefix } from '@/prefix';
 
 const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
