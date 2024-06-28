@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { prefix } from '@/prefix';
 
 const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
@@ -36,21 +36,23 @@ const Navbar = () => {
                                     AVANTAGES
                                 </a>
                             </li>
-                            <li className="menu-item-hidden">
+                            <li >
                                 <a href="#fonctionalites" onClick={toggleMenu}>
                                     FONCTIONALITES
                                 </a>
                             </li>
-                            <li className="menu-item-hidden">
+                            <li >
                                 <a href="#faq" onClick={toggleMenu}>
                                     FAQ
                                 </a>
                             </li>
+                            <li>
                             <div className="menu-buttons">
                                 <a className="btn" href="#booking">Contact</a>
                                 <a className="btn" href="#">Connexion</a>
                                 <a className="btn" href="#">Devis</a>
                             </div>
+                            </li>
                         </ul>
                     </nav>
                     <a className="btn menu-toggle-btn" href="#" onClick={toggleMenu}>
