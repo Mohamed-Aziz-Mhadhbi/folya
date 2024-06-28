@@ -62,22 +62,19 @@ const Navbar = () => {
                         </a>
                         <ul className="menu">
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home">ACCEUIL</a>
                             </li>
                             <li>
-                                <a href="#aboutus">About Us</a>
+                                <a href="#aboutus">A PROPOS</a>
                             </li>
                             <li>
-                                <a href="#services">Services</a>
+                                <a href="#services">AVANTAGES</a>
                             </li>
                             <li>
-                                <a href="#team">Team</a>
+                                <a href="#team">FONCTIONALITES</a>
                             </li>
                             <li>
                                 <a href="#faq">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="#pricing">Pricing</a>
                             </li>
                             <li>
                                 <a href="#contacts">Contact</a>
