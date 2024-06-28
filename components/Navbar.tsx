@@ -36,21 +36,21 @@ const Navbar = () => {
                                     AVANTAGES
                                 </a>
                             </li>
-                            <li>
+                            <li className="menu-item-hidden">
                                 <a href="#fonctionalites" onClick={toggleMenu}>
                                     FONCTIONALITES
                                 </a>
                             </li>
-                            <li>
+                            <li className="menu-item-hidden">
                                 <a href="#faq" onClick={toggleMenu}>
                                     FAQ
                                 </a>
                             </li>
                             <div className="menu-buttons">
-                            <a className="btn" href="#booking">Contact</a>
-                            <a className="btn" href="#">Connexion</a>
-                            <a className="btn" href="#">Devis</a>
-                        </div>
+                                <a className="btn" href="#booking">Contact</a>
+                                <a className="btn" href="#">Connexion</a>
+                                <a className="btn" href="#">Devis</a>
+                            </div>
                         </ul>
                     </nav>
                     <a className="btn menu-toggle-btn" href="#" onClick={toggleMenu}>

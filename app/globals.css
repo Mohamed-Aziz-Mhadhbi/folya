@@ -231,6 +231,10 @@ nav {
     #nav.open #openmenu {
         display: none;
     }
+
+    .menu-item-hidden {
+        display: none;
+    }
 }
 
 @media (min-width: 769px) {
@@ -251,6 +255,10 @@ nav {
     }
 
     .menu-buttons {
+        display: flex;
+    }
+
+    .menu-item-hidden {
         display: none;
     }
 }
