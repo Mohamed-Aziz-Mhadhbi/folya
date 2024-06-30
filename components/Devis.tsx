@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { useToast } from "@chakra-ui/react";
-import { sendContactForm } from "../lib/api";
+import { useState } from 'react';
+import { useToast } from '@chakra-ui/react';
+import { sendContactForm } from '../lib/api';
 
 // Define a type for the form values
 interface FormValues {
@@ -20,8 +20,8 @@ interface State {
     validationErrors: Partial<FormValues>;
 }
 
-const initValues: FormValues = { name: "", lastname: "", phone: "", email: "", ville: "", sp: "", message: "" };
-const initState: State = { isLoading: false, error: "", values: initValues, validationErrors: {} };
+const initValues: FormValues = { name: '', lastname: '', phone: '', email: '', ville: '', sp: '', message: '' };
+const initState: State = { isLoading: false, error: '', values: initValues, validationErrors: {} };
 
 const Devis = () => {
     const toast = useToast();
@@ -49,17 +49,17 @@ const Devis = () => {
 
     const validate = () => {
         const errors: Partial<FormValues> = {};
-        if (!values.name) errors.name = "Prénom est requis";
-        if (!values.lastname) errors.lastname = "Nom est requis";
-        if (!values.phone) errors.phone = "Numéro de téléphone est requis";
+        if (!values.name) errors.name = 'Prénom est requis';
+        if (!values.lastname) errors.lastname = 'Nom est requis';
+        if (!values.phone) errors.phone = 'Numéro de téléphone est requis';
         if (!values.email) {
-            errors.email = "Adresse email est requise";
+            errors.email = 'Adresse email est requise';
         } else if (!/\S+@\S+\.\S+/.test(values.email)) {
-            errors.email = "Adresse email invalide";
+            errors.email = 'Adresse email invalide';
         }
         if (!values.ville) errors.ville = "Ville d'exercice est requise";
-        if (!values.sp) errors.sp = "Spécialité paramédicale est requise";
-        if (!values.message) errors.message = "Message est requis";
+        if (!values.sp) errors.sp = 'Spécialité paramédicale est requise';
+        if (!values.message) errors.message = 'Message est requis';
         return errors;
     };
 
@@ -83,10 +83,10 @@ const Devis = () => {
             setTouched({});
             setState(initState);
             toast({
-                title: "Message envoyé.",
-                status: "success",
+                title: 'Message envoyé.',
+                status: 'success',
                 duration: 2000,
-                position: "top",
+                position: 'top',
             });
         } catch (error: any) {
             setState((prev) => ({
@@ -100,11 +100,10 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
-            {/* <span className="suptitle">Devis</span> */}
+                {/* <span className="suptitle">Devis</span> */}
                 <h2>Devis</h2>
             </div>
             <div className="container wrapper-booking flex-row">
-            
                 <div className="booking-form">
                     <form method="POST" onSubmit={onSubmit}>
                         <div className="wrapper-input flex-row">
@@ -216,7 +215,8 @@ const Devis = () => {
                 <div className="booking-working-hours">
                     <h3>Nous sommes heureux de vous proposer un devis gratuit pour nos services.</h3>
                     <p>
-                        Afin de mieux répondre à vos besoins, veuillez remplir le formulaire ci-dessous. Plus vous nous fournirez d'informations, plus nous serons en mesure de vous proposer un devis précis et adapté à vos besoins.
+                        Afin de mieux répondre à vos besoins, veuillez remplir le formulaire ci-dessous. Plus vous nous fournirez
+                        d'informations, plus nous serons en mesure de vous proposer un devis précis et adapté à vos besoins.
                     </p>
                 </div>
             </div>

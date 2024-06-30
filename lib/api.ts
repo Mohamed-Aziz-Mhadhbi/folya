@@ -1,12 +1,15 @@
-export const sendContactForm = async (data:any) =>
-    fetch("/api/contact", {
-        method: "POST",
-        body: JSON.stringify(data),
+export const sendContactForm = async (data: any) => {
+    const response = await fetch('/api/sendEmail', {
+        method: 'POST',
         headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json"
+            'Content-Type': 'application/json',
         },
-    }).then((res) => {
-        if (!res.ok) throw new Error("Failed to send message");
-        return res.json();
+        body: JSON.stringify(data),
     });
+
+    if (!response.ok) {
+        throw new Error('Failed to send email');
+    }
+
+    return response.json();
+};
