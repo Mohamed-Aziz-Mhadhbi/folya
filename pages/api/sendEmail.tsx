@@ -7,7 +7,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     const { name, lastname, phone, email, ville, sp, message } = req.body;
 
     const transporter = nodemailer.createTransport({
-        service: 'gmail', // Replace with your email service
+        service: 'gmail', 
         auth: {
             user: process.env.EMAIL_USER,
             pass: process.env.EMAIL_PASS,
