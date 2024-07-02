@@ -39,6 +39,7 @@ const Navbar = () => {
                     <a className="btn appointment" href="#booking">
                         Appointment
                     </a>
+                    <a href="#contacts">Contact</a>
                     <a id="openmenu" className="btn" href="#">
                         <i className="fa-solid fa-bars" />
                     </a>
