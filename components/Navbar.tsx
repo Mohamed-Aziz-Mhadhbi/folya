@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
-                    <img src={`${prefix}/image/logo.png`} alt="Logo" className="logo" />
+                        <img src={`${prefix}/image/logo.png`} alt="Logo" className="logo" />
                     </a>
                     <nav id="nav">
                         <a id="closemenu" className="btn" href="#">
@@ -33,11 +33,14 @@ const Navbar = () => {
                         </ul>
                     </nav>
                     {/*#nav*/}
-                    <a className="btn appointment" href="#contacts">Contact</a>
+                    <nav>
+                    <a className="btn appointment" href="#contacts">
+                        Contact
+                    </a>
                     <a className="btn appointment" href="#booking">
                         Appointment
                     </a>
-                    
+                    </nav>
                     <a id="openmenu" className="btn" href="#">
                         <i className="fa-solid fa-bars" />
                     </a>
