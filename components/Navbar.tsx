@@ -30,16 +30,14 @@ const Navbar = () => {
                             <li>
                                 <a href="#faq">FAQ</a>
                             </li>
-                            <li>
-                                <a href="#contacts">Contact</a>
-                            </li>
                         </ul>
                     </nav>
                     {/*#nav*/}
+                    <a className="btn appointment" href="#contacts">Contact</a>
                     <a className="btn appointment" href="#booking">
                         Appointment
                     </a>
-                    <a href="#contacts">Contact</a>
+                    
                     <a id="openmenu" className="btn" href="#">
                         <i className="fa-solid fa-bars" />
                     </a>
