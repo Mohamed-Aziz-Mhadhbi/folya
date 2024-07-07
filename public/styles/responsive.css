@@ -58,8 +58,9 @@
 	}
 
 	#aboutus {
-		padding-top: 0px;
-		padding-bottom: 0px;
+		position: relative;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 
 	.single-feature {
