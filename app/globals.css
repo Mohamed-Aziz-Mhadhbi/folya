@@ -440,8 +440,8 @@ h3 {
 }
 
 .ptb {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -1343,6 +1343,7 @@ h3 {
 
     #aboutus {
         padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .single-feature {
