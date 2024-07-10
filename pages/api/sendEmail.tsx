@@ -1,40 +1,34 @@
-// pages/api/sendEmail.ts
+// pages/api/send-email.ts
 
 import type { NextApiRequest, NextApiResponse } from 'next';
-import nodemailer from 'nodemailer';
+import sendgrid from '@sendgrid/mail';
 
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
-    const { name, lastname, phone, email, ville, sp, message } = req.body;
+sendgrid.setApiKey(process.env.SENDGRID_API_KEY || '');
 
-    const transporter = nodemailer.createTransport({
-        service: 'gmail', 
-        auth: {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS,
-        },
-    });
-
-    const mailOptions = {
-        from: process.env.EMAIL_USER,
-        to: email,
-        subject: 'New Message from Devis Form',
-        text: `
-      Name: ${name} ${lastname}
-      Phone: ${phone}
-      Email: ${email}
-      City: ${ville}
-      Specialty: ${sp}
-      Message: ${message}
-    `,
-    };
-
+const sendEmail = async (req: NextApiRequest, res: NextApiResponse) => {
     try {
-        await transporter.sendMail(mailOptions);
+        const { name, lastname, phone, email, ville, sp, message } = req.body;
+
+        await sendgrid.send({
+            to: 'hamazizou1@gmail.com', // Your email address
+            from: 'hamazizou1@gmail.com', // Your verified sender email address
+            subject: `New contact form submission from ${name} ${lastname}`,
+            html: `
+                <p><strong>Name:</strong> ${name} ${lastname}</p>
+                <p><strong>Phone:</strong> ${phone}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Ville:</strong> ${ville}</p>
+                <p><strong>Spécialité paramédicale:</strong> ${sp}</p>
+                <p><strong>Message:</strong></p>
+                <p>${message}</p>
+            `,
+        });
+
         res.status(200).json({ success: true });
     } catch (error) {
-        console.error('Error sending email:', error);
-        res.status(500).json({ success: false, error: 'Failed to send email' });
+        console.error(error);
+        res.status(500).json({ error: 'Error sending email' });
     }
 };
 
-export default handler;
+export default sendEmail;

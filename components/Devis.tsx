@@ -1,3 +1,5 @@
+// components/Devis.tsx
+
 import { useState } from 'react';
 import { useToast } from '@chakra-ui/react';
 import { sendContactForm } from '../lib/api';
