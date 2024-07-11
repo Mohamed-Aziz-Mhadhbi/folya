@@ -105,7 +105,15 @@ jQuery(document).ready(function () {
       }, 1500);
    });
 
-   $("#logo,  .btn.appointment").on("click", function (event) {
+   $("#logo").on("click", function (event) {
+      event.preventDefault();
+      $('body,html').animate({
+         scrollTop: 0
+      }, 1500);
+   });
+
+
+   $(".btn.appointment").on("click", function (event) {
       event.preventDefault();
       var id = $(this).attr('href'),
          top = $(id).offset().top;
