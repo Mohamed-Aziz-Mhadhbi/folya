@@ -102,7 +102,6 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
-                <br></br>
                 <span className="suptitle">Devis</span>
                 <h2>Devis</h2>
             </div>
