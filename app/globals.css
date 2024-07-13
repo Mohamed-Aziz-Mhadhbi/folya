@@ -601,6 +601,7 @@ h3 {
 	max-width: 1400px;
 	position: absolute;
 	top: 0;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
