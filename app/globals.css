@@ -600,7 +600,7 @@ h3 {
 .wrapper-feature {
 	max-width: 1400px;
 	position: absolute;
-    display: grid;
+	top: 0;
     grid-template-columns: repeat(3, 1fr);
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
