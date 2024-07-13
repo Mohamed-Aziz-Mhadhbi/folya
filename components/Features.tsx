@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { prefix } from '@/prefix';
 
 const Feature = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(null);
 
     const handleAccordionClick = (index:any) => {
-        setActiveIndex(index === activeIndex ? -1 : index);
+        setActiveIndex(index === activeIndex ? null : index);
     };
 
     const features = [
@@ -49,7 +49,7 @@ const Feature = () => {
 
     return (
         <section id="aboutus" className="ptb">
-            <div className="wrapper-feature container flex-row">
+            <div className="wrapper-feature container grid">
                 {features.map((feature, index) => (
                     <div key={index} className="single-feature">
                         <img src={feature.img} alt={feature.alt} />

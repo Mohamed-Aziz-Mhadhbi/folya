@@ -98,6 +98,51 @@ body {
     color: var(--color-light-gray);
 }
 
+
+.wrapper-feature {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.single-feature {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.single-feature img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.single-feature h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-feature p {
+    display: none;
+    margin-top: 10px;
+}
+
+.single-feature p.active {
+    display: block;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+    margin-left: 10px;
+}
+
+
+
 /* Additional Styles for Responsive Navbar */
 
 .wrapper-bottom-header.fixedmenu {
