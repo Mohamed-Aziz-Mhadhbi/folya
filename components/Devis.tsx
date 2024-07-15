@@ -109,104 +109,104 @@ const Devis = () => {
                 <div className="booking-form">
                     <form method="POST" onSubmit={onSubmit}>
                         <div className="wrapper-input flex-row">
-                            
-                                <input
-                                    type="text"
-                                    name="name"
-                                    placeholder="Prénom"
-                                    value={values.name}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.name && validationErrors.name && (
-                                    <p className="error">{validationErrors.name}</p>
-                                )}
-                            
-                            
-                                <input
-                                    type="text"
-                                    name="lastname"
-                                    placeholder="Nom"
-                                    value={values.lastname}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.lastname && validationErrors.lastname && (
-                                    <p className="error">{validationErrors.lastname}</p>
-                                )}
-                            
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Prénom"
+                                value={values.name}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.name && validationErrors.name && (
+                                <p className="error">{validationErrors.name}</p>
+                            )}
+
+
+                            <input
+                                type="text"
+                                name="lastname"
+                                placeholder="Nom"
+                                value={values.lastname}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.lastname && validationErrors.lastname && (
+                                <p className="error">{validationErrors.lastname}</p>
+                            )}
+
                         </div>
                         <div className="wrapper-input flex-row">
-                            <div>
-                                <input
-                                    type="text"
-                                    name="phone"
-                                    placeholder="Numéro de téléphone"
-                                    value={values.phone}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.phone && validationErrors.phone && (
-                                    <p className="error">{validationErrors.phone}</p>
-                                )}
-                            </div>
-                            <div>
-                                <input
-                                    type="text"
-                                    name="email"
-                                    placeholder="Adresse email"
-                                    value={values.email}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.email && validationErrors.email && (
-                                    <p className="error">{validationErrors.email}</p>
-                                )}
-                            </div>
+
+                            <input
+                                type="text"
+                                name="phone"
+                                placeholder="Numéro de téléphone"
+                                value={values.phone}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.phone && validationErrors.phone && (
+                                <p className="error">{validationErrors.phone}</p>
+                            )}
+
+
+                            <input
+                                type="text"
+                                name="email"
+                                placeholder="Adresse email"
+                                value={values.email}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.email && validationErrors.email && (
+                                <p className="error">{validationErrors.email}</p>
+                            )}
+
                         </div>
                         <div className="wrapper-input flex-row">
-                            <div>
-                                <input
-                                    type="text"
-                                    name="ville"
-                                    placeholder="Ville d'exercice"
-                                    value={values.ville}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.ville && validationErrors.ville && (
-                                    <p className="error">{validationErrors.ville}</p>
-                                )}
-                            </div>
-                            <div>
-                                <input
-                                    type="text"
-                                    name="sp"
-                                    placeholder="Votre spécialité paramédicale"
-                                    value={values.sp}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.sp && validationErrors.sp && (
-                                    <p className="error">{validationErrors.sp}</p>
-                                )}
-                            </div>
+
+                            <input
+                                type="text"
+                                name="ville"
+                                placeholder="Ville d'exercice"
+                                value={values.ville}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.ville && validationErrors.ville && (
+                                <p className="error">{validationErrors.ville}</p>
+                            )}
+
+
+                            <input
+                                type="text"
+                                name="sp"
+                                placeholder="Votre spécialité paramédicale"
+                                value={values.sp}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.sp && validationErrors.sp && (
+                                <p className="error">{validationErrors.sp}</p>
+                            )}
+
                         </div>
                         <div className="wrapper-input flex-row">
-                            <div>
-                                <input
-                                    type="text"
-                                    name="message"
-                                    placeholder="Message"
-                                    className="large-input"
-                                    value={values.message}
-                                    onChange={handleChange}
-                                    onBlur={onBlur}
-                                />
-                                {touched.message && validationErrors.message && (
-                                    <p className="error">{validationErrors.message}</p>
-                                )}
-                            </div>
+
+                            <input
+                                type="text"
+                                name="message"
+                                placeholder="Message"
+                                className="large-input"
+                                value={values.message}
+                                onChange={handleChange}
+                                onBlur={onBlur}
+                            />
+                            {touched.message && validationErrors.message && (
+                                <p className="error">{validationErrors.message}</p>
+                            )}
+
                         </div>
                         <button className="btn" id="sendbook" type="submit" disabled={isLoading}>
                             Obtenez un devis gratuitement
