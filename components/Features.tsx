@@ -49,7 +49,7 @@ const Feature = () => {
 
     return (
         <section id="aboutus" className="ptb">
-            <div className="wrapper-service container flex-row">
+            <div className="wrapper-feature container flex-row">
             <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
                 {features.map((feature, index) => (
