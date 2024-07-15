@@ -52,8 +52,8 @@ const Feature = () => {
             <div className="wrapper-title container align-center">
             <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
-            </div>
-            <div className="wrapper-feature container flex-row">
+            {/* </div>
+            <div className="wrapper-feature container flex-row"> */}
                 {features.map((feature, index) => (
                     <div key={index} className="single-feature">
                         <img src={feature.img} alt={feature.alt} />
