@@ -52,7 +52,6 @@ const Feature = () => {
             <div className="wrapper-feature container flex-row">
             <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
-            </div>
                 {features.map((feature, index) => (
                     <div key={index} className="single-feature align-center">
                         <img src={feature.img} alt={feature.alt} />
@@ -63,6 +62,7 @@ const Feature = () => {
                         {activeIndex === index && <p>{feature.description}</p>}
                     </div>
                 ))}
+                </div>
         </section>
     );
 }
