@@ -102,14 +102,13 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
-                <span className="suptitle">Devis   </span>
-                <h2>Devis    </h2>
+                <span className="suptitle">Devis dfqsdfqdsf</span>
+                <h2>Devis dsfqdsfqdsfqdsf</h2>
             </div>
             <div className="container wrapper-booking flex-row">
                 <div className="booking-form">
                     <form method="POST" onSubmit={onSubmit}>
                         <div className="wrapper-input flex-row">
-
                             <input
                                 type="text"
                                 name="name"
@@ -121,8 +120,6 @@ const Devis = () => {
                             {touched.name && validationErrors.name && (
                                 <p className="error">{validationErrors.name}</p>
                             )}
-
-
                             <input
                                 type="text"
                                 name="lastname"
@@ -134,10 +131,8 @@ const Devis = () => {
                             {touched.lastname && validationErrors.lastname && (
                                 <p className="error">{validationErrors.lastname}</p>
                             )}
-
                         </div>
                         <div className="wrapper-input flex-row">
-
                             <input
                                 type="text"
                                 name="phone"
@@ -149,8 +144,6 @@ const Devis = () => {
                             {touched.phone && validationErrors.phone && (
                                 <p className="error">{validationErrors.phone}</p>
                             )}
-
-
                             <input
                                 type="text"
                                 name="email"
@@ -162,10 +155,8 @@ const Devis = () => {
                             {touched.email && validationErrors.email && (
                                 <p className="error">{validationErrors.email}</p>
                             )}
-
                         </div>
                         <div className="wrapper-input flex-row">
-
                             <input
                                 type="text"
                                 name="ville"
@@ -177,8 +168,6 @@ const Devis = () => {
                             {touched.ville && validationErrors.ville && (
                                 <p className="error">{validationErrors.ville}</p>
                             )}
-
-
                             <input
                                 type="text"
                                 name="sp"
@@ -190,10 +179,8 @@ const Devis = () => {
                             {touched.sp && validationErrors.sp && (
                                 <p className="error">{validationErrors.sp}</p>
                             )}
-
                         </div>
                         <div className="wrapper-input flex-row">
-
                             <input
                                 type="text"
                                 name="message"
@@ -206,7 +193,6 @@ const Devis = () => {
                             {touched.message && validationErrors.message && (
                                 <p className="error">{validationErrors.message}</p>
                             )}
-
                         </div>
                         <button className="btn" id="sendbook" type="submit" disabled={isLoading}>
                             Obtenez un devis gratuitement
