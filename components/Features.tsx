@@ -49,11 +49,11 @@ const Feature = () => {
 
     return (
         <section id="aboutus" className="ptb">
-            <div className="wrapper-feature container flex-row">
+            <div className="wrapper-service container flex-row">
             <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
                 {features.map((feature, index) => (
-                    <div key={index} className="single-feature align-center">
+                    <div key={index} className="single-feature">
                         <img src={feature.img} alt={feature.alt} />
                         <h3 onClick={() => handleAccordionClick(index)}>
                             {feature.title}
