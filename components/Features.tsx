@@ -50,6 +50,8 @@ const Feature = () => {
     return (
         <section id="aboutus" className="ptb">
             <div className="wrapper-feature container flex-row">
+            <span className="suptitle">Avantages</span>
+                <h2>Avantages</h2>
                 {features.map((feature, index) => (
                     <div key={index} className="single-feature">
                         <img src={feature.img} alt={feature.alt} />

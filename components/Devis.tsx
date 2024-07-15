@@ -102,8 +102,8 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
-                <span className="suptitle">Devis dfqsdfqdsf</span>
-                <h2>Devis dsfqdsfqdsfqdsf</h2>
+                <span className="suptitle">Devis</span>
+                <h2>Devis</h2>
             </div>
             <div className="container wrapper-booking flex-row">
                 <div className="booking-form">
