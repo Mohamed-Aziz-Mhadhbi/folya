@@ -102,14 +102,14 @@ const Devis = () => {
     return (
         <section id="booking" className="ptb">
             <div className="container">
-                <span className="suptitle">Devis</span>
-                <h2>Devis</h2>
+                <span className="suptitle">Devis   </span>
+                <h2>Devis    </h2>
             </div>
             <div className="container wrapper-booking flex-row">
                 <div className="booking-form">
                     <form method="POST" onSubmit={onSubmit}>
                         <div className="wrapper-input flex-row">
-                            <div>
+                            
                                 <input
                                     type="text"
                                     name="name"
@@ -121,8 +121,8 @@ const Devis = () => {
                                 {touched.name && validationErrors.name && (
                                     <p className="error">{validationErrors.name}</p>
                                 )}
-                            </div>
-                            <div>
+                            
+                            
                                 <input
                                     type="text"
                                     name="lastname"
@@ -134,7 +134,7 @@ const Devis = () => {
                                 {touched.lastname && validationErrors.lastname && (
                                     <p className="error">{validationErrors.lastname}</p>
                                 )}
-                            </div>
+                            
                         </div>
                         <div className="wrapper-input flex-row">
                             <div>
