@@ -34,9 +34,9 @@ export default function RootLayout({
         {/* Favicon */}
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
         {/* Custom style CSS */}
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="styles/all.min.css" />
         {/* Responsive CSS */}
-        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="styles/responsive.css" />
       </Head>
       <body>
         <Navbar />
