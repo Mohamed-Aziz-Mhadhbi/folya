@@ -21,7 +21,6 @@
 */
 
 @import '/reset.css';
-@import '/all.min.css';
 @import '/owl.carousel.min.css';
 @import '/owl.theme.default.min.css';
 @import '/responsive.css';
@@ -1409,6 +1408,3 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     margin: 0;
 }
 
-.fa-arrow-up-long:before,.fa-long-arrow-up:before {
-    content: "\f176"
-}
