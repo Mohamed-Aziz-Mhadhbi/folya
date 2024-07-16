@@ -23,8 +23,8 @@ export default function Home() {
                     <Devis />
                 </main>
             </div>
-            <a id="scroll-top" className="btn" href="#" >
-                <i className="fa-solid fa-arrow-up-long"></i>
+            <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
+                <i className="fa-solid fa-arrow-up-long" />
             </a>
         </>
     );
