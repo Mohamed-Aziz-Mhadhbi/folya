@@ -599,10 +599,11 @@ h3 {
 
 .wrapper-feature {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 50px;
     gap: 20px;
     align-items: center;
     max-width: 1400px;
