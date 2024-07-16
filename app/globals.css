@@ -1408,3 +1408,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 .hero-btn ul li {
     margin: 0;
 }
+
+.fa-arrow-up-long:before,.fa-long-arrow-up:before {
+    content: "\f176"
+}
