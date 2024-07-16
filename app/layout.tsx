@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Head from 'next/head';
 import Script from 'next/script';
 import "./globals.css";
+import '../styles/all.min.css';
 
 export const metadata: Metadata = {
   title: "Folya",
