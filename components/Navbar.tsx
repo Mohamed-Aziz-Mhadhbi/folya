@@ -37,7 +37,7 @@ const Navbar = () => {
                     <a className="btn appointment" href="#contacts">
                         Contact
                     </a>
-                    <a className="btn appointment" href="#connexion">
+                    <a className="btn appointment" href="https://www.folya.co/login">
                         Connexion
                     </a>
                     <a className="btn appointment" href="#booking">
