@@ -110,8 +110,7 @@ jQuery(document).ready(function () {
       $('body,html').animate({
          scrollTop: 0
       }, 1500);
-   });
-
+   }); 
 
    $(".btn.appointment").on("click", function (event) {
       event.preventDefault();
