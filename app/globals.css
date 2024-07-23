@@ -116,7 +116,7 @@ body {
     padding: 10px 20px;
 }
 
-#logo {
+#logo.logo{
     max-width: 128px;
     max-height: 45px;
 }
