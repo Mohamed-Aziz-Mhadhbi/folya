@@ -277,17 +277,6 @@ nav {
     z-index: 100;
 }
 
-
-
-#logo {
-    display: flex;
-    /* align-items: center; */
-}
-
-.logo {
-    max-height: 50px;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
     .bottom-header {
