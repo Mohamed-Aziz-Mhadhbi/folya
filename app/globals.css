@@ -117,7 +117,8 @@ body {
 }
 
 #logo {
-    max-width: 100%;
+    max-width: 128px;
+    max-height: 45px;
 }
 
 nav {
