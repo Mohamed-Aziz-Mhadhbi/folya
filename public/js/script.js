@@ -3,6 +3,7 @@ $(window).on("load", function () {
    $("#preload").fadeOut(1500);
 });
 
+
 jQuery(document).ready(function () {
 
    // Owl Carousel Team
@@ -32,6 +33,7 @@ jQuery(document).ready(function () {
    var titleAccordion = $('.wrapper-accordion h3');
    var contentAccordion = $('.content-accordion');
 
+
    titleAccordion.click(function () {
       var content = $(this).next(contentAccordion);
       if (content.is(':visible')) {
@@ -43,6 +45,7 @@ jQuery(document).ready(function () {
          titleAccordion.children('.fa-solid').removeClass('fa-chevron-up').addClass('fa-chevron-down');
          $(this).children('.fa-solid').removeClass('fa-chevron-down').addClass('fa-chevron-up');
       }
+
    });
 
    // OWl Carousel Testimonials
@@ -108,6 +111,7 @@ jQuery(document).ready(function () {
          scrollTop: 0
       }, 1500);
    });
+
 
    $(".btn.appointment").on("click", function (event) {
       event.preventDefault();
@@ -189,19 +193,5 @@ jQuery(document).ready(function () {
       }
    });
 
-   // Highlight active section in navbar
-   $(window).on("scroll", function() {
-      var scrollPos = $(window).scrollTop();
-      $(".menu a").each(function () {
-         var currLink = $(this);
-         var refElement = $(currLink.attr("href"));
-         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $(".menu li a").removeClass("active");
-            currLink.addClass("active");
-         } else {
-            currLink.removeClass("active");
-         }
-      });
-   });
 
 }); // ready
