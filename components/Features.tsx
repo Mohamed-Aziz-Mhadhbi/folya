@@ -48,7 +48,7 @@ const Feature = () => {
     ];
 
     return (
-        <section id="aboutus" className="ptb">
+        <section id="avantage" className="ptb">
             <div className="wrapper-feature container flex-row">
             <div className="wrapper-title container align-center">
             <span className="suptitle">Avantages</span>
