@@ -1,119 +1,207 @@
-document.addEventListener('DOMContentLoaded', function () {
+$(window).on("load", function () {
    // Preload
-   window.addEventListener('load', function () {
-      document.getElementById('preload').style.display = 'none';
-   });
+   $("#preload").fadeOut(1500);
+});
 
-   // Smooth Scrolling for Navbar Links
-   const menuLinks = document.querySelectorAll('.menu a');
-   const scrollToTopButton = document.getElementById('scroll-top');
-   const openMenuButton = document.getElementById('openmenu');
-   const closeMenuButton = document.getElementById('closemenu');
-   const nav = document.getElementById('nav');
+jQuery(document).ready(function () {
 
-   menuLinks.forEach(link => {
-      link.addEventListener('click', function (event) {
-         event.preventDefault();
-         const targetId = this.getAttribute('href').substring(1);
-         const targetElement = document.getElementById(targetId);
-         window.scrollTo({
-            top: targetElement.offsetTop,
-            behavior: 'smooth'
-         });
-      });
-   });
-
-   // Highlight Active Section
-   window.addEventListener('scroll', function () {
-      let scrollPos = window.scrollY + 100;
-      menuLinks.forEach(link => {
-         const targetId = link.getAttribute('href').substring(1);
-         const targetElement = document.getElementById(targetId);
-         if (targetElement.offsetTop <= scrollPos && targetElement.offsetTop + targetElement.offsetHeight > scrollPos) {
-            menuLinks.forEach(link => link.classList.remove('active'));
-            link.classList.add('active');
-         } else {
-            link.classList.remove('active');
+   // Owl Carousel Team
+   $('.team-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: false,
+      dots: true,
+      autoplay: false,
+      responsive: {
+         0: {
+            items: 1
+         },
+         600: {
+            items: 2
+         },
+         1000: {
+            items: 4
          }
-      });
-
-      // Scroll Top Button Visibility
-      if (window.scrollY > 50) {
-         scrollToTopButton.style.display = 'block';
-      } else {
-         scrollToTopButton.style.display = 'none';
-      }
-
-      // Fixed Menu
-      const headerTopHeight = document.querySelector('.wrapper-top-header').offsetHeight;
-      const bottomHeader = document.querySelector('.wrapper-bottom-header');
-      if (window.scrollY >= headerTopHeight) {
-         bottomHeader.classList.add('fixedmenu');
-      } else {
-         bottomHeader.classList.remove('fixedmenu');
       }
    });
 
-   // Scroll to Top Button
-   scrollToTopButton.addEventListener('click', function () {
-      window.scrollTo({
-         top: 0,
-         behavior: 'smooth'
-      });
+   // Accordion Faq
+   $('.wrapper-accordion .content-accordion:first-of-type').show();
+   $('.wrapper-accordion h3:first-of-type').children('.fa-solid').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+
+   var titleAccordion = $('.wrapper-accordion h3');
+   var contentAccordion = $('.content-accordion');
+
+   titleAccordion.click(function () {
+      var content = $(this).next(contentAccordion);
+      if (content.is(':visible')) {
+         content.slideUp();
+         $(this).children('.fa-solid').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+      } else {
+         contentAccordion.slideUp();
+         content.slideDown();
+         titleAccordion.children('.fa-solid').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+         $(this).children('.fa-solid').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+      }
    });
 
-   // Mobile Menu Toggle
-   openMenuButton.addEventListener('click', function (event) {
+   // OWl Carousel Testimonials
+   $('.testimonials-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: true,
+      responsive: {
+         0: {
+            items: 1
+         },
+         600: {
+            items: 1
+         },
+         1000: {
+            items: 1
+         }
+      }
+   });
+
+   // Scroll Top Button
+   $('#scroll-top').click(function () {
+      $('body,html').animate({
+         scrollTop: 0
+      }, 800);
+      return false;
+   });
+
+   // Scroll Top
+   $('#scroll-top').hide();
+   $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+         $('#scroll-top').fadeIn();
+      } else {
+         $('#scroll-top').fadeOut();
+      }
+   });
+
+   // scroll fixed menu
+   $(window).scroll(function () {
+      var headerTop = $('.wrapper-top-header').height();
+      if ($(this).scrollTop() >= headerTop) {
+         $('.wrapper-bottom-header').addClass('fixedmenu');
+      } else {
+         $('.wrapper-bottom-header').removeClass('fixedmenu');
+      }
+   });
+
+   // Scroll Menu
+   $(".menu li").on("click", "a", function (event) {
       event.preventDefault();
-      nav.style.left = '0';
+      var id = $(this).attr('href'),
+         top = $(id).offset().top;
+      $('body,html').animate({
+         scrollTop: top
+      }, 1500);
    });
 
-   closeMenuButton.addEventListener('click', function (event) {
+   $("#logo").on("click", function (event) {
       event.preventDefault();
-      nav.style.left = '-320px';
+      $('body,html').animate({
+         scrollTop: 0
+      }, 1500);
    });
 
-   document.querySelectorAll('#nav a').forEach(link => {
-      link.addEventListener('click', function () {
-         nav.style.left = '-320px';
-      });
+   $(".btn.appointment").on("click", function (event) {
+      event.preventDefault();
+      var id = $(this).attr('href'),
+         top = $(id).offset().top;
+      $('body,html').animate({
+         scrollTop: top
+      }, 1500);
    });
 
-   // Booking Ajax
-   document.getElementById('sendbook').addEventListener('click', function (event) {
+   // Mobile Menu
+   $('#openmenu').click(function (event) {
+      event.preventDefault();
+      $('#nav').animate({
+         'left': 0
+      }, 800);
+   });
+
+   $('#closemenu').click(function (event) {
+      event.preventDefault();
+      $('#nav').animate({
+         'left': '-320px'
+      }, 800);
+   });
+
+   $('#nav a').on("click", function () {
+      $("#nav").animate({
+         'left': '-320px'
+      }, 800);
+   });
+
+   // Booking Ajax 
+   $('#sendbook').click(function (event) {
       event.preventDefault();
 
-      const name = document.querySelector('input[name="name"]').value;
-      const lastname = document.querySelector('input[name="lastname"]').value;
-      const phone = document.querySelector('input[name="phone"]').value;
-      const email = document.querySelector('input[name="email"]').value;
-      const date = document.querySelector('input[name="date"]').value;
-      const time = document.querySelector('input[name="time"]').value;
+      var name = $('input[name="name"]').val();
+      var lastname = $('input[name="lastname"]').val();
+      var phone = $('input[name="phone"]').val();
+      var email = $('input[name="email"]').val();
+      var date = $('input[name="date"]').val();
+      var time = $('input[name="time"]').val();
 
-      if (!name || !lastname || !phone || !email || !date || !time) {
-         document.querySelector('.res-booking').innerHTML = '<span class="error">All fields must be filled.</span>';
-         document.querySelector('.res-booking').style.display = 'block';
-         document.querySelectorAll('input').forEach(input => {
-            input.addEventListener('focus', function () {
-               document.querySelector('.res-booking').style.display = 'none';
-            });
+      if (name == '' || lastname == '' || phone == '' || email == '' || date == '' || time == '') {
+
+         $('.res-booking').fadeIn().html('<span class="error">All fields must be filled.</span>');
+         $('input').focus(function () {
+            $('.res-booking').fadeOut();
          });
+
       } else {
-         const xhr = new XMLHttpRequest();
-         xhr.open('POST', '../booking.php', true);
-         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-         xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-               if (xhr.responseText === 'Send') {
-                  document.querySelector('.res-booking').innerHTML = '<span class="send">Thanks. We will contact you shortly.</span>';
-                  document.querySelector('.res-booking').style.display = 'block';
-                  document.querySelectorAll('input[name]').forEach(input => {
-                     input.value = '';
-                  });
+
+         $.ajax({
+            url: '../booking.php',
+            type: 'POST',
+            data: {
+               name: name,
+               lastname: lastname,
+               phone: phone,
+               email: email,
+               date: date,
+               time: time
+            },
+            dataType: 'html',
+            success: function (data) {
+               if (data == 'Send') {
+
+                  $('.res-booking').fadeIn().html('<span class="send">Thanks. We will contact you shortly.</span>');
+
+                  $('input[name="name"]').val('');
+                  $('input[name="lastname"]').val('');
+                  $('input[name="phone"]').val('');
+                  $('input[name="email"]').val('');
+                  $('input[name="date"]').val('');
+                  $('input[name="time"]').val('');
+
                }
             }
-         };
-         xhr.send(`name=${name}&lastname=${lastname}&phone=${phone}&email=${email}&date=${date}&time=${time}`);
+         }); // ajax
       }
    });
-});
+
+   // Highlight active section in navbar
+   $(window).on("scroll", function() {
+      var scrollPos = $(window).scrollTop();
+      $(".menu a").each(function () {
+         var currLink = $(this);
+         var refElement = $(currLink.attr("href"));
+         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $(".menu li a").removeClass("active");
+            currLink.addClass("active");
+         } else {
+            currLink.removeClass("active");
+         }
+      });
+   });
+
+}); // ready
