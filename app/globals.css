@@ -117,7 +117,7 @@ body {
 }
 
 #logo .logo {
-    max-height: 145px;
+    max-height: 100%;
     max-width: 50px;
 }
 
