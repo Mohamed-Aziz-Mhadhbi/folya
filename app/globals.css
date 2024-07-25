@@ -100,15 +100,6 @@ body {
 
 /* Additional Styles for Responsive Navbar */
 
-.wrapper-bottom-header.fixedmenu {
-    background-color: var(--color-dark-blue);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
-
 .bottom-header {
     display: flex;
     justify-content: space-between;
@@ -263,18 +254,6 @@ nav {
     }
 }
 
-
-/* General Styles */
-.wrapper-bottom-header {
-    width: 100%;
-    background-color: var(--color-navy);
-    position: fixed;
-	justify-content: space-between;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -1238,18 +1217,9 @@ h3 {
         display: inline-block;
     }
 
-    .wrapper-bottom-header .appointment,
+    .appointment,
     .wrapper-top-header {
         display: none;
-    }
-
-    .wrapper-bottom-header {
-        background-color: var(--color-dark-blue);
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
     }
 
     #closemenu {
