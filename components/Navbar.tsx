@@ -4,7 +4,6 @@ import { prefix } from '@/prefix';
 const Navbar = () => {
     return (
         <header>
-            {/*/.wrapper-top-header*/}
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
@@ -32,7 +31,6 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </nav>
-                    {/*#nav*/}
                     <nav>
                     <a className="btn appointment" href="#contacts">
                         Contact
@@ -48,9 +46,7 @@ const Navbar = () => {
                         <i className="fa-solid fa-bars" />
                     </a>
                 </div>
-                {/*/.bottom-header*/}
             </div>
-            {/*/.wrapper-bottom-header*/}
         </header>
     );
 }
