@@ -420,7 +420,7 @@ h3 {
 }
 
 .header-top {
-    -webkit-box-pack: justify;
+	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	-webkit-box-align: center;
@@ -431,25 +431,55 @@ h3 {
 }
 
 .header-top a {
-    color: var(--color-dark);
+	color: var(--color-dark);
 }
 
 .header-top a:hover {
-    color: var(--color-blue);
+	color: var(--color-blue);
 }
 
 .header-contact p {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .header-contact i {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 .social-link li {
-    float: left;
-    margin-left: 20px;
+	float: left;
+	margin-left: 20px;
 }
+
+.bottom-header {
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#logo {
+	max-width: 100%;
+}
+
+.menu li {
+	float: left;
+	margin-left: 20px;
+}
+
+.menu li a {
+	color: var(--color-dark);
+	text-transform: uppercase;
+}
+
+.menu li a:hover {
+	color: var(--color-blue);
+}
+
 
 /**************************************
 *
