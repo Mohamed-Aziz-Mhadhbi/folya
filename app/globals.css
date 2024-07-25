@@ -20,11 +20,11 @@
 *  + Contacts
 */
 
-@import '/reset.css';
-@import '/all.min.css';
-@import '/owl.carousel.min.css';
-@import '/owl.theme.default.min.css';
-@import '/responsive.css';
+@import 'styles/reset.css';
+@import 'styles/all.min.css';
+@import 'styles/owl.carousel.min.css';
+@import 'styles/owl.theme.default.min.css';
+@import 'styles/responsive.css';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap');
 
 /**************************************
