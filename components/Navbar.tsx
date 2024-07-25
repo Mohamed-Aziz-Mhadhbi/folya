@@ -7,8 +7,8 @@ const Navbar = () => {
             <div className="wrapper-top-header">
                 <div className="header-top container flex-row">
                     <div className="header-contact flex-row">
-                        <p><i className="fas fa-map-marker-alt"></i>2900 Lapeer Rd, Port Hurons, MI 49070</p>
-                        <a href="#"><i className="fas fa-phone"></i>+1 (800) 478-42-51</a>
+                        <p><i className="fas fa-map-marker-alt"></i>Cité El Wafa - Nabeul 8062</p>
+                        <a href="#"><i className="fas fa-phone"></i>+216 27 405 988</a>
                     </div>
                     <ul className="social-link">
                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
