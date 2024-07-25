@@ -472,7 +472,7 @@ h3 {
 }
 
 .menu li a {
-	color: var(--color-dark);
+	color: var(--color-white);
 	text-transform: uppercase;
 }
 
