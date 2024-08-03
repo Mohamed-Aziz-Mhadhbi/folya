@@ -92,7 +92,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 1.4;
     color: var(--color-light-gray);
@@ -189,7 +189,7 @@ nav {
 
     #closemenu {
         display: block;
-        color: var(--color-dark);
+        color: var(--color-white);
         font-size: 2rem;
         position: absolute;
         top: 20px;
