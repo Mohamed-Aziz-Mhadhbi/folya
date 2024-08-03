@@ -189,7 +189,7 @@ nav {
 
     #closemenu {
         display: block;
-        color: var(--color-white);
+        color: var(--color-dark);
         font-size: 2rem;
         position: absolute;
         top: 20px;
