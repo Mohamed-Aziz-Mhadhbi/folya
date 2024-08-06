@@ -1367,7 +1367,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     z-index: 1043;
     position: fixed;
     outline: none !important;
-    -webkit-backface-visibility: hidden; }
+}
   
   .mfp-container {
     text-align: center;
@@ -1459,7 +1459,6 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     cursor: pointer;
     background: transparent;
     border: 0;
-    -webkit-appearance: none;
     display: block;
     outline: none;
     padding: 0;
