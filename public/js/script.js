@@ -3,6 +3,9 @@ $(window).on("load", function () {
    $("#preload").fadeOut(1500);
 });
 
+$('.play-btn').magnificPopup({
+   type: 'video'
+})
 
 jQuery(document).ready(function () {
 
