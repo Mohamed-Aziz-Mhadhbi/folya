@@ -1700,4 +1700,20 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
       padding-right: 6px; } }
   
 
-      
+      /* animation wave */
+
+      section.hero-area .hero-content .hero-btn ul li a .wave1 {
+        animation: ripple 2s linear infinite;
+        border-radius: 50%;
+        transition: .5s all;
+      }
+      @keyframes ripple {
+        50% {
+          box-shadow: 0 0 0 0px rgba(40, 71, 125, 0.1), 0 0 0 6px rgba(40, 71, 125, 0.1), 0 0 0 10px rgba(40, 71, 125, 0.1);
+          transition: .3s all;
+        }
+        50% {
+          transition: .5s all;
+          box-shadow: 0 0 0 24px rgba(40, 71, 125, 0.1), 0 0 0 8px rgba(40, 71, 125, 0.1), 0 0 0 16px rgba(40, 71, 125, 0.1);
+        }
+      }
