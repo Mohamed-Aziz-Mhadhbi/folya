@@ -24,16 +24,4 @@
         }
     });
 
-
-    $('.navigation-container').sticky({
-        topSpacing:0
-    });
-
-
-    $('.play-btn').magnificPopup({
-        type: 'video'
-    })
-
-
-
 }(jQuery));
