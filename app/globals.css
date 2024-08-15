@@ -344,6 +344,12 @@ h3 {
     position: relative;
 }
 
+.ptb-feature{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
 .align-center {
     text-align: center;
     display: flex;

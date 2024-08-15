@@ -2,7 +2,7 @@ import { prefix } from '@/prefix';
 
 const Feature = () => {
     return (
-        <section id="avantage" className="ptb">
+        <section id="avantage" className="ptb-feature">
             <div className="wrapper-feature container flex-row">
                 <div className="wrapper-title container align-center">
                     <span className="suptitle">Avantages</span>
