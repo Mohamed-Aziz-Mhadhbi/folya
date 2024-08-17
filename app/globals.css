@@ -1232,7 +1232,7 @@ h3 {
     .wrapper-feature {
         position: static;
         transform: translate(0%, 0%);
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     #aboutus {
