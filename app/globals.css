@@ -346,7 +346,7 @@ h3 {
 
 .ptb-feature{
     padding-top: 100px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     position: relative;
 }
 
@@ -1243,7 +1243,7 @@ h3 {
     #avantage {
         position: relative;
         padding-top: 0px;
-        padding-bottom: 320px;
+        padding-bottom: 0px;
     }
 
     .single-feature {
