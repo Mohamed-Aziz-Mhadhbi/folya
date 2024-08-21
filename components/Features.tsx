@@ -7,8 +7,9 @@ const Feature = () => {
                 <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
             </div>
-            
+
             <div className="wrapper-pricing container flex-row">
+                
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
