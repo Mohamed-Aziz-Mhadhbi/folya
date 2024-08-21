@@ -15,9 +15,7 @@ const Feature = () => {
                             <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
                             <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
                         </div>
-                        <div className="pricing-content">
                             <p>Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.</p>
-                        </div>
                     </div>
 
                     <div className="single-pricing align-center">
