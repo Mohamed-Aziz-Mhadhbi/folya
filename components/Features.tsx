@@ -8,7 +8,7 @@ const Feature = () => {
                 <h2>Avantages</h2>
             </div>
 
-            <div className="wrapper-pricing container flex-row align-center">
+            <div className="wrapper-pricing container flex-row ">
                 <div className="flex-row">
                     <div className="single-pricing align-center">
                         <div className="pricing-title">
@@ -41,6 +41,7 @@ const Feature = () => {
                     </div>
                 </div>
 
+                <div className="flex-row">
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/dossiersPatients.png`} alt="Dossiers patients centralisés" />
@@ -69,6 +70,7 @@ const Feature = () => {
                     <div className="pricing-content">
                         <p>Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.</p>
                     </div>
+                </div>
                 </div>
 
             </div>
