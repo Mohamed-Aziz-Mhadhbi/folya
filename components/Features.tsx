@@ -40,6 +40,8 @@ const Feature = () => {
                     </div>
                 </div>
 
+                <br></br>
+
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/dossiersPatients.png`} alt="Dossiers patients centralisés" />
