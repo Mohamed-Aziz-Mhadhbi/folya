@@ -1198,10 +1198,6 @@ h3 {
 .pricing-content {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	border-bottom: 1px solid var(--color-dark-blue);
-	border-top: 1px solid var(--color-dark-blue);
 }
 
 .single-price {
