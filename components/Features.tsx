@@ -8,7 +8,7 @@ const Feature = () => {
                 <h2>Avantages</h2>
             </div>
 
-            <div className="wrapper-pricing container flex-row ">
+            <div className="wrapper-pricing container align-center flex-row ">
                 <div className="flex-row">
                     <div className="single-pricing align-center">
                         <div className="pricing-title">

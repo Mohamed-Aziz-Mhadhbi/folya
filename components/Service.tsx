@@ -7,7 +7,7 @@ const Service = () => {
                 <span className="suptitle">Nos Fonctionnalités</span>
                 <h2>Fonctionnalités clés <span className="selection">de Folya</span></h2>
             </div>
-            {/*/wrapper-title*/}
+            
             <div className="wrapper-service container flex-row">              
                 <article className="align-center">
                     <img src={`${prefix}/image/suivi.png`} alt="" />
