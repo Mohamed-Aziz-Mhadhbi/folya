@@ -104,7 +104,7 @@ const Devis = () => {
                 <h2>Devis</h2>
             </div>
             <div className="container wrapper-booking flex-row">
-                <div className="booking-form">
+                <div className="bookong-form">
                     <form method="POST" onSubmit={onSubmit}>
                         <div className="wrapper-input flex-row">
                             <input
