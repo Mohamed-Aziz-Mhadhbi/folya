@@ -46,10 +46,8 @@ export default function RootLayout({
         <Footer />
         <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></Script>
         <Script src="js/owl.carousel.min.js"></Script>
-        <Script src="js/popper.min.js"></Script>
         <Script src="js/script.js"></Script>
         <Script src="js/ajaxchimp.min.js"></Script>
-        <Script src="js/bootstrap.min.js"></Script>
         <Script src="js/form-contact.js"></Script>
         <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
@@ -57,7 +55,6 @@ export default function RootLayout({
         <Script src="js/jquery.slicknav.min.js"></Script>
         <Script src="js/jquery.sticky.js"></Script>
         <Script src="js/main.js"></Script>
-        <Script src="js/mixitup.min.js"></Script>
       </body>
     </html>
   );
