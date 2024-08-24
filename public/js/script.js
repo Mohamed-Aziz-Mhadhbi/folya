@@ -111,7 +111,7 @@ jQuery(document).ready(function () {
    $("#logo").on("click", function (event) {
       event.preventDefault();
       $('body,html').animate({
-         scrollTop: 0
+         scrollTop: top
       }, 1500);
    }); 
 
