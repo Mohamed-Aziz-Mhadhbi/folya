@@ -23,4 +23,9 @@ $(document).ready(function () {
         }
     });
 
+    $('.navigation-container').sticky({
+        topSpacing: 0
+    });
+
+
 }(jQuery));
