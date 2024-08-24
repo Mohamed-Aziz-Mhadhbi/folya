@@ -23,9 +23,40 @@ $(document).ready(function () {
         }
     });
 
+    // scroll top
+    $(window).on('scroll', function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 500) {
+            $(".bottomToup").removeClass("active-top");
+        } else {
+            $(".bottomToup").addClass("active-top");
+        }
+    });
+
+    // preloader
+    jQuery(window).load(function () {
+        $(".loader").fadeOut(1000);
+    });
+
+
     $('.navigation-container').sticky({
         topSpacing: 0
     });
+
+
+    $('#menu').slicknav({
+        prependTo: '.header-area .navigation-container .main-menu',
+        closeOnClick: true, // Close menu when a link is clicked.
+    });
+
+
+    $('.play-btn').magnificPopup({
+        type: 'video'
+    })
+
+    var mixer = mixitup('.doctor-list');
+
+    window.addEventListener("resize", resizeFunc);
 
 
 }(jQuery));
