@@ -16,11 +16,11 @@ export default function Home() {
             <Offers />
             <div className="wrapper" id="home">
                 <main>
-                    <AboutUs />
+                    {/* <AboutUs />
                     <Feature />
                     <Service />
                     <FAQ />
-                    <Devis />
+                    <Devis /> */}
                 </main>
             </div>
             <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
