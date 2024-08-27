@@ -44,13 +44,11 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></Script>
         <Script src="js/script.js"></Script>
         <Script src="js/owl.carousel.min.js"></Script>
         <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
         <Script src="js/jquery.magnific-popup.min.js"></Script>
-        <Script src="js/jquery.slicknav.min.js"></Script>
         <Script src="js/jquery.sticky.js"></Script>
         <Script src="js/main.js"></Script>
       </body>
