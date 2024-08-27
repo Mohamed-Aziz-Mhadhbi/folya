@@ -32,17 +32,6 @@ $(document).ready(function () {
             $(".bottomToup").addClass("active-top");
         }
     });
-    
-
-    $('.navigation-container').sticky({
-        topSpacing: 0
-    });
-
-
-    $('#menu').slicknav({
-        prependTo: '.header-area .navigation-container .main-menu',
-        closeOnClick: true, // Close menu when a link is clicked.
-    });
 
 
     $('.play-btn').magnificPopup({
