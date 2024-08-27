@@ -12,21 +12,20 @@ export default function Home() {
 
     return (
         <>
-        <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
-                <i className="fa-solid fa-arrow-up-long" />
-            </a>
             <Loader />
             <Offers />
             <div className="wrapper" id="home">
                 <main>
-                    {/* <AboutUs />
+                    <AboutUs />
                     <Feature />
                     <Service />
                     <FAQ />
-                    <Devis /> */}
+                    <Devis />
                 </main>
             </div>
-            
+            <a id="scroll-top" className="btn" href="#" style={{ display: "none" }}>
+                <i className="fa-solid fa-arrow-up-long" />
+            </a>
         </>
     );
 }
