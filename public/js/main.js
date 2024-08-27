@@ -32,12 +32,7 @@ $(document).ready(function () {
             $(".bottomToup").addClass("active-top");
         }
     });
-
-    // preloader
-    jQuery(window).load(function () {
-        $(".loader").fadeOut(1000);
-    });
-
+    
 
     $('.navigation-container').sticky({
         topSpacing: 0
