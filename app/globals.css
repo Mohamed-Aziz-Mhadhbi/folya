@@ -66,8 +66,8 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    z-index: 50;
-    padding: 15px 20px;
+    z-index: 100;
+    /* padding: 15px 20px; */
 }
 
 #preload {
