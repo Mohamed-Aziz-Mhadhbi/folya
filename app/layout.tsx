@@ -49,6 +49,7 @@ export default function RootLayout({
         <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
         <Script src="js/jquery.magnific-popup.min.js"></Script>
+        <Script src="js/jquery.slicknav.min.js"></Script>
         <Script src="js/jquery.sticky.js"></Script>
         <Script src="js/main.js"></Script>
       </body>
