@@ -48,7 +48,6 @@ export default function RootLayout({
         <Script src="js/script.js"></Script>
         <Script src="js/owl.carousel.min.js"></Script>
         <Script src="js/ajaxchimp.min.js"></Script>
-        <Script src="js/form-contact.js"></Script>
         <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
         <Script src="js/jquery.magnific-popup.min.js"></Script>
