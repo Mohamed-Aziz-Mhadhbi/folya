@@ -23,6 +23,10 @@ export default function RootLayout({
         <title>
           Folya
         </title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
         <meta name="description" content="Folya - Optimize your workflow and enhance productivity" />
         <meta name="keywords" content="Folya, healthcare, management, productivity" />
         <meta name="description" content="" />
@@ -46,12 +50,12 @@ export default function RootLayout({
         <Footer />
         <Script src="js/script.js"></Script>
         <Script src="js/owl.carousel.min.js"></Script>
-        {/* <Script src="js/jquery-2.2.4.min.js"></Script>
+        <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
         <Script src="js/jquery.magnific-popup.min.js"></Script>
         <Script src="js/jquery.slicknav.min.js"></Script>
         <Script src="js/jquery.sticky.js"></Script>
-        <Script src="js/main.js"></Script> */}
+        <Script src="js/main.js"></Script> 
       </body>
     </html>
   );
