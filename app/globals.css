@@ -32,12 +32,12 @@
 *
 **************************************/
 
-/* @font-face {
-    font-family: "Oswald";
+@font-face {
+    font-family: "Oswald font";
     font-display: block;
     font-weight: 700;
     src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format('woff2') format("truetype")
-} */
+}
 
 :root {
     --color-blue: #00bcd5;
@@ -46,7 +46,7 @@
     --color-gray: #f7f9fb;
     --color-white: #ffffff;
     --color-light-gray: #808586;
-    --font-oswald: 'Oswald',sans-serif;
+    --font-oswald: 'Oswald font',sans-serif;
 }
 
 @-webkit-keyframes load {
