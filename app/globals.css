@@ -36,7 +36,7 @@
     font-family: "Oswald font";
     font-display: block;
     font-weight: 700;
-    src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format('woff2') format("truetype")
+    src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format("truetype")
 }
 
 :root {
