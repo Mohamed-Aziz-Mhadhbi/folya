@@ -33,6 +33,12 @@
 *
 **************************************/
 
+@font-face {
+    font-family: "Oswald";
+    font-display: block;
+    src: url('/fonts/Oswald/Oswald-Regular.ttf') format('woff2') format("truetype")
+}
+
 :root {
     --color-blue: #00bcd5;
     --color-dark-blue: #111c58;
@@ -40,6 +46,7 @@
     --color-gray: #f7f9fb;
     --color-white: #ffffff;
     --color-light-gray: #808586;
+    --font-oswald: 'Oswald', sans-serif;
 }
 
 @-webkit-keyframes load {
@@ -308,7 +315,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-oswald); 
     font-weight: 700;
     color: var(--color-dark-blue);
     line-height: 1.2;
@@ -835,7 +842,7 @@ h3 {
     font-size: 14px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-oswald); 
     font-weight: 400;
 }
 
@@ -1208,7 +1215,7 @@ h3 {
 
 .single-price p {
 	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
+	font-family: var(--font-oswald); 
 	font-weight: 700;
 	color: var(--color-dark-blue);
 }
