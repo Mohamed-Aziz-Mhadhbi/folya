@@ -46,7 +46,7 @@
     --color-gray: #f7f9fb;
     --color-white: #ffffff;
     --color-light-gray: #808586;
-    --font-oswald: 'Oswald';
+    --font-oswald: 'Oswald',sans-serif;
 }
 
 @-webkit-keyframes load {
