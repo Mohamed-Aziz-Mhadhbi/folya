@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: "Oswald font";
-    src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format("truetype")
+    src: url('/fonts/jOswald/Oswald-SemiBold.ttf') format("truetype")
 }
 
 :root {
