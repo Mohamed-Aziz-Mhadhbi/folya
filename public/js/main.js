@@ -76,7 +76,5 @@ $(document).ready(function () {
         links[i].addEventListener("mouseenter", mouseenterFunc);
     }
 
-    window.addEventListener("resize", resizeFunc);
-
 
 }(jQuery));
