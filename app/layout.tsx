@@ -37,8 +37,20 @@ export default function RootLayout({
         <link rel="stylesheet" href="styles/all.min.css" />
         {/* Responsive CSS */}
         <link rel="stylesheet" href="styles/responsive.css" />
+        <style jsx>{`
+        @font-face {
+                  font-family: 'Oswald';
+                  src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
+                  font-weight: 400;
+                  font-style: normal;
+                  font-display: swap;
+              }
+
+                
+        `}</style>
       </Head>
       <body>
+
         <Navbar />
         <main className="relative overflow-hidden">
           {children}
@@ -49,7 +61,7 @@ export default function RootLayout({
         <Script src="js/jquery.magnific-popup.min.js"></Script>
         <Script src="js/jquery.slicknav.min.js"></Script>
         <Script src="js/jquery.sticky.js"></Script>
-        <Script src="js/main.js"></Script> 
+        <Script src="js/main.js"></Script>
         <Script src="js/script.js"></Script>
         <Script src="js/owl.carousel.min.js"></Script>
       </body>
