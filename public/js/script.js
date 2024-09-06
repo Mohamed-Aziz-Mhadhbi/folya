@@ -1,3 +1,5 @@
+const $ = jQuery;
+
 $(window).on("load", function () {
    // Preload
    $("#preload").fadeOut(1500);
