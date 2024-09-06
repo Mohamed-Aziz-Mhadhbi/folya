@@ -34,7 +34,7 @@
 
 @font-face {
     font-family: 'Oswald';
-    src: url('/fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
+    src: url('public/fonts/Oswald/Oswald-SemiBold.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -123,12 +123,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 #logo {
@@ -147,10 +141,13 @@ nav {
     margin: 0;
 }
 
+.menu li {
+    margin-left: 20px;
+}
+
 .menu li a {
     color: var(--color-white);
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .menu li a:hover {
@@ -478,10 +475,33 @@ h3 {
     margin-left: 20px;
 }
 
+.bottom-header {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#logo {
+    max-width: 100%;
+}
 
 .menu li {
     float: left;
     margin-left: 20px;
+}
+
+.menu li a {
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    color: var(--color-blue);
 }
 
 
