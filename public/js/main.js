@@ -76,5 +76,4 @@ $(document).ready(function () {
         links[i].addEventListener("mouseenter", mouseenterFunc);
     }
 
-
 }(jQuery));
