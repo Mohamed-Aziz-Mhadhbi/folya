@@ -38,7 +38,7 @@ $(document).ready(function () {
         type: 'video'
     })
 
-    var mixer = mixitup('.doctor-list');
+    var mixer = mixItUp('.doctor-list');
 
 
     $("#datepicker").datepicker();
