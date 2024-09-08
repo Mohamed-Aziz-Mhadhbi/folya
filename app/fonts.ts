@@ -1,15 +1,26 @@
 // fonts.ts
-import {
-    Roboto,
-    Oswald
-} from 'next/font/google';
+import { Roboto, Oswald } from 'next/font/google';
 
-export const roboto = Roboto({
-    subsets: ['latin'],
-    weight: ['400', '500', '700'], // Specify weights to load
+/******************************************/
+/*              ROBOTO                    */
+/******************************************/
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'], // Regular, Medium, Bold
+  style: ['normal', 'italic'], // Define both normal and italic styles
+  variable: '--font-roboto', // CSS variable for Roboto
 });
 
-export const oswald = Oswald({
-    subsets: ['latin'],
-    weight: ['400', '500', '700'], // Specify weights to load
+/******************************************/
+/*              OSWALD                    */
+/******************************************/
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'], // Regular, Medium, Bold
+  style: ['normal'], // Define both normal and italic styles
+  variable: '--font-oswald', // CSS variable for Oswald
 });
+
+export { roboto, oswald };
