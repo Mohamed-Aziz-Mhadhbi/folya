@@ -6,7 +6,7 @@ const Offers = () => {
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
                     <h2>
-                        <span className="suptitle">FOLYA,</span>
+                        <span className="selection">FOLYA,</span>
                         votre solution de gestion de cabinet paramédical clé en main
                     </h2>
                     <p>
