@@ -15,15 +15,15 @@ const Offers = () => {
                     <div className="hero-btn">
                         <ul>
                             <li>
-                                <a className="btn appointment" href="#booking">
+                                <a className="btn appointment play-btn" href="#booking">
                                     Réservez votre démo
                                 </a>
                             </li>
-                            {/* <li>
+                            <li>
                                 <a href="https://www.youtube.com/watch?v=9_nyG2TUDcQ" className="play-btn mfp-iframe">
                                     <img className="wave1" src={`${prefix}/image/play-btn.png`} alt="play-btn" />
                                 </a>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                 </div>
