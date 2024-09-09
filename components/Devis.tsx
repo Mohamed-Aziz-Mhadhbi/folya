@@ -110,7 +110,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="name"
-                                placeholder="Prénom"
+                                placeholder="Prénom*"
                                 value={values.name}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -121,7 +121,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="lastname"
-                                placeholder="Nom"
+                                placeholder="Nom*"
                                 value={values.lastname}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -134,7 +134,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="phone"
-                                placeholder="Numéro de téléphone"
+                                placeholder="Numéro de téléphone*"
                                 value={values.phone}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -145,7 +145,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="email"
-                                placeholder="Adresse email"
+                                placeholder="Adresse email*"
                                 value={values.email}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -158,7 +158,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="ville"
-                                placeholder="Ville d'exercice"
+                                placeholder="Ville d'exercice*"
                                 value={values.ville}
                                 onChange={handleChange}
                                 onBlur={onBlur}
@@ -169,7 +169,7 @@ const Devis = () => {
                             <input
                                 type="text"
                                 name="sp"
-                                placeholder="Votre spécialité paramédicale"
+                                placeholder="Votre spécialité paramédicale*"
                                 value={values.sp}
                                 onChange={handleChange}
                                 onBlur={onBlur}
