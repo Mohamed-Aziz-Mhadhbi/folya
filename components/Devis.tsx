@@ -193,7 +193,7 @@ const Devis = () => {
                             )}
                         </div>
                         <button className="btn" id="sendbook" type="submit" disabled={isLoading}>
-                            Obtenez un devis gratuitement
+                            Obtenez un devis
                         </button>
                         {error && <p className="res-booking">{error}</p>}
                     </form>
