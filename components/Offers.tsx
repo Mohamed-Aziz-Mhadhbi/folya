@@ -1,5 +1,3 @@
-import { prefix } from '@/prefix';
-
 const Offers = () => {
     return (
         <section id="offer" className="ptb">
@@ -15,7 +13,7 @@ const Offers = () => {
                     <div className="hero-btn">
                         <ul>
                             <li>
-                                <a className="btn appointment play-btn" href="#booking">
+                                <a className="btn appointment animated-btn" href="#booking">
                                     Réservez votre démo
                                 </a>
                             </li>
