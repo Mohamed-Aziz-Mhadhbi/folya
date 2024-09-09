@@ -10,11 +10,7 @@ const Offers = () => {
                         votre solution de gestion de cabinet paramédical clé en main
                     </h2>
                     <p>
-
-                        {/* Gagnez du temps, augmentez votre productivité et réduisez votre stress avec Folya.
-                        Notre solution vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.
-                        Découvrez comment notre application peut transformer votre pratique quotidienne et améliorer votre vie professionnelle. */}
-                    </p>
+                        conçu par des professionnels de santé, notre solution vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.    </p>
                     <div className="hero-btn">
                         <ul>
                             <li>
