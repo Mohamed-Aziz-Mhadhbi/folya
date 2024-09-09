@@ -10,7 +10,8 @@ const Offers = () => {
                         <span className="selection">votre solution de gestion de cabinet paramédical clé en main</span>
                     </h2>
                     <p>
-                        conçu par des professionnels de santé, notre solution vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.    </p>
+                    Développée par des experts du secteur médical, notre solution vous offre une gestion optimale de votre portefeuille de patients, allant de la planification des rendez-vous à la facturation, tout en intégrant le suivi de vos bilans.
+                    </p>
                     <div className="hero-btn">
                         <ul>
                             <li>
