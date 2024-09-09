@@ -4,6 +4,15 @@ import { prefix } from '@/prefix';
 const Navbar = () => {
     return (
         <header>
+            <div className="wrapper-top-header">
+                <div className="header-top container flex-row">
+                    <div className="header-contact flex-row">
+                    </div>
+
+
+                </div>
+
+            </div>
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
@@ -43,7 +52,7 @@ const Navbar = () => {
                         </a>
                     </nav>
                     <a id="openmenu" className="btn" href="#">
-                        <i className="fa-solid fa-bars" />
+                        <i className="" />
                     </a>
                 </div>
             </div>
