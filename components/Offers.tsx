@@ -5,8 +5,11 @@ const Offers = () => {
         <section id="offer" className="ptb">
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
-                    <h2>Folya est votre allié, conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients.</h2>
+                    <h2>
+                    FOLYA, votre solution de gestion de cabinet paramédical tout en un, clé en main
+                    </h2>
                     <p>
+                        
                         {/* Gagnez du temps, augmentez votre productivité et réduisez votre stress avec Folya.
                         Notre solution vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.
                         Découvrez comment notre application peut transformer votre pratique quotidienne et améliorer votre vie professionnelle. */}
