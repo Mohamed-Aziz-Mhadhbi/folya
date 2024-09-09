@@ -199,7 +199,7 @@ const Devis = () => {
                     </form>
                 </div>
                 <div className="booking-working-hours">
-                    <h3>Nous sommes heureux de vous proposer un devis gratuit pour nos services.</h3>
+                    <h3>Nous sommes heureux de vous proposer un devis pour nos services.</h3>
                     <p>
                         Afin de mieux répondre à vos besoins, veuillez remplir le formulaire ci-dessous. Plus vous nous fournirez
                         d'informations, plus nous serons en mesure de vous proposer un devis précis et adapté à vos besoins.
