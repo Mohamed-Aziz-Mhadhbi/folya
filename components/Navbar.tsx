@@ -4,20 +4,6 @@ import { prefix } from '@/prefix';
 const Navbar = () => {
     return (
         <header>
-            <div className="wrapper-top-header">
-                <div className="header-top container flex-row">
-                    <div className="header-contact flex-row">
-                        <p><i className="fas fa-map-marker-alt"></i>Cité El Wafa - Nabeul 8062</p>
-                        <a href="#"><i className="fas fa-phone"></i>+216 27 405 988</a>
-                    </div>
-                    <ul className="social-link">
-                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div>
-            </div>
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
                     <a id="logo" href="#home">
