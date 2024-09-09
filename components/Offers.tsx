@@ -7,7 +7,7 @@ const Offers = () => {
                 <div className="offer-content">
                     <h2>
                         FOLYA,
-                        <span className="selection">votre solution de gestion de cabinet paramédical clé en main</span>
+                        <span className="selection">la solution complète pour votre cabinet paramédical.</span>
                     </h2>
                     <p>
                     Développée par des experts du secteur paramédical médical, notre solution vous offre une gestion optimale de votre portefeuille de patients, allant de la planification des rendez-vous à la facturation, tout en intégrant le suivi de vos bilans.
