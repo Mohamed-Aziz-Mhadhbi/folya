@@ -7,7 +7,7 @@ const Offers = () => {
                 <div className="offer-content">
                     <h2>
                         <span className="suptitle">FOLYA,</span>
-                        votre solution de gestion de cabinet paramédical tout en un, clé en main
+                        votre solution de gestion de cabinet paramédical clé en main
                     </h2>
                     <p>
 
