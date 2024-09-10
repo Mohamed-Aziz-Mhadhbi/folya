@@ -748,11 +748,11 @@ h3 {
     left: 20px; /* Adjust this to move the h2 horizontally */
     bottom: 50px;
     z-index: 1000; /* High z-index to ensure it is on top */
-    padding: 15px; /* Add some padding to make the text stand out */
+    padding: 25px; /* Add some padding to make the text stand out */
     font-size: 2.5rem; /* Adjust font size to make it more prominent */
     max-width: 70%; /* To ensure the heading doesn't overflow */
     }
-
+ 
 /* Ensure the iframe video stays behind the h2 */
 .offer-video iframe {
     position: relative;
