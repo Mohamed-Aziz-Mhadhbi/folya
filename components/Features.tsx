@@ -25,7 +25,7 @@ const Feature = () => {
                     </div>
                     <h3>Dossier-patient centralisé et sécurisé</h3>
                     <p>
-                    Folya vous donnez la accédez aux dossiers patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité .</p>
+                    Folya vous donnez la accédez aux dossiers-patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité .</p>
                 </div>
 
                 <div className="feature-card">
