@@ -25,7 +25,7 @@ const Feature = () => {
                     </div>
                     <h3>Dossier patient centralisé et sécurisé</h3>
                     <p>
-                        Suivez l’évolution de vos patients en temps réel , prenez des notes cliniques et centralisez toutes les informations dans un seul et même endroit. Folya vous donne un accès instantané et sécurisé à toutes les données de vos patients.
+                        Suivez l’évolution de vos patients en temps réel. Centralisez tout le dossier -patient dans un seul et même endroit. Folya vous donne un accès instantané et sécurisé à toutes les données de vos patients.
                     </p>
                 </div>
 
