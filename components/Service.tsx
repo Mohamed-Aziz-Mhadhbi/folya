@@ -26,7 +26,7 @@ const Service = () => {
                     <img src={`${prefix}/image/suivi.png`} alt="" />
                     <h3>Suivi des patients</h3>
                     <p>
-                        Gardez un œil sur l'évolution de l'état de vos patients et conservez un historique de votre prise en charge, depuis l'évaluation initiale jusqu'au compte rendu final, en incluant vos objectifs thérapeutiques.
+                    Gardez un œil sur l'évolution de l'état de vos patients et conservez un historique de votre prise en charge, en incluant vos objectifs thérapeutiques.
                     </p>
                 </article>
                 <article className="align-center">
