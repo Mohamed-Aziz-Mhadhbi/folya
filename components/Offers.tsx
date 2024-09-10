@@ -8,7 +8,7 @@ const Offers = () => {
                     votre solution tout-en-un, clé en main, pour simplifier la gestion de votre cabinet paramédical.
                     </h2>
                     <p>
-                    Transformez la gestion de votre cabinet avec FOLYA, conçue par des experts du paramédical ! Centralisez vos dossiers patients en un clic, gagnez un temps précieux et concentrez-vous sur l'essentiel : vos patients. &nbsp;Adoptez FOLYA dès aujourd'hui et boostez votre efficacité !   
+                    Transformez la gestion de votre cabinet avec FOLYA, conçue par des experts du paramédical ! Centralisez vos dossiers patients en un clic, gagnez un temps précieux et concentrez-vous sur l'essentiel : vos patients. <br>Adoptez FOLYA dès aujourd'hui et boostez votre efficacité !   
                     </p>
                     <div className="hero-btn">
                         <ul>
