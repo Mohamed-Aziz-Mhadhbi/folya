@@ -47,7 +47,7 @@ const Service = () => {
                     <img src={`${prefix}/image/analyses.png`} alt="" />
                     <h3>Activité du cabinet optimisée</h3>
                     <p>
-                        Accédez à des rapports et analyses personnalisés à l’activité de votre cabinet. Optimisez votre trésorerie, vos dépenses et votre comptabilité.
+                    Accédez à des rapports et analyses personnalisés à votre cabinet. Optimisez votre trésorerie, vos dépenses et votre comptabilité.
                     </p>
                 </article>
             </div>
