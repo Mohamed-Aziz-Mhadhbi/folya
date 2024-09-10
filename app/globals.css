@@ -736,36 +736,91 @@ h3 {
 **************************************/
 
 
-/* Ensure wrapper is positioned relative for absolute positioning of h2 */
+/* Container setup */
+.wrapper-offer {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px; /* Add some padding */
+}
+
+/* Heading styling */
+.heading-section {
+    text-align: center;
+    margin-bottom: 40px; /* Add space below heading */
+}
+
+.offer-heading {
+    font-size: 2.5rem;
+    color: #003366; /* Customize color */
+    font-weight: bold;
+}
+
+/* Flex layout for content and video */
+.content-section {
+    display: flex;
+    flex-direction: row; /* Align text and video side by side */
+    justify-content: space-between; /* Put space between the text and video */
+    align-items: flex-start;
+    gap: 20px; /* Adds space between the text and video */
+    width: 100%;
+}
+
+/* Text content section */
+.offer-content {
+    flex: 1; /* Make the text content take available space */
+    max-width: 600px; /* Limit max width */
+}
+
+.offer-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    margin-top: 20px;
+}
+
+/* Video section */
+.offer-video {
+    flex: 1; /* Make video take available space */
+    max-width: 600px; /* Limit max width */
+}
+
+/* Adjust iframe styling */
+.offer-video iframe {
+    width: 100%; /* Make iframe responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content-section {
+        flex-direction: column; /* Stack text and video vertically on small screens */
+    }
+}
+/* 
+
+
+
 .wrapper-offer {
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-/* Ensure the iframe video stays behind the h2 */
+
 .offer-video iframe {
     position: relative;
     z-index: 1;
 }
 
-/* Ensure h2 is on top of everything */
-.offer-heading {
-    position: absolute; /* Absolute positioning inside the wrapper */
-    top: 20px; /* Adjust this to move the h2 vertically */
-    left: 20px; /* Adjust this to move the h2 horizontally */
-    bottom: 50px;
-    z-index: 1000; /* High z-index to ensure it is on top */
-    padding: 25px; /* Add some padding to make the text stand out */
-    font-size: 2.5rem; /* Adjust font size to make it more prominent */
-    max-width: 70%; /* To ensure the heading doesn't overflow */
-    }
 
-
-.offer-video {
-    position: relative; /* Maintain position of the video */
-    z-index: 1; /* Keep it behind the h2 */
-}
 
 
 .offer-content {
@@ -779,7 +834,7 @@ h3 {
     margin-bottom: 20px;
     font-size: 1.2em;
     line-height: 1.5;
-}
+} */
 
 .offer-img {
     width: 40%;
