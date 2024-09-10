@@ -45,7 +45,7 @@ const Feature = () => {
                     </div>
                     <h3>Rapports précieux de l'activité du cabinet</h3>
                     <p>
-                        Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.
+                        Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des analysées personnalisés. Anticipez vos périodes de congé et prenez des décisions plus efficacité.
                     </p>
                 </div>
             </div>
