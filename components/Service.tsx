@@ -40,7 +40,7 @@ const Service = () => {
                     <img src={`${prefix}/image/facturation.png`} alt="" />
                     <h3>Facturation des actes</h3>
                     <p>
-                        Automatisez la création, la consultation et l'envoi des factures, suivez les paiements en temps réel et obtenez des rapports détaillés sur vos revenus.
+                    Automatisez la création, la consultation et l'impression des factures. Suivez les paiements et vos revenues en temps réel.
                     </p>
                 </article>
                 <article className="align-center">
