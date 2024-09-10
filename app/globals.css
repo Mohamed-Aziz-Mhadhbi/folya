@@ -1962,8 +1962,8 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 40px; 
 }
 
 .feature-card {
