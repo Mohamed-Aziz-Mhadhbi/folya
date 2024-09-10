@@ -31,9 +31,9 @@ const Feature = () => {
 
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/suivi.png`} alt="Facturation automatisée" />
+                        <img src={`${prefix}/image/suivi.png`} alt="Facturation automatisée et suivi des finances" />
                     </div>
-                    <h3>Association automatique des factures et paiements</h3>
+                    <h3>Facturation automatisée et suivi des finances</h3>
                     <p>
                         Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya simplifie votre gestion administrative et le suivi des paiements.
                     </p>
@@ -41,9 +41,9 @@ const Feature = () => {
 
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/analyses.png`} alt="Rapports et analyses" />
+                        <img src={`${prefix}/image/analyses.png`} alt="Rapports précieux de l'activité du cabinet" />
                     </div>
-                    <h3>Rapports et analyses précieuses</h3>
+                    <h3>Rapports précieux de l'activité du cabinet</h3>
                     <p>
                         Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des rapports et analyses personnalisés. Anticipez vos périodes de congé et prenez des décisions éclairées pour améliorer votre efficacité.
                     </p>
