@@ -735,20 +735,31 @@ h3 {
 *
 **************************************/
 
+
+/* Ensure wrapper is positioned relative for absolute positioning of h2 */
 .wrapper-offer {
     position: relative;
 }
 
+/* Ensure h2 is on top of everything */
 .offer-heading {
-    position: absolute; /* Absolute position to bring it above other elements */
-    top: 20px; /* Adjust as needed */
-    left: 20px; /* Adjust as needed */
-    z-index: 999; /* Ensure it's on top */
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Transparent background for readability */
-    padding: 10px; /* Add some padding */
-    font-size: 2rem; /* Adjust font size for emphasis */
-    max-width: 80%; /* Ensure it doesn't overflow */
+    position: absolute; /* Absolute positioning inside the wrapper */
+    top: 20px; /* Adjust this to move the h2 vertically */
+    left: 20px; /* Adjust this to move the h2 horizontally */
+    z-index: 1000; /* High z-index to ensure it is on top */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a translucent background for better visibility */
+    padding: 15px; /* Add some padding to make the text stand out */
+    font-size: 2.5rem; /* Adjust font size to make it more prominent */
+    max-width: 70%; /* To ensure the heading doesn't overflow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow to make it pop */
 }
+
+/* Ensure the iframe video stays behind the h2 */
+.offer-video iframe {
+    position: relative;
+    z-index: 1;
+}
+
 
 .offer-video {
     position: relative; /* Maintain position of the video */
@@ -756,21 +767,6 @@ h3 {
 }
 
 
-.offer-heading {
-    position: relative;
-    z-index: 10; /* Optional: add a semi-transparent background to enhance visibility */
-    padding: 10px;
-}
-
-
-/* .wrapper-offer {
-    background-color: var(--color-gray);
-    box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .offer-content {
     width: 60%;
