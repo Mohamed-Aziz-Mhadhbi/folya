@@ -1960,20 +1960,6 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     margin-bottom: 40px;
 }
 
-.suptitle {
-    display: block;
-    font-size: 18px;
-    color: #00c4cc;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #002653;
-}
-
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
