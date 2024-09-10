@@ -21,11 +21,11 @@ const Feature = () => {
 
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/gestionDonnees.png`} alt="Amélioration de la gestion des données" />
+                        <img src={`${prefix}/image/gestionDonnees.png`} alt="Dossier patient centralisé et sécurisé" />
                     </div>
-                    <h3>Amélioration de la gestion des données patient</h3>
+                    <h3>Dossier patient centralisé et sécurisé</h3>
                     <p>
-                        Saisissez des informations importantes en temps réel, améliorez la coordination des données des patients et réduisez les risques d'erreurs médicales.
+                        Gagnez un temps précieux et améliorez la qualité des soins grâce à un accès instantané et sécurisé à toutes les données de vos patients. Suivez leur évolution en temps réel, prenez des notes cliniques et centralisez toutes les informations dans un seul et même endroit .
                     </p>
                 </div>
 
