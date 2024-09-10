@@ -13,9 +13,9 @@ const Feature = () => {
                     <div className="icon">
                         <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
                     </div>
-                    <h3>Digitalisation de votre travail et gain d’espace dans votre cabinet</h3>
+                    <h3>Digitalisation de votre activité</h3>
                     <p>
-                        Folya vous permet de numériser tous vos dossiers papiers, de libérer de l’espace dans votre cabinet et d’automatiser l'accès à vos fiches.
+                        Folya vous offre la possibilité de numériser l'intégralité de vos dossiers papiers, vous permettant ainsi de désencombrer votre cabinet et de consulter vos fiches à tout moment, où que vous soyez.
                     </p>
                 </div>
 
