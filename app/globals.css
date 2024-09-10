@@ -747,12 +747,10 @@ h3 {
     top: 20px; /* Adjust this to move the h2 vertically */
     left: 20px; /* Adjust this to move the h2 horizontally */
     z-index: 1000; /* High z-index to ensure it is on top */
-    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a translucent background for better visibility */
     padding: 15px; /* Add some padding to make the text stand out */
     font-size: 2.5rem; /* Adjust font size to make it more prominent */
     max-width: 70%; /* To ensure the heading doesn't overflow */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow to make it pop */
-}
+    }
 
 /* Ensure the iframe video stays behind the h2 */
 .offer-video iframe {
