@@ -33,9 +33,9 @@ const Feature = () => {
                     <div className="icon">
                         <img src={`${prefix}/image/suivi.png`} alt="Facturation automatisée" />
                     </div>
-                    <h3>Facturation automatisée et suivi des finances</h3>
+                    <h3>Association automatique des factures et paiements</h3>
                     <p>
-                        Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie.
+                        Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya simplifie votre gestion administrative et le suivi des paiements.
                     </p>
                 </div>
 
