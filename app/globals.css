@@ -735,6 +735,27 @@ h3 {
 *
 **************************************/
 
+.wrapper-offer {
+    position: relative;
+}
+
+.offer-heading {
+    position: absolute; /* Absolute position to bring it above other elements */
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    z-index: 999; /* Ensure it's on top */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Transparent background for readability */
+    padding: 10px; /* Add some padding */
+    font-size: 2rem; /* Adjust font size for emphasis */
+    max-width: 80%; /* Ensure it doesn't overflow */
+}
+
+.offer-video {
+    position: relative; /* Maintain position of the video */
+    z-index: 1; /* Keep it behind the h2 */
+}
+
+
 .offer-heading {
     position: relative;
     z-index: 10; /* Optional: add a semi-transparent background to enhance visibility */
