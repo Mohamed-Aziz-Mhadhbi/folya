@@ -6,7 +6,7 @@ const Offers = () => {
                 <div className="heading-section">
                     <h2 className="offer-heading">
                         <span className="selection">Folya,</span>
-                        votre solution tout-en-un, clé en main, pour simplifier la gestion de votre cabinet paramédical.
+                        votre solution clé en main, pour la gestion de votre cabinet paramédical.
                     </h2>
                 </div>
                 
