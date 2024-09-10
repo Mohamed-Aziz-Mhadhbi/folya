@@ -23,7 +23,7 @@ const Feature = () => {
                     <div className="icon">
                         <img src={`${prefix}/image/gestionDonnees.png`} alt="Dossier patient centralisé et sécurisé" />
                     </div>
-                    <h3>Dossier patient centralisé et sécurisé</h3>
+                    <h3>Dossier-patient centralisé et sécurisé</h3>
                     <p>
                         Suivez l’évolution de vos patients en temps réel. Centralisez tout le dossier -patient dans un seul et même endroit. Folya vous donne un accès instantané et sécurisé à toutes les données de vos patients.
                     </p>
