@@ -5,8 +5,8 @@ const FAQ = () => {
         <section id="faq">
             <div className="wrapper-faq flex-row container">
                 <div className="faq-content">
-                    <span className="suptitle">Faq</span>
-                    <h2>FAQ</h2>
+                    <span className="suptitle">Questions fréquentes</span>
+                    <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
                             <i className="fa-solid fa-chevron-up" />
