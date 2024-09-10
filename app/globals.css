@@ -536,6 +536,20 @@ h3 {
     color: var(--color-blue);
 }
 
+.wrapper-bottom-header {
+    background-color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.wrapper-bottom-header .appointment,
+	.wrapper-top-header {
+		display: none;
+	}
+
 
 /**************************************
 *
