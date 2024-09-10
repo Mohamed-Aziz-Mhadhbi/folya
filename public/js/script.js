@@ -90,15 +90,29 @@ jQuery(document).ready(function () {
       }
    });
 
+
    // scroll fixed menu
    $(window).scroll(function () {
-      var headerTop = $('.wrapper-top-header').height();
-      if ($(this).scrollTop() >= headerTop) {
+      var scrollPosition = $(window).scrollTop();
+
+      // If user scrolls down past a certain point (e.g., 100px), add the fixed class
+      if (scrollPosition > 100) {
          $('.wrapper-bottom-header').addClass('fixedmenu');
       } else {
          $('.wrapper-bottom-header').removeClass('fixedmenu');
       }
    });
+
+   
+   // scroll fixed menu
+   // $(window).scroll(function () {
+   //    var headerTop = $('.wrapper-top-header').height();
+   //    if ($(this).scrollTop() >= headerTop) {
+   //       $('.wrapper-bottom-header').addClass('fixedmenu');
+   //    } else {
+   //       $('.wrapper-bottom-header').removeClass('fixedmenu');
+   //    }
+   // });
 
    // Scroll Menu
    $(".menu li").on("click", "a", function (event) {
@@ -115,7 +129,7 @@ jQuery(document).ready(function () {
       $('body,html').animate({
          scrollTop: top
       }, 1500);
-   }); 
+   });
 
    $(".btn.appointment").on("click", function (event) {
       event.preventDefault();
