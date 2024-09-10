@@ -330,6 +330,7 @@ a {
     display: inline-block;
     text-decoration: none;
     transition: all 0.5s;
+    color: var(--color-blue);
 }
 
 img {
