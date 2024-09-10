@@ -13,14 +13,13 @@ const Service = () => {
                     <img src={`${prefix}/image/dossiersPatients.png`} alt="" />
                     <h3>Dossier-patient paramédical standardisé</h3>
                     <p>
-                        Enregistrez et consultez les fiches administratives, médicales et les comptes-rendus.Conservez les ordonnances de prise en charge.
-                    </p>
+                    Enregistrez et consultez les fiches administratives, médicales et les comptes-rendus. Conservez les prescriptions de soins  </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/service-4.png`} alt="" />
-                    <h3>Configuration des bilans et tests d’évaluation</h3>
+                    <h3> Bilans et tests d’évaluation personnalisés</h3>
                     <p>
-                        Stockez et accédez à tous vos tests d’évaluation spécifiques à votre métier. Avec Folya, plus besoin d’imprimer vos grilles ou de noter vos observations sur papier. Profitez d’un annuaire de bilans personnalisé et accessible partout
+                        Stockez et accédez aux tests d’évaluation spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier. Profitez d’un annuaire de bilans accessibles partout.
                     </p>
                 </article>
                 <article className="align-center">
