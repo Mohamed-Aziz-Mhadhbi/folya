@@ -35,7 +35,7 @@ const Feature = () => {
                     </div>
                     <h3>Facturation automatisée et suivi des finances</h3>
                     <p>
-                        Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya simplifie votre gestion administrative et le suivi des paiements.
+                        Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie.
                     </p>
                 </div>
 
