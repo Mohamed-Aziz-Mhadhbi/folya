@@ -743,19 +743,6 @@ h3 {
     justify-content: space-between;
 }
 
-/* Ensure the h2 is "floating" above everything */
-.floating-heading {
-    position: absolute; /* Absolute positioning to make it float over everything */
-    top: -50px; /* Adjust to place it above the entire content (can be changed as needed) */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center alignment fix */
-    z-index: 999; /* Ensure it stays above other content */
-    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a translucent background for readability */
-    padding: 20px; /* Padding for aesthetics */
-    font-size: 2.5rem; /* Adjust font size to make it more prominent */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow to create a "floating" effect */
-}
-
 /* Ensure the iframe video stays behind the h2 */
 .offer-video iframe {
     position: relative;

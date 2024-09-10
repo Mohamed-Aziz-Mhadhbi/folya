@@ -3,7 +3,7 @@ const Offers = () => {
         <section id="offer" className="ptb">
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
-                    <h2 className="floating-heading">
+                    <h2 className="offer-heading flex-col">
                         <span className="selection">Folya,</span>
                         votre solution tout-en-un, clé en main, pour simplifier la gestion de votre cabinet paramédical.
                     </h2>
