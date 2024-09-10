@@ -11,7 +11,7 @@ const Service = () => {
             <div className="wrapper-service container flex-row">
                 <article className="align-center">
                     <img src={`${prefix}/image/dossiersPatients.png`} alt="" />
-                    <h3>Dossier-patient paramédical standardisé</h3>
+                    <h3>Dossier-patient standardisé</h3>
                     <p>
                     Enregistrez et consultez les fiches administratives, médicales et les comptes-rendus. Conservez les prescriptions de soins  </p>
                 </article>
