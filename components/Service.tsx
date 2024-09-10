@@ -40,14 +40,14 @@ const Service = () => {
                     <img src={`${prefix}/image/facturation.png`} alt="" />
                     <h3>Facturation des actes</h3>
                     <p>
-                        Automatisez la création, la consultation et l'impression des factures. Suivez les paiements et vos revenues en temps réel.
+                    Automatisez la création, la consultation et l'impression de vos factures. Suivez vos paiements et vos revenues en temps réel.
                     </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/analyses.png`} alt="" />
                     <h3>Activité du cabinet optimisée</h3>
                     <p>
-                    Accédez à des rapports et analyses personnalisés à votre cabinet. Optimisez votre trésorerie, vos dépenses et votre comptabilité.
+                    Accédez à des rapports et analyses personnalisés à votre cabinet. Optimisez  vos dépenses, votre trésorerie et votre comptabilité.
                     </p>
                 </article>
             </div>
