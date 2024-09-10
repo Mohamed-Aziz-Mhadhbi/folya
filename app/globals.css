@@ -759,6 +759,11 @@ h3 {
     height: auto;
 }
 
+.offer-video iframe {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
 /**************************************
 *
 *         FAQ 
