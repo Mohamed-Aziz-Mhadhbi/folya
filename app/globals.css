@@ -739,6 +739,27 @@ h3 {
 /* Ensure wrapper is positioned relative for absolute positioning of h2 */
 .wrapper-offer {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ensure the h2 is "floating" above everything */
+.floating-heading {
+    position: absolute; /* Absolute positioning to make it float over everything */
+    top: -50px; /* Adjust to place it above the entire content (can be changed as needed) */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center alignment fix */
+    z-index: 999; /* Ensure it stays above other content */
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a translucent background for readability */
+    padding: 20px; /* Padding for aesthetics */
+    font-size: 2.5rem; /* Adjust font size to make it more prominent */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow to create a "floating" effect */
+}
+
+/* Ensure the iframe video stays behind the h2 */
+.offer-video iframe {
+    position: relative;
+    z-index: 1;
 }
 
 /* Ensure h2 is on top of everything */
@@ -752,19 +773,12 @@ h3 {
     font-size: 2.5rem; /* Adjust font size to make it more prominent */
     max-width: 70%; /* To ensure the heading doesn't overflow */
     }
- 
-/* Ensure the iframe video stays behind the h2 */
-.offer-video iframe {
-    position: relative;
-    z-index: 1;
-}
 
 
 .offer-video {
     position: relative; /* Maintain position of the video */
     z-index: 1; /* Keep it behind the h2 */
 }
-
 
 
 .offer-content {
