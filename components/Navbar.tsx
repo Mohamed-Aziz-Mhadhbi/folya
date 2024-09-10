@@ -32,9 +32,9 @@ const Navbar = () => {
                         </ul>
                     </nav>
                     <nav>
-                        <a className="btn appointment" href="#contacts">
+                        {/* <a className="btn appointment" href="#contacts">
                             Contact
-                        </a>
+                        </a> */}
                         <a className="btn appointment" href="#booking">
                             Démo
                         </a>
