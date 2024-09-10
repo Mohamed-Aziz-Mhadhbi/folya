@@ -17,9 +17,9 @@ const Service = () => {
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/service-4.png`} alt="" />
-                    <h3> Bilans et tests d’évaluation personnalisés</h3>
+                    <h3>Tests d’évaluation personnalisés</h3>
                     <p>
-                        Stockez et accédez aux tests d’évaluation spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier. Profitez d’un annuaire de bilans accessibles partout.
+                    Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.
                     </p>
                 </article>
                 <article className="align-center">
