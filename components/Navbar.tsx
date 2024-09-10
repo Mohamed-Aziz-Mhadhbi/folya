@@ -35,11 +35,11 @@ const Navbar = () => {
                         <a className="btn appointment" href="#contacts">
                             Contact
                         </a>
-                        <a className="btn appointment" href="https://www.folya.co/login">
-                            Connexion
-                        </a>
                         <a className="btn appointment" href="#booking">
                             Démo
+                        </a>
+                        <a className="btn appointment" href="https://www.folya.co/login">
+                            Connexion
                         </a>
                     </nav>
                     <a id="openmenu" className="btn" href="#">
