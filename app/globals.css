@@ -795,7 +795,7 @@ h3 {
 /* Adjust iframe styling */
 .offer-video iframe {
     width: 100%; /* Make iframe responsive */
-    height: auto; /* Maintain aspect ratio */
+    height: 50%; /* Maintain aspect ratio */
 }
 
 /* Responsive design */
