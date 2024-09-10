@@ -735,6 +735,13 @@ h3 {
 *
 **************************************/
 
+.offer-heading {
+    position: relative;
+    z-index: 10; /* Optional: add a semi-transparent background to enhance visibility */
+    padding: 10px;
+}
+
+
 .wrapper-offer {
     background-color: var(--color-gray);
     box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
