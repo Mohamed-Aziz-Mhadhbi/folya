@@ -13,20 +13,20 @@ const Service = () => {
                     <img src={`${prefix}/image/dossiersPatients.png`} alt="" />
                     <h3>Dossier-patient standardisé</h3>
                     <p>
-                    Enregistrez et consultez les fiches administratives, médicales et les comptes-rendus. Conservez les prescriptions de soins. </p>
+                        Enregistrez et consultez les fiches administratives, médicales et les comptes-rendus. Conservez les prescriptions de soins. </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/service-4.png`} alt="" />
                     <h3>Tests d’évaluation personnalisés</h3>
                     <p>
-                    Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.
+                        Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.
                     </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/suivi.png`} alt="" />
                     <h3>Suivi des patients</h3>
                     <p>
-                    Gardez un œil sur l'évolution de l'état de vos patients. Préservez un historique de votre prise en charge.
+                        Gardez un œil sur l'évolution de l'état de vos patients. Préservez un historique de votre prise en charge.
                     </p>
                 </article>
                 <article className="align-center">
@@ -40,19 +40,16 @@ const Service = () => {
                     <img src={`${prefix}/image/facturation.png`} alt="" />
                     <h3>Facturation des actes</h3>
                     <p>
-                    Automatisez la création, la consultation et l'impression des factures. Suivez les paiements et vos revenues en temps réel.
+                        Automatisez la création, la consultation et l'impression des factures. Suivez les paiements et vos revenues en temps réel.
                     </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/analyses.png`} alt="" />
-                    <h3>Rapports et analyses</h3>
+                    <h3>Activité du cabinet optimisée</h3>
                     <p>
-                        Accédez à des informations clés sur votre pratique grâce à des rapports personnalisés.  Identifiez les tendances et optimisez vos processus, votre trésorerie, vos dépenses et votre comptabilité.
+                        Accédez à des rapports et analyses personnalisés à l’activité de votre cabinet. Optimisez votre trésorerie, vos dépenses et votre comptabilité.
                     </p>
                 </article>
-
-
-
             </div>
         </section>
     );
