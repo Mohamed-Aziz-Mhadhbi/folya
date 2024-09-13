@@ -35,7 +35,7 @@ const Navbar = () => {
                         <a className=" appointment">
                             Vous êtes professionnel paramédical ?
                         </a> 
-                        <a className="btn appointment" href="/form">
+                        <a className="btn appointment" href="/folya/form">
                             Démo
                         </a>
                         <a className="btn appointment" href="https://www.folya.co/login">
