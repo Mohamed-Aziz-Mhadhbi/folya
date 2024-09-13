@@ -25,8 +25,16 @@ export default function RootLayout({
         </title>
         <meta name="description" content="Folya - Optimize your workflow and enhance productivity" />
         <meta name="keywords" content="Folya, healthcare, management, productivity" />
-        <meta name="description" content="" />
         <meta name="keywords" content="" />
+        <meta name="description" content="Simplifiez votre quotidien avec Folya, la plateforme tout-en-un conçue pour les professionnels de santé. Gérez vos rendez-vous, vos dossiers patients et optimisez votre organisation grâce à des outils intuitifs et personnalisés." />
+        <link rel="canonical" href="https://www.folya.co/" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Folya : Votre assistant personnel pour une gestion efficace de votre cabinet" />
+        <meta property="og:description" content="Simplifiez votre quotidien avec Folya, la plateforme tout-en-un conçue pour les professionnels de santé. Gérez vos rendez-vous, vos dossiers patients et optimisez votre organisation grâce à des outils intuitifs et personnalisés." />
+        <meta property="og:url" content="https://www.folya.co/" />
+        <meta property="og:site_name" content="Folya - La solution pour les professionnels de santé" />
+        <meta property="article:modified_time" content="2024-09-06T08:53:11+00:00" />
         {/* Always force latest IE rendering engine */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         {/* Mobile Specific Meta */}
@@ -36,7 +44,7 @@ export default function RootLayout({
         {/* Custom style CSS */}
         <link rel="stylesheet" href="styles/all.min.css" />
         {/* Responsive CSS */}
-        <link rel="stylesheet" href="styles/responsive.css" /> 
+        <link rel="stylesheet" href="styles/responsive.css" />
       </Head>
       <body>
 
