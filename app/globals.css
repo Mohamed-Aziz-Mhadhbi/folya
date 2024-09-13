@@ -2141,40 +2141,6 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     --lavender-800: #20004d
 }
 
-:export {
-    montserrat: "Montserrat", sans-serif;
-    roboto: "Roboto", "Helvetica Neue", sans-serif
-}
-
-@font-face {
-    font-display: swap;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    src: url('/fonts/webfonts/fa-brands-400.woff2') format('woff2'),
-    url('/fonts/webfonts/fa-brands-400.woff') format('woff');}
-
-body,
-html {
-    scroll-behavior: smooth
-}
-
-
-
-
-
-#page {
-    min-height: 100%
-}
-
-.mejs-controls .mejs-time-rail .mejs-time-current {
-    background: var(--water-500) !important
-}
-
-.content figure {
-    width: 100% !important
-}
-
 
 button,
 input[type=submit] {
@@ -4474,10 +4440,6 @@ input[type=radio]:focus {
     right: 40px;
     top: 12px;
     width: 16px
-}
-
-.form-wrapper .select2-selection.w-select-error:before {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234b739b'%3E%3Cpath fill='%23E2515A' fill-rule='evenodd' d='M14.2 8a6.2 6.2 0 1 0-12.402.002A6.2 6.2 0 0 0 14.2 8M8 9.25a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3M6.908 5.116a.3.3 0 0 1 .3-.316h1.584a.3.3 0 0 1 .3.316l-.186 3.4a.3.3 0 0 1-.3.284H7.394a.3.3 0 0 1-.3-.284z' clip-rule='evenodd'/%3E%3C/svg%3E")
 }
 
 .form-wrapper select {
