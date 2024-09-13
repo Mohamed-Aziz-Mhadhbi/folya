@@ -1,6 +1,13 @@
+"use client"
+import { useState } from "react";
 import styles from '../styles/Home.module.css';
 
 export default function Form() {
+    const [selectedOption, setSelectedOption] = useState("");
+
+    const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+        setSelectedOption(event.target.value);
+    };
     return (
         <>
             <div id="page" className={styles.site} data-select2-id="select2-data-page">
@@ -209,34 +216,44 @@ export default function Form() {
                                                             data-row={1}
                                                             data-step="true"
                                                         >
-                                                            <select
-                                                                autoComplete="off"
-                                                                className={styles.dropdownMobile + ' ' + styles.jsAddCustomSelect + ' ' + styles.select2HiddenAccessible}
-                                                                data-placeholder=""
-                                                                name="comment"
-                                                                required
-                                                                data-validatable="true"
-                                                                data-select2-id="select2-data-4-uwf5"
-                                                                tabIndex={-1}
-                                                                aria-hidden="true"
-                                                            >
-                                                                <option
-                                                                    value=""
-                                                                    disabled
-                                                                    selected
-                                                                    data-select2-id="select2-data-6-6j5e"
+                                                            <div className="dropdown-container">
+                                                                <select
+                                                                    autoComplete="off"
+                                                                    className={`${styles.dropdownMobile} ${styles.jsAddCustomSelect} ${styles.select2HiddenAccessible}`}
+                                                                    data-placeholder=""
+                                                                    name="comment"
+                                                                    required
+                                                                    data-validatable="true"
+                                                                    data-select2-id="select2-data-4-uwf5"
+                                                                    tabIndex={-1}
+                                                                    aria-hidden="true"
+                                                                    value={selectedOption} // Bind state to the select value
+                                                                    onChange={handleSelectChange} // Trigger state change on selection
                                                                 >
-                                                                    Objet de votre demande *
-                                                                </option>
-                                                                <option value="I want more information">
-                                                                    Je suis professionnel de santé et souhaite en
-                                                                    savoir plus sur le logiciel Doctolib
-                                                                </option>
-                                                                <option value="I am a patient">
-                                                                    Je suis un patient et souhaite prendre RDV chez un
-                                                                    médecin
-                                                                </option>
-                                                            </select>
+                                                                    <option
+                                                                        value=""
+                                                                        disabled
+                                                                        data-select2-id="select2-data-6-6j5e"
+                                                                    >
+                                                                        Objet de votre demande *
+                                                                    </option>
+                                                                    <option value="I want more information">
+                                                                        Je suis professionnel de santé et souhaite en savoir plus sur le logiciel Doctolib
+                                                                    </option>
+                                                                    <option value="I am a patient">
+                                                                        Je suis un patient et souhaite prendre RDV chez un médecin
+                                                                    </option>
+                                                                </select>
+
+                                                                {/* Display selected option as confirmation */}
+                                                                {selectedOption && (
+                                                                    <div className="dropdown-selected">
+                                                                        {selectedOption === "I want more information"
+                                                                            ? "Je suis professionnel de santé et souhaite..."
+                                                                            : "Je suis un patient et souhaite..."}
+                                                                    </div>
+                                                                )}
+                                                            </div>
                                                             <span
                                                                 className={styles.select2 + ' ' + styles.select2Container + ' ' + styles.select2ContainerDefault}
                                                                 dir="ltr"

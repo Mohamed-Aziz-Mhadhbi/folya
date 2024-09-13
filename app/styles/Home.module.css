@@ -365,3 +365,18 @@
     z-index: 999;
     background-color: transparent;
   }
+
+  .dropdown-selected {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .dropdown-selected::before {
+    content: "✔️ ";
+    color: green;
+  }
