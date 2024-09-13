@@ -28,7 +28,6 @@ export default function Form() {
                                 data-user-validation="true"
                                 data-enhancer="true"
                                 data-form-type="Modal"
-                                data-redirect="https://info.doctolib.fr/thank-you"
                                 data-two-step="false"
                             >
                                 <input
@@ -283,11 +282,7 @@ export default function Form() {
                                     name="meta-title"
                                     defaultValue="Doctolib Pro I Agenda et logiciel de gestion pour les praticiens"
                                 />
-                                <input
-                                    type="hidden"
-                                    name="form_url_custom"
-                                    defaultValue="https://info.doctolib.fr/?origin=home-header&utm_button=header&utm_content-group=homepage&utm_website=doctolib_patients"
-                                />
+                                
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input
                                         type="hidden"
@@ -295,13 +290,7 @@ export default function Form() {
                                         defaultValue="36ca6df5-23d9-43b0-b64e-970b5041f9c4"
                                     />
                                 </div>
-                                <div className="field-wrapper field-wrapper--hidden">
-                                    <input
-                                        type="hidden"
-                                        name="automation_url"
-                                        defaultValue="https://hooks.zapier.com/hooks/catch/6811085/o1wohyi/"
-                                    />
-                                </div>
+                                
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input type="hidden" name="kind" defaultValue="sales" />
                                 </div>
@@ -316,14 +305,8 @@ export default function Form() {
                                     <input
                                         type="submit"
                                         defaultValue="Valider votre demande"
-                                        className="button button--primary button--fill"
+                                        className="btn"
                                     />
-                                    <a
-                                        href="https://www.doctolib.fr/"
-                                        className="js-patient-redirect hidden button button--primary button--fill"
-                                    >
-                                        Prendre rendez-vous avec Doctolib
-                                    </a>
                                 </div>
                                 <div className="legal-notice">
                                     <div className="tooltip-action paragraph paragraph--xsmall">
