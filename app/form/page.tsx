@@ -227,8 +227,8 @@ export default function Form() {
                                                                     data-select2-id="select2-data-4-uwf5"
                                                                     tabIndex={-1}
                                                                     aria-hidden="true"
-                                                                    value={selectedOption} // Bind state to the select value
-                                                                    onChange={handleSelectChange} // Trigger state change on selection
+                                                                    value={selectedOption}
+                                                                    onChange={handleSelectChange}
                                                                 >
                                                                     <option
                                                                         value=""
@@ -238,10 +238,10 @@ export default function Form() {
                                                                         Objet de votre demande *
                                                                     </option>
                                                                     <option value="I want more information">
-                                                                        Je suis professionnel de santé et souhaite en savoir plus sur le logiciel Doctolib
+                                                                        Je ne suis pas professionnels de santé et je suis curieux de savoir plus sur Folya
                                                                     </option>
                                                                     <option value="I am a patient">
-                                                                        Je suis un patient et souhaite prendre RDV chez un médecin
+                                                                        Je suis professionnel de santé et je veux savoir plus sur Folya
                                                                     </option>
                                                                 </select>
 
