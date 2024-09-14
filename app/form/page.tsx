@@ -11,19 +11,16 @@ export default function Form() {
                 content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
             />
             <meta name="format-detection" content="telephone=no" />
+
             <div className="modalForm">
                 <div className="modalForm__content">
+                    <h2>
+                        Échangez avec un conseiller
+                    </h2>
                     <div className="modalForm__content-left">
                         <div className="form-wrapper">
-                            <p
-                                className="form-wrapper__title title title--large"
-                                id="form-wrapper__title"
-                            >
-                                Échangez avec un conseiller
-                            </p>
                             <form
-                                className="form-b2b
-						"
+                                className="form-b2b"
                                 data-form-id={341}
                                 data-user-validation="true"
                                 data-enhancer="true"
@@ -282,7 +279,7 @@ export default function Form() {
                                     name="meta-title"
                                     defaultValue="Doctolib Pro I Agenda et logiciel de gestion pour les praticiens"
                                 />
-                                
+
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input
                                         type="hidden"
@@ -290,7 +287,7 @@ export default function Form() {
                                         defaultValue="36ca6df5-23d9-43b0-b64e-970b5041f9c4"
                                     />
                                 </div>
-                                
+
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input type="hidden" name="kind" defaultValue="sales" />
                                 </div>
