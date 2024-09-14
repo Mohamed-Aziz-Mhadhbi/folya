@@ -1,5 +1,6 @@
 "use client";
 import { prefix } from '@/prefix';
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -35,9 +36,9 @@ const Navbar = () => {
                         <a className=" appointment">
                             Vous êtes professionnel paramédical ?
                         </a> 
-                        <a className="btn appointment" href="/folya/form">
-                            Démo
-                        </a>
+                        <Link href="/form" className="btn appointment">
+                        Démo
+                        </Link>
                         <a className="btn appointment" href="https://www.folya.co/login">
                             Connexion
                         </a>

@@ -3,7 +3,7 @@
 export default function Form() {
     return (
         <>
-            <section id="offer" className="ptb flex-row">
+            <section id="offer" className="ptb">
                 <div className="wrapper-aboutus container flex-row">
                     <div className="modalForm">
                         <div className="modalForm__content">
@@ -267,11 +267,6 @@ export default function Form() {
                                         <input type="hidden" name="site_id" defaultValue={3} />
                                         <input type="hidden" name="post_id" defaultValue={8826} />
                                         <input type="hidden" name="catalog_id" defaultValue="3_8826" />
-                                        <input
-                                            type="hidden"
-                                            name="meta-title"
-                                            defaultValue="Doctolib Pro I Agenda et logiciel de gestion pour les praticiens"
-                                        />
                                         <div className="field-wrapper field-wrapper--hidden">
                                             <input
                                                 type="hidden"
