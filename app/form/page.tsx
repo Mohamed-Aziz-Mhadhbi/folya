@@ -3,15 +3,6 @@
 export default function Form() {
     return (
         <>
-            <meta charSet="UTF-8" />
-            <meta name="apple-mobile-web-app-capable" content="yes" />
-            <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-            <meta
-                name="viewport"
-                content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
-            />
-            <meta name="format-detection" content="telephone=no" />
-
             <div className="modalForm">
                 <div className="modalForm__content">
                     <h2>
@@ -279,7 +270,6 @@ export default function Form() {
                                     name="meta-title"
                                     defaultValue="Doctolib Pro I Agenda et logiciel de gestion pour les praticiens"
                                 />
-
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input
                                         type="hidden"
@@ -287,7 +277,6 @@ export default function Form() {
                                         defaultValue="36ca6df5-23d9-43b0-b64e-970b5041f9c4"
                                     />
                                 </div>
-
                                 <div className="field-wrapper field-wrapper--hidden">
                                     <input type="hidden" name="kind" defaultValue="sales" />
                                 </div>
