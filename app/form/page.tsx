@@ -243,11 +243,10 @@ export default function Form() {
                                                     Objet de votre demande *
                                                 </option>
                                                 <option value="I want more information">
-                                                    Je suis professionnel de santé et souhaite en savoir plus
-                                                    sur le logiciel Doctolib
+                                                    Je ne suis pas professionnels de santé et je suis curieux de savoir plus sur Folya
                                                 </option>
                                                 <option value="I am a patient">
-                                                    Je suis un patient et souhaite prendre RDV chez un médecin
+                                                    Je suis professionnel de santé et je veux savoir plus sur Folya
                                                 </option>
                                             </select>
                                             <label className="label-and-placeholder">
