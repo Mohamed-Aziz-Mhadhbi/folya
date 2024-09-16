@@ -2934,3 +2934,25 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 
 
 
+/* drop donw in the form */ 
+
+/* styles/globals.css */
+.dropdown {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+
+
+
