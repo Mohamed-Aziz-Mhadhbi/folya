@@ -7,14 +7,13 @@ const Offers = () => {
                     <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/9_nyG2TUDcQ?autoplay=1&mute=1"
+                        src="https://www.youtube.com/embed/9_nyG2TUDcQ?autoplay=1&mute=1&loop=1"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen>
                     </iframe>
                 </div>
-                {/* Heading section */}
                 <div className="heading-section">
                     <h2 className="offer-heading">
                         <span className="selection">Folya,</span>
