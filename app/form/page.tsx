@@ -11,176 +11,6 @@ import Speciale from '../../components/form/TextFieldSpecialte';
 export default function Form() {
     return (
         <>
-            <link
-                rel="stylesheet"
-                id="main-style-css"
-                href="https://info.doctolib.fr/wp-content/themes/common/dist/app_b2b.cca0824d5919c5666c1f.min.css?ver=1725885819"
-                type="text/css"
-                media="all"
-            />
-            <div
-                className="hero-form-blue__inner container container--large"
-                data-select2-id="select2-data-15-bh5f"
-            >
-                <div className="hero-form-blue__content">
-                    <div className="hero-form-blue__title">
-                        <h1 className="title title--xxxlarge title--doodle-sky-400">
-                            La{" "}
-                            <strong>
-                                <em>nouvelle</em>
-                            </strong>{" "}
-                            génération de solutions pour les praticiens
-                        </h1>
-                    </div>
-                    <div className="hero-form-blue__subtitle-and-slider">
-                        <div className="hero-form-blue__slider-wrapper">
-                            <ul className="hero-form-blue__slider hero-form-blue__slider--3">
-                                <li className="hero-form-blue__slider-item">
-                                    <p className="title title--xlarge hero-form-blue__slider-item-title">
-                                        Gagnez du temps au quotidien
-                                    </p>
-                                </li>
-                                <li className="hero-form-blue__slider-item">
-                                    <p className="title title--xlarge hero-form-blue__slider-item-title">
-                                        Gagnez en confort de travail
-                                    </p>
-                                </li>
-                                <li className="hero-form-blue__slider-item">
-                                    <p className="title title--xlarge hero-form-blue__slider-item-title">
-                                        Renforcez la communication patient
-                                    </p>
-                                </li>
-                                <li className="hero-form-blue__slider-item" aria-hidden="true">
-                                    <p className="title title--xlarge hero-form-blue__slider-item-title">
-                                        Gagnez du temps au quotidien
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <ul className="hero-form-blue__list">
-                        <li className="icon-text">
-                            <svg
-                                className="icon-text__icon"
-                                fill="none"
-                                height={16}
-                                viewBox="0 0 32 16"
-                                width={32}
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                            >
-                                <g clipPath="url(#a)" fill="#ffcd4c">
-                                    <path d="m20.9684 8.43105c-4.9628 2.05265-10.286 3.29335-15.67372 3.35405-1.63908.0114-3.27816-.0986-4.886884-.4174-.3945932-.0796-.660185-.4477-.626037-.8499l.04553-.53493c.034147-.39459.356651-.70951.755039-.72848 3.354042-.15936 6.658762-.06071 9.997672-.40598 3.1036-.29215 6.2148-.82334 9.2046-1.73014l.6488-.17833.0379-.01138c.9676-.26939 1.4305 1.13825.4933 1.4987z" />
-                                    <path d="m16.5138.271664c.2467-.155562.6602.053118.9182.094854l.8803.223857c4.0483 1.028225 8.6393 2.200625 12.7977 3.300935.6754.17833.8992 1.02063.406 1.51767-3.5058 3.521-7.0117 7.07992-10.8969 10.17602-.368.2921-.8992.2504-1.2255-.0873l-.3149-.3301c-.2846-.2959-.296-.6488-.0911-.884 2.5194-2.914 5.3346-5.53953 8.1689-8.14613.3225-.29595.2049-.83472-.2125-.96752l-.4781-.15177c-2.4851-.81954-6.1389-2.02988-8.6165-2.84943l-.8613-.28456c-.019-.00759-.0379-.01518-.0569-.02277-.4515-.15556-.6905-.6488-.5578-1.107895z" />
-                                </g>
-                            </svg>
-                            <p className="paragraph icon-text__text paragraph--bold">
-                                Des solutions tout-en-un innovantes, conçues avec vous
-                            </p>
-                        </li>
-                        <li className="icon-text">
-                            <svg
-                                className="icon-text__icon"
-                                fill="none"
-                                height={16}
-                                viewBox="0 0 32 16"
-                                width={32}
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlnsXlink="http://www.w3.org/1999/xlink"
-                            >
-                                <clipPath id="a">
-                                    <path d="m0 0h32v16h-32z" />
-                                </clipPath>
-                                <g clipPath="url(#a)" fill="#ffcd4c">
-                                    <path d="m20.9684 8.43105c-4.9628 2.05265-10.286 3.29335-15.67372 3.35405-1.63908.0114-3.27816-.0986-4.886884-.4174-.3945932-.0796-.660185-.4477-.626037-.8499l.04553-.53493c.034147-.39459.356651-.70951.755039-.72848 3.354042-.15936 6.658762-.06071 9.997672-.40598 3.1036-.29215 6.2148-.82334 9.2046-1.73014l.6488-.17833.0379-.01138c.9676-.26939 1.4305 1.13825.4933 1.4987z" />
-                                    <path d="m16.5138.271664c.2467-.155562.6602.053118.9182.094854l.8803.223857c4.0483 1.028225 8.6393 2.200625 12.7977 3.300935.6754.17833.8992 1.02063.406 1.51767-3.5058 3.521-7.0117 7.07992-10.8969 10.17602-.368.2921-.8992.2504-1.2255-.0873l-.3149-.3301c-.2846-.2959-.296-.6488-.0911-.884 2.5194-2.914 5.3346-5.53953 8.1689-8.14613.3225-.29595.2049-.83472-.2125-.96752l-.4781-.15177c-2.4851-.81954-6.1389-2.02988-8.6165-2.84943l-.8613-.28456c-.019-.00759-.0379-.01518-.0569-.02277-.4515-.15556-.6905-.6488-.5578-1.107895z" />
-                                </g>
-                            </svg>
-                            <p className="paragraph icon-text__text paragraph--bold">
-                                Le plus haut niveau de protection des données de santé
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div className="hero-form-blue__form" data-select2-id="select2-data-14-e77w">
-                    <div
-                        className="hero-form-blue__form-inside"
-                        data-select2-id="select2-data-125-w8x9"
-                    >
-                        <div
-                            className="hero-form-blue__form-content"
-                            data-select2-id="select2-data-124-mlwh"
-                        >
-                            <div className="form-wrapper" data-select2-id="select2-data-123-m85b">
-                                <h2 className="form-wrapper__title title title--large">
-                                    Échangez avec un conseiller
-                                </h2>
-                                <form
-                                    className="form-b2b"
-                                    data-form-id={341}
-                                    data-user-validation="true"
-                                    data-enhancer="true"
-                                    data-form-type="Modal"
-                                    data-two-step="false"
-                                >
-                                    <input
-                                        type="hidden"
-                                        defaultValue="contact_form"
-                                        name="origin_label"
-                                    />
-                                    <TextFieldNom/>
-                                    <TextFieldPrenom/>
-                                    <TextFieldCodePostal/>
-                                    <TextFieldTelephonePortable/>
-                                    <Speciale />
-                                    <TextFieldEmailAdresse/>
-                                    <SimpleDropdown />
-                                    <input
-                                        type="hidden"
-                                        name="organization_kind"
-                                        defaultValue="SELF_EMPLOYED"
-                                    />
-                                    <input
-                                        type="hidden"
-                                        name="product_interest"
-                                        defaultValue="BMS"
-                                    />
-                                    <input type="hidden" name="site_id" defaultValue={3} />
-                                    <input type="hidden" name="post_id" defaultValue={8826} />
-                                    <input type="hidden" name="catalog_id" defaultValue="3_8826" />
-                                    <div className="field-wrapper field-wrapper--hidden">
-                                        <input
-                                            type="hidden"
-                                            name="marketing_campaign_id"
-                                            defaultValue="36ca6df5-23d9-43b0-b64e-970b5041f9c4"
-                                        />
-                                    </div>
-                                    <div className="field-wrapper field-wrapper--hidden">
-                                        <input type="hidden" name="kind" defaultValue="sales" />
-                                    </div>
-                                    <p className="required-note">* Champs obligatoires</p>
-                                    <div className="power_form_input">
-                                        <button
-                                            className="step1-submit button button--primary button--fill"
-                                            data-url="test_step1"
-                                        >
-                                            Continuer{" "}
-                                        </button>
-                                        <input
-                                            type="submit"
-                                            defaultValue="Valider votre demande"
-                                            className="btn"
-                                        />
-                                    </div>
-                                    <LagalNote/>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
             <section id="offer" className="ptb">
                 <div className="wrapper-aboutus container flex-row">
                     <div className="modalForm">
@@ -207,7 +37,14 @@ export default function Form() {
                                             defaultValue="contact_form"
                                             name="origin_label"
                                         />
-                                        <div className="field-wrapper" data-row={2} data-step="false">
+                                        <TextFieldNom />
+                                        <TextFieldPrenom />
+                                        <TextFieldCodePostal />
+                                        <TextFieldTelephonePortable />
+                                        <Speciale />
+                                        <TextFieldEmailAdresse />
+                                        <SimpleDropdown />
+                                        {/* <div className="field-wrapper" data-row={2} data-step="false">
                                             <input
                                                 type="text"
                                                 name="last_name"
@@ -723,7 +560,7 @@ export default function Form() {
                                                 Objet de votre demande *
                                             </label>
                                             <div className="error error--none" />
-                                        </div>
+                                        </div> */}
                                         <input
                                             type="hidden"
                                             name="organization_kind"
@@ -733,16 +570,6 @@ export default function Form() {
                                         <input type="hidden" name="site_id" defaultValue={3} />
                                         <input type="hidden" name="post_id" defaultValue={8826} />
                                         <input type="hidden" name="catalog_id" defaultValue="3_8826" />
-                                        <input
-                                            type="hidden"
-                                            name="meta-title"
-                                            defaultValue="Doctolib Pro I Agenda et logiciel de gestion pour les praticiens"
-                                        />
-                                        <input
-                                            type="hidden"
-                                            name="form_url_custom"
-                                            defaultValue="https://info.doctolib.fr/?origin=home-header&utm_button=header&utm_content-group=homepage&utm_website=doctolib_patients"
-                                        />
                                         <div className="field-wrapper field-wrapper--hidden">
                                             <input
                                                 type="hidden"
@@ -780,60 +607,10 @@ export default function Form() {
                                             <input
                                                 type="submit"
                                                 defaultValue="Valider votre demande"
-                                                className="button button--primary button--fill"
+                                                className="btn"
                                             />
-                                            <a
-                                                href="https://www.doctolib.fr/"
-                                                className="js-patient-redirect button button--primary button--fill hidden"
-                                            >
-                                                Prendre rendez-vous avec Doctolib
-                                            </a>
                                         </div>
-                                        <div className="legal-notice">
-                                            <div className="tooltip-action paragraph paragraph--xsmall">
-                                                <button
-                                                    type="button"
-                                                    aria-describedby="tp-container-341"
-                                                    className="tooltip-action know-more"
-                                                >
-                                                    En savoir plus sur la collecte de vos données personnelles{" "}
-                                                </button>
-                                                <div
-                                                    id="tp-container-341"
-                                                    className="tooltip-wrapper"
-                                                    role="tooltip"
-                                                >
-                                                    <div className="tooltip">
-                                                        <div className="close-tooltip" />
-                                                        <p />
-                                                        <p>
-                                                            Je recevrai également des communications marketing et
-                                                            commerciales de la part de Doctolib relatives à ses
-                                                            produits et services, promotions, offres spéciales,
-                                                            événements, ebook, enquêtes marketing ainsi que ses
-                                                            actualités par email ou SMS. Je comprends et j’accepte que
-                                                            cela implique le traitement des données renseignées dans
-                                                            le formulaire. Vous pouvez révoquer votre consentement à
-                                                            tout moment, en cliquant sur le lien de désinscription
-                                                            dans chaque email ou en envoyant STOP au numéro indiqué
-                                                            dans le SMS. Pour en savoir plus, consultez notre{" "}
-                                                            <a
-                                                                className="ProsemirrorEditor-link"
-                                                                href="https://doctolib.legal/Privacy-policy-B2B"
-                                                            >
-                                                                politique de confidentialité
-                                                            </a>
-                                                            . Si vous sélectionnez «&nbsp;Je suis un patient et
-                                                            souhaite prendre RDV chez un médecin&nbsp;», vos données
-                                                            ne seront ni collectées ni traitées, vous serez juste
-                                                            redirigé vers notre site web patients pour pouvoir prendre
-                                                            un RDV.
-                                                        </p>
-                                                        <p />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <LagalNote />
                                     </form>
                                 </div>
                             </div>
