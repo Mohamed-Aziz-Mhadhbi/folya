@@ -10,7 +10,7 @@ export default function TextFieldNom() {
 
     const handleBlur = () => {
         if (!lastName) {
-            setError('Nom is required'); 
+            setError('Veuillez saisir votre nom'); 
         } else {
             setError(''); 
         }
