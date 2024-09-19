@@ -30,7 +30,7 @@ export default function TextFieldPrenom() {
                 className={error ? 'error' : 'valid'}
             />
             <label className="label-and-placeholder">Prénom *</label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

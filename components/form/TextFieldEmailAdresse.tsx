@@ -32,7 +32,7 @@ export default function TextFieldEmailAdresse() {
             <label className="label-and-placeholder">
                 Adresse email *
             </label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
             <div className="block-autocomplete">
                 <ul className="auto-list" />
             </div>

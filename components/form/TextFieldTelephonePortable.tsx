@@ -33,7 +33,7 @@ export default function TextFieldTelephonePortable() {
             <label className="label-and-placeholder">
                 Téléphone portable *
             </label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

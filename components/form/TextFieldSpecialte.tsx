@@ -160,7 +160,7 @@ export default function Speciale() {
                 <option value={25}>Stomatologue </option>
             </select>
             <label className="label-and-placeholder">Spécialité *</label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

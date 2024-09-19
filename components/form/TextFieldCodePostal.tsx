@@ -35,7 +35,7 @@ export default function TextFieldCodePostal() {
             <label className="label-and-placeholder">
                 Code postal cabinet *
             </label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

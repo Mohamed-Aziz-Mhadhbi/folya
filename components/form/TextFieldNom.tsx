@@ -28,9 +28,10 @@ export default function TextFieldNom() {
                 onChange={handleInputChange}
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
+                aria-invalid="true"
             />
             <label className="label-and-placeholder">Nom *</label>
-            {error && <div className="error">{error}</div>}
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }
