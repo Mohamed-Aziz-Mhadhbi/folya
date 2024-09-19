@@ -1,4 +1,10 @@
 "use client"
+import LagalNote from '@/components/form/LegalNote';
+import TextFieldCodePostal from '@/components/form/TextFieldCodePostal';
+import TextFieldEmailAdresse from '@/components/form/TextFieldEmailAdresse';
+import TextFieldNom from '@/components/form/TextFieldNom';
+import TextFieldPrenom from '@/components/form/TextFieldPrenom';
+import TextFieldTelephonePortable from '@/components/form/TextFieldTelephonePortable';
 import SimpleDropdown from '../../components/form/DropDown';
 import Speciale from '../../components/form/TextFieldSpecialte';
 
@@ -124,71 +130,12 @@ export default function Form() {
                                         defaultValue="contact_form"
                                         name="origin_label"
                                     />
-                                    <div className="field-wrapper" data-row={2} data-step="false">
-                                        <input
-                                            type="text"
-                                            name="last_name"
-                                            placeholder="Nom *"
-                                            autoComplete="off"
-                                            required
-                                        />
-                                        <label className="label-and-placeholder">Nom *</label>
-                                    </div>
-                                    <div className="field-wrapper" data-row={2} data-step="false">
-                                        <input
-                                            type="text"
-                                            name="first_name"
-                                            placeholder="Prénom *"
-                                            autoComplete="off"
-                                            required
-                                        />
-                                        <label className="label-and-placeholder">Prénom *</label>
-                                    </div>
-                                    <div className="field-wrapper" data-row={2} data-step="false">
-                                        <input
-                                            name="zipcode"
-                                            type="text"
-                                            pattern="[0-9]*"
-                                            minLength={5}
-                                            maxLength={5}
-                                            placeholder="Code postal cabinet *"
-                                            autoComplete="off"
-                                            required
-                                        />
-                                        <label className="label-and-placeholder">
-                                            Code postal cabinet *
-                                        </label>
-                                    </div>
-                                    <div className="field-wrapper" data-row={2} data-step="false">
-                                        <input
-                                            type="tel"
-                                            pattern="[0-9]+"
-                                            name="phone_number"
-                                            placeholder="Téléphone portable *"
-                                            autoComplete="off"
-                                            required
-                                        />
-                                        <label className="label-and-placeholder">
-                                            Téléphone portable *
-                                        </label>
-                                    </div>
+                                    <TextFieldNom/>
+                                    <TextFieldPrenom/>
+                                    <TextFieldCodePostal/>
+                                    <TextFieldTelephonePortable/>
                                     <Speciale />
-                                    <div className="field-wrapper" data-row={1} data-step="true">
-                                        <input
-                                            type="email"
-                                            className="email js-autocomplete-email"
-                                            name="email"
-                                            placeholder="Adresse email *"
-                                            autoComplete="off"
-                                            required
-                                        />
-                                        <label className="label-and-placeholder">
-                                            Adresse email *
-                                        </label>
-                                        <div className="block-autocomplete">
-                                            <ul className="auto-list" />
-                                        </div>
-                                    </div>
+                                    <TextFieldEmailAdresse/>
                                     <SimpleDropdown />
                                     <input
                                         type="hidden"
@@ -227,52 +174,7 @@ export default function Form() {
                                             className="btn"
                                         />
                                     </div>
-                                    <div className="legal-notice">
-                                        <div className="tooltip-action paragraph paragraph--xsmall">
-                                            <button
-                                                type="button"
-                                                aria-describedby="tp-container-341"
-                                                className="tooltip-action know-more"
-                                            >
-                                                En savoir plus sur la collecte de vos données personnelles{" "}
-                                            </button>
-                                            <div
-                                                id="tp-container-341"
-                                                className="tooltip-wrapper"
-                                                role="tooltip"
-                                            >
-                                                <div className="tooltip">
-                                                    <div className="close-tooltip" />
-                                                    <p></p>
-                                                    <p>
-                                                        Je recevrai également des communications marketing et
-                                                        commerciales de la part de Doctolib relatives à ses
-                                                        produits et services, promotions, offres spéciales,
-                                                        événements, ebook, enquêtes marketing ainsi que ses
-                                                        actualités par email ou SMS. Je comprends et j’accepte
-                                                        que cela implique le traitement des données
-                                                        renseignées dans le formulaire. Vous pouvez révoquer
-                                                        votre consentement à tout moment, en cliquant sur le
-                                                        lien de désinscription dans chaque email ou en
-                                                        envoyant STOP au numéro indiqué dans le SMS. Pour en
-                                                        savoir plus, consultez notre{" "}
-                                                        <a
-                                                            className="ProsemirrorEditor-link"
-                                                            href="https://doctolib.legal/Privacy-policy-B2B"
-                                                        >
-                                                            politique de confidentialité
-                                                        </a>
-                                                        . Si vous sélectionnez «&nbsp;Je suis un patient et
-                                                        souhaite prendre RDV chez un médecin&nbsp;», vos
-                                                        données ne seront ni collectées ni traitées, vous
-                                                        serez juste redirigé vers notre site web patients pour
-                                                        pouvoir prendre un RDV.
-                                                    </p>
-                                                    <p />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <LagalNote/>
                                 </form>
                             </div>
                         </div>
