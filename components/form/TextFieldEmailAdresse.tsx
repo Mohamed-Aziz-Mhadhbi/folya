@@ -10,7 +10,7 @@ export default function TextFieldEmailAdresse() {
 
     const handleBlur = () => {
         if (!email || !/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
-            setError('Adresse email is required and must be a valid email address'); 
+            setError('Veuillez saisir une adresse email valide'); 
         } else {
             setError(''); 
         }
