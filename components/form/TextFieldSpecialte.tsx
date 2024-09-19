@@ -1,13 +1,32 @@
-export default function Speciale() {
-    return (
+import { useState } from 'react';
 
+export default function Speciale() {
+    const [selectedValue, setSelectedValue] = useState('');
+    const [error, setError] = useState('');
+
+    const handleInputChange = (event: any) => {
+        setSelectedValue(event.target.value);
+    };
+
+    const handleBlur = () => {
+        if (!selectedValue) {
+            setError('Veuillez saisir votre spécialité');
+        } else {
+            setError('');
+        }
+    };
+
+    return (
         <div className="field-wrapper" data-row={1} data-step="false">
             <select
                 autoComplete="off"
-                className="dropdown-mobile"
                 name="doctolib_speciality_id"
                 data-placeholder=""
                 required
+                value={selectedValue}
+                onChange={handleInputChange}
+                onBlur={handleBlur}
+                className={error ? 'error' : 'valid'}
             >
                 <option value="" disabled selected>
                     Spécialité *
@@ -15,16 +34,16 @@ export default function Speciale() {
                 <option value={271}>Allergologue </option>
                 <option value={497}>Anatomo-cyto-pathologiste </option>
                 <option value={57}>Andrologue </option>
-                <option value={15}>Anesth ésiste-r éanimateur </option>
+                <option value={15}>Anesthésiste-réanimateur </option>
                 <option value={49}>Angiologue </option>
-                <option value={925}>Audioproth ésiste </option>
-                <option value={26}>Canc érologue </option>
-                <option value={184}>Canc érologue m édical </option>
-                <option value={185}>Canc érologue radioth érapeute </option>
+                <option value={925}>Audioprothésiste </option>
+                <option value={26}>Cancérologue </option>
+                <option value={184}>Cancérologue médical </option>
+                <option value={185}>Cancérologue radiothérapeute </option>
                 <option value={16}>Cardiologue </option>
                 <option value={191}>Chiropracteur </option>
                 <option value={17}>Chirurgien </option>
-                <option value={180}>Chirurgien canc érologue </option>
+                <option value={180}>Chirurgien cancérologue </option>
                 <option value={1367}>
                     Chirurgien de la face et du cou{" "}
                 </option>
@@ -35,12 +54,12 @@ export default function Speciale() {
                     Chirurgien maxillo-facial et stomatologue{" "}
                 </option>
                 <option value={388}>Chirurgien oral </option>
-                <option value={19}>Chirurgien orthop édiste </option>
+                <option value={19}>Chirurgien orthopédiste </option>
                 <option value={12100}>
-                    Chirurgien orthop édiste et traumatologique{" "}
+                    Chirurgien orthopédiste et traumatologique{" "}
                 </option>
                 <option value={18}>
-                    Chirurgien plasticien et esth étique{" "}
+                    Chirurgien plasticien et esthétique{" "}
                 </option>
                 <option value={176}>
                     Chirurgien thoracique et cardio-vasculaire{" "}
@@ -48,49 +67,49 @@ export default function Speciale() {
                 <option value={177}>Chirurgien urologue </option>
                 <option value={178}>Chirurgien vasculaire </option>
                 <option value={179}>
-                    Chirurgien visc éral et digestif{" "}
+                    Chirurgien viscéral et digestif{" "}
                 </option>
                 <option value={1}>Chirurgien-dentiste </option>
                 <option value={6}>Dermatologue </option>
-                <option value={414}>Di ét éticien </option>
+                <option value={414}>Diététicien </option>
                 <option value={36}>Endocrinologue </option>
-                <option value={398}>Ergoth érapeute </option>
+                <option value={398}>Ergothérapeute </option>
                 <option value={21}>
-                    Gastro-ent érologue et h épatologue{" "}
+                    Gastro-entérologue et hépatologue{" "}
                 </option>
-                <option value={35}>G én éticien </option>
-                <option value={55}>G ériatre </option>
-                <option value={100}>Gyn écologue m édical </option>
+                <option value={35}>Généticien </option>
+                <option value={55}>Gériatre </option>
+                <option value={100}>Gynécologue médical </option>
                 <option value={5}>
-                    Gyn écologue m édical et obst étrique{" "}
+                    Gynécologue médical et obstétrique{" "}
                 </option>
-                <option value={102}>Gyn écologue obst étricien </option>
-                <option value={28}>H ématologue </option>
+                <option value={102}>Gynécologue obstétricien </option>
+                <option value={28}>Hématologue </option>
                 <option value={378}>Infectiologue </option>
                 <option value={30}>Infirmier </option>
-                <option value={9}>Masseur-kin ésith érapeute </option>
-                <option value={194}>M édecin acupuncteur </option>
-                <option value={396}>M édecin addictologue </option>
-                <option value={282}>M édecin biologiste </option>
-                <option value={889}>M édecin bucco-dentaire </option>
-                <option value={232}>M édecin du sport </option>
-                <option value={37}>M édecin du travail </option>
-                <option value={2}>M édecin g én éraliste </option>
-                <option value={228}>M édecin hom éopathe </option>
+                <option value={9}>Masseur-kinésithérapeute </option>
+                <option value={194}>Médecin acupuncteur </option>
+                <option value={396}>Médecin addictologue </option>
+                <option value={282}>Médecin biologiste </option>
+                <option value={889}>Médecin bucco-dentaire </option>
+                <option value={232}>Médecin du sport </option>
+                <option value={37}>Médecin du travail </option>
+                <option value={2}>Médecin généraliste </option>
+                <option value={228}>Médecin homéopathe </option>
                 <option value={434}>
-                    M édecin morphologue et anti-âge{" "}
+                    Médecin morphologue et anti-âge{" "}
                 </option>
-                <option value={32}>M édecin nucl éaire </option>
-                <option value={190}>M édecin nutritionniste </option>
-                <option value={288}>M édecin r éanimateur </option>
+                <option value={32}>Médecin nucléaire </option>
+                <option value={190}>Médecin nutritionniste </option>
+                <option value={288}>Médecin réanimateur </option>
                 <option value={289}>
-                    M édecin sp écialiste de sant épublique{" "}
+                    Médecin spécialiste de santé publique{" "}
                 </option>
                 <option value={12446}>
-                    M édecin sp écialiste en m édecine g én érale{" "}
+                    Médecin spécialiste en médecine générale{" "}
                 </option>
-                <option value={1096}>M édecin urgentiste </option>
-                <option value={27}>N éphrologue </option>
+                <option value={1096}>Médecin urgentiste </option>
+                <option value={27}>Néphrologue </option>
                 <option value={20}>Neurochirurgien </option>
                 <option value={22}>Neurologue </option>
                 <option value={1642}>Oculariste </option>
@@ -101,47 +120,47 @@ export default function Speciale() {
                     ORL - Chirurgien de la face et du cou{" "}
                 </option>
                 <option value={270}>Orthodontiste </option>
-                <option value={1643}>Orthop édiste-orth ésiste </option>
+                <option value={1643}>Orthopédiste-orthésiste </option>
                 <option value={12}>Orthophoniste </option>
-                <option value={724}>Orthoproth ésiste </option>
+                <option value={724}>Orthoprothésiste </option>
                 <option value={29}>Orthoptiste </option>
-                <option value={10}>Ost éopathe </option>
-                <option value={3}>P édiatre </option>
-                <option value={8}>P édicure-podologue </option>
+                <option value={10}>Ostéopathe </option>
+                <option value={3}>Pédiatre </option>
+                <option value={8}>Pédicure-podologue </option>
                 <option value={3097}>Pharmacien </option>
-                <option value={226}>Phl ébologue </option>
+                <option value={226}>Phlégologue </option>
                 <option value={23}>Pneumologue </option>
-                <option value={575}>Podo-orth ésiste </option>
+                <option value={575}>Podo-orthésiste </option>
                 <option value={13}>Psychiatre </option>
                 <option value={578}>
-                    Psychiatre de l 'enfant et de l 'adolescent{" "}
+                    Psychiatre de l'enfant et de l'adolescent{" "}
                 </option>
                 <option value={14}>Psychologue </option>
                 <option value={577}>Psychomotricien </option>
-                <option value={169}>Psychoth érapeute </option>
+                <option value={169}>Psychothérapeute </option>
                 <option value={11}>Radiologue </option>
-                <option value={33}>Radioth érapeute </option>
+                <option value={33}>Radiothérapeute </option>
                 <option value={24}>Rhumatologue </option>
                 <option value={34}>Sage-femme </option>
                 <option value={18}>
-                    Sp écialiste en chirurgie plastique reconstructrice et
-                    esth étique{" "}
+                    Spécialiste en chirurgie plastique reconstructrice et esthétique{" "}
                 </option>
                 <option value={59}>
-                    Sp écialiste en h émobiologie-transfusion{" "}
+                    Spécialiste en hématologie-transfusion{" "}
                 </option>
                 <option value={31}>
-                    Sp écialiste en m édecine interne{" "}
+                    Spécialiste en médecine interne{" "}
                 </option>
                 <option value={61}>
-                    Sp écialiste en m édecine l égale et expertises m édicales{" "}
+                    Spécialiste en médecine légale et expertises médicales{" "}
                 </option>
                 <option value={284}>
-                    Sp écialiste en m édecine physique et de r éadaptation{" "}
+                    Spécialiste en médecine physique et de réadaptation{" "}
                 </option>
                 <option value={25}>Stomatologue </option>
             </select>
             <label className="label-and-placeholder">Spécialité *</label>
+            {error && <div className="error">{error}</div>}
         </div>
     );
 }
