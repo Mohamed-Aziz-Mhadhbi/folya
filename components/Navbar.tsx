@@ -15,27 +15,27 @@ const Navbar = () => {
                         </a>
                         <ul className="menu">
                             <li>
-                                <Link href="/" passHref>
+                                <Link href="#" passHref>
                                     <a>ACCEUIL</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/aboutus" passHref>
+                                <Link href="#aboutus" passHref>
                                     <a>A PROPOS</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/avantage" passHref>
+                                <Link href="#avantage" passHref>
                                     <a>AVANTAGES</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services" passHref>
+                                <Link href="#services" passHref>
                                     <a>FONCTIONALITÉS</a>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/faq" passHref>
+                                <Link href="#faq" passHref>
                                     <a>FAQ</a>
                                 </Link>
                             </li>
