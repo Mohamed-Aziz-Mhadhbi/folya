@@ -103,7 +103,7 @@ jQuery(document).ready(function () {
       }
    });
 
-
+   
    // scroll fixed menu
    // $(window).scroll(function () {
    //    var headerTop = $('.wrapper-top-header').height();
@@ -117,19 +117,12 @@ jQuery(document).ready(function () {
    // Scroll Menu
    $(".menu li").on("click", "a", function (event) {
       event.preventDefault();
-      var id = $(this).attr('href');
-      var $target = $(id);
-
-      if ($target.length) { // Check if the target element exists
-         var top = $target.offset().top;
-         $('body,html').animate({
-            scrollTop: top
-         }, 1500);
-      } else {
-         console.error("Element with id " + id + " not found.");
-      }
+      var id = $(this).attr('href'),
+         top = $(id).offset().top;
+      $('body,html').animate({
+         scrollTop: top
+      }, 1500);
    });
-
 
    $("#logo").on("click", function (event) {
       event.preventDefault();
