@@ -1,3 +1,4 @@
+"use client";
 import { prefix } from '@/prefix';
 import Link from 'next/link';
 
@@ -6,37 +7,37 @@ const Navbar = () => {
         <header>
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
-                    <Link id="logo" href="/">
+                    <a id="logo" href="#home">
                         <img src={`${prefix}/image/logo.png`} alt="" className="logo" />
-                    </Link>
+                    </a>
                     <nav id="nav">
                         <a id="closemenu" className="btn" href="#">
                             <i className="fa-solid fa-xmark" />
                         </a>
                         <ul className="menu">
                             <li>
-                                <Link href="/">ACCEUIL</Link>
+                                <a href="#offer">ACCEUIL</a>
                             </li>
                             <li>
-                                <Link href="/aboutus">A PROPOS</Link>
+                                <a href="#aboutus">A PROPOS</a>
                             </li>
                             <li>
-                                <Link href="/avantage">AVANTAGES</Link>
+                                <a href="#avantage">AVANTAGES</a>
                             </li>
                             <li>
-                                <Link href="/services">FONCTIONALITÉS</Link>
+                                <a href="#services">FONCTIONALITÉS</a>
                             </li>
                             <li>
-                                <Link href="/faq">FAQ</Link>
+                                <a href="#faq">FAQ</a>
                             </li>
                         </ul>
                     </nav>
                     <nav>
-                        <a className="appointment">
+                        <a className=" appointment">
                             Vous êtes professionnel paramédical ?
-                        </a>
-                        <Link href="/form" className="btn appointment">
-                            Démo
+                        </a> 
+                        <Link href={"/form"} className="btn appointment">
+                        Démo
                         </Link>
                         <a className="btn appointment" href="https://www.folya.co/login">
                             Connexion
