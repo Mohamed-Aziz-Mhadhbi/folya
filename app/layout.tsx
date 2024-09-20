@@ -53,8 +53,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <Script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" ></Script>
-        {/* <Script src="js/jquery-2.2.4.min.js"></Script> */}
+        <Script src="js/jquery-2.2.4.min.js"></Script>
         <Script src="js/jquery-ui.min.js"></Script>
         <Script src="js/jquery.magnific-popup.min.js"></Script>
         <Script src="js/jquery.slicknav.min.js"></Script>
