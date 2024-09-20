@@ -9,8 +9,6 @@ const Offers = () => {
                         votre solution de gestion du cabinet paramédical.
                     </h2>
                 </div>
-                
-                {/* Text and video side by side */}
                 <div className="content-section flex-row">
                     <div className="offer-content">
                         <p>
