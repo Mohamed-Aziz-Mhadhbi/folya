@@ -15,7 +15,7 @@ const Navbar = () => {
                         </a>
                         <ul className="menu">
                             <li>
-                                <Link href="#" passHref>
+                                <Link href="#offer" passHref>
                                     <a>ACCEUIL</a>
                                 </Link>
                             </li>
