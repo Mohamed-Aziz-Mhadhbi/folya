@@ -124,13 +124,6 @@ jQuery(document).ready(function () {
       }, 1500);
    });
 
-   $("#logo").on("click", function (event) {
-      event.preventDefault();
-      $('body,html').animate({
-         scrollTop: top
-      }, 1500);
-   });
-
    $(".btn.appointment").on("click", function (event) {
       event.preventDefault();
       var id = $(this).attr('href'),

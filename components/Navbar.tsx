@@ -6,7 +6,7 @@ const Navbar = () => {
         <header>
             <div className="wrapper-bottom-header">
                 <div className="bottom-header container flex-row">
-                    <a id="logo" href="#home">
+                    <a id="logo" href="#offer">
                         <img src={`${prefix}/image/logo.png`} alt="" className="logo" />
                     </a>
                     <nav id="nav">
