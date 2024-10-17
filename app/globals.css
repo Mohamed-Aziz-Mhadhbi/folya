@@ -141,6 +141,10 @@ header {
     top: auto; /* No fixed top */
 }
 
+#colorsp{
+    color: var(--color-dark-blue);
+}
+
 
 .animated-btn {
     background-color: #00c4cc; /* Button color */

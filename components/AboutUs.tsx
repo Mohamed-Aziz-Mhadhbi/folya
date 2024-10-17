@@ -15,6 +15,7 @@ const AboutUs = () => {
                         Vous êtes kinésithérapeute, orthophoniste, ergothérapeute, psychologue ou psychomotricien ? </p>
                     <p>Nous comprenons les défis spécifiques de votre profession et l'impact que les tâches administratives peuvent avoir sur votre pratique.
                     </p>
+                    <p id='colorsp'>Folya est bien plus qu’une simple plateforme :  c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.  </p>
                     <p>Réduction des erreurs administratives : 20 à 30 % de diminution des erreurs liées à la gestion des dossiers.
                     </p>
