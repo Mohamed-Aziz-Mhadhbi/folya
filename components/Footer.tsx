@@ -110,12 +110,7 @@ const Footer = () => {
                                                 Contact@Folya.co
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="tel:+21627405988">
-                                                <i className="fas fa-phone-alt" />
-                                                +216 27 405 988
-                                            </a>
-                                        </li>
+                                       
                                         <li>
                                             <a href="#">
                                                 <i className="fas fa-map-marker-alt" />
