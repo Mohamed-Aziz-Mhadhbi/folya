@@ -17,11 +17,11 @@ const AboutUs = () => {
                     </p>
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme :  c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.  </p>
-                    <p>Réduction des erreurs administratives : 20 à 30 % de diminution des erreurs liées à la gestion des dossiers.
+                    <p>- Réduction des erreurs administratives : 20 à 30 % de diminution des erreurs liées à la gestion des dossiers.
                     </p>
-                    <p>Amélioration de l'efficacité : 80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
-                    <p>Accès rapide aux informations : Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
-                    <p>Réduction des coûts : Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet .
+                    <p>- Amélioration de l'efficacité : 80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
+                    <p>- Accès rapide aux informations : Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
+                    <p>- Réduction des coûts : Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet .
                     </p>
                 </div>
             </div>
