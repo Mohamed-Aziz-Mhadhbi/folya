@@ -14,30 +14,20 @@ const Navbar = () => {
                             <i className="fa-solid fa-xmark" />
                         </a>
                         <ul className="menu">
-                            <li>
-                                <Link href="/[slug]" as="/acceuil">
-                                    <a>ACCEUIL</a>
-                                </Link>
+                        <li>
+                                <a href="#offer">ACCEUIL</a>
                             </li>
                             <li>
-                                <Link href="/[slug]" as="/aboutus">
-                                    <a>A PROPOS</a>
-                                </Link>
+                                <a href="#aboutus">A PROPOS</a>
                             </li>
                             <li>
-                                <Link href="/[slug]" as="/avantage">
-                                    <a>AVANTAGES</a>
-                                </Link>
+                                <a href="#avantage">AVANTAGES</a>
                             </li>
                             <li>
-                                <Link href="/[slug]" as="/services">
-                                    <a>FONCTIONALITÉS</a>
-                                </Link>
+                                <a href="#services">FONCTIONALITÉS</a>
                             </li>
                             <li>
-                                <Link href="/[slug]" as="/faq">
-                                    <a>FAQ</a>
-                                </Link>
+                                <a href="#faq">FAQ</a>
                             </li>
                         </ul>
                     </nav>
