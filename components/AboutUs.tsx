@@ -11,16 +11,14 @@ const AboutUs = () => {
                     <br></br>
                     <span className="suptitle">En Savoir Plus</span>
                     <h2>Au cœur de notre mission <span className="selection">se trouvent votre bien-être et celui de vos patients</span></h2>
-                    <p>
-                        Vous êtes kinésithérapeute, orthophoniste, ergothérapeute, psychologue ou psychomotricien ? </p>
-                    <p>Nous comprenons les défis spécifiques de votre profession et l'impact que les tâches administratives peuvent avoir sur votre pratique.
-                    </p>
+                    <p>Vous êtes kinésithérapeute, orthophoniste, ergothérapeute, psychologue ou psychomotricien ? </p>
+                    <p>Nous comprenons les défis spécifiques de votre profession et l'impact que les tâches administratives peuvent avoir sur votre pratique.</p>
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme :  c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.  </p>
                     <div className="wrapper-aboutus-progress">
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                {/* <img src="images/progress-1.png" alt=""> */}
+                                <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Réduction des erreurs administratives</h3>
@@ -29,7 +27,7 @@ const AboutUs = () => {
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                {/* <img src="images/progress-2.png" alt=""> */}
+                                <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Amélioration de l'efficacité</h3>
@@ -38,7 +36,7 @@ const AboutUs = () => {
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                {/* <img src="images/progress-2.png" alt=""> */}
+                                <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Accès rapide aux informations</h3>
@@ -47,7 +45,7 @@ const AboutUs = () => {
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                {/* <img src="images/progress-2.png" alt=""> */}
+                                <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Réduction des coûts</h3>
