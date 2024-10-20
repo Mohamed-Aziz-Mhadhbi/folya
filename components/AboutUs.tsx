@@ -17,12 +17,44 @@ const AboutUs = () => {
                     </p>
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme :  c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.  </p>
-                    <p>- Réduction des erreurs administratives : 20 à 30 % de diminution des erreurs liées à la gestion des dossiers.
-                    </p>
-                    <p>- Amélioration de l'efficacité : 80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
-                    <p>- Accès rapide aux informations : Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
-                    <p>- Réduction des coûts : Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet .
-                    </p>
+                    <div className="wrapper-aboutus-progress">
+                        <div className="single-progress flex-row">
+                            <div className="progress-img">
+                                {/* <img src="images/progress-1.png" alt=""> */}
+                            </div>
+                            <div className="progress-content">
+                                <h3>Réduction des erreurs administratives</h3>
+                                <p>20 à 30 % de diminution des erreurs liées à la gestion des dossiers.</p>
+                            </div>
+                        </div>
+                        <div className="single-progress flex-row">
+                            <div className="progress-img">
+                                {/* <img src="images/progress-2.png" alt=""> */}
+                            </div>
+                            <div className="progress-content">
+                                <h3>Amélioration de l'efficacité</h3>
+                                <p>80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
+                            </div>
+                        </div>
+                        <div className="single-progress flex-row">
+                            <div className="progress-img">
+                                {/* <img src="images/progress-2.png" alt=""> */}
+                            </div>
+                            <div className="progress-content">
+                                <h3>Accès rapide aux informations</h3>
+                                <p>Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
+                            </div>
+                        </div>
+                        <div className="single-progress flex-row">
+                            <div className="progress-img">
+                                {/* <img src="images/progress-2.png" alt=""> */}
+                            </div>
+                            <div className="progress-content">
+                                <h3>Réduction des coûts</h3>
+                                <p>Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet .</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
