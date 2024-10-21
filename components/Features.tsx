@@ -18,7 +18,6 @@ const Feature = () => {
                         Folya vous offre la possibilité de numériser l'intégralité de vos dossiers papiers, vous permettant ainsi de désencombrer votre cabinet et de consulter vos fiches à tout moment, où que vous soyez.
                     </p>
                 </div>
-
                 <div className="feature-card">
                     <div className="icon">
                         <img src={`${prefix}/image/gestionDonnees.png`} alt="Dossier patient centralisé et sécurisé" />
@@ -27,7 +26,6 @@ const Feature = () => {
                     <p>
                     Folya vous donnez la accédez aux dossiers-patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité .</p>
                 </div>
-
                 <div className="feature-card">
                     <div className="icon">
                         <img src={`${prefix}/image/suivi.png`} alt="Facturation automatisée et suivi des finances" />
@@ -37,7 +35,6 @@ const Feature = () => {
                         Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie.
                     </p>
                 </div>
-
                 <div className="feature-card">
                     <div className="icon">
                         <img src={`${prefix}/image/analyses.png`} alt="Rapports précieux de l'activité du cabinet" />
