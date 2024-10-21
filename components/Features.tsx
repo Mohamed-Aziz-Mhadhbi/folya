@@ -7,7 +7,6 @@ const Feature = () => {
                 <span className="suptitle">Avantages</span>
                 <h2>Avantages</h2>
             </div>
-
             <div className="wrapper-features container grid-layout">
                 <div className="feature-card">
                     <div className="icon">
