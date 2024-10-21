@@ -2,7 +2,7 @@ import { prefix } from '@/prefix';
 
 const Footer = () => {
     return (
-        <footer> 
+        <footer>
             <div id="contacts" className="ptb">
                 <div className="container">
                     <div className="row wrapper-contact flex-row">
@@ -94,7 +94,6 @@ const Footer = () => {
                                         <li>
                                             <a href="#">Comment puis-je obtenir de l'aide avec Folya?</a>
                                         </li>
-
                                     </ul>
                                 </div>
                             </div>
@@ -110,7 +109,6 @@ const Footer = () => {
                                                 Contact@Folya.co
                                             </a>
                                         </li>
-                                       
                                         <li>
                                             <a href="#">
                                                 <i className="fas fa-map-marker-alt" />
