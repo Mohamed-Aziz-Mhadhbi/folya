@@ -17,7 +17,7 @@ export default function TextFieldTelephonePortable() {
     };
 
     return (
-        <div className="field-wrapper" data-row={2} data-step="false">
+        <>
             <input
                 type="tel"
                 pattern="[0-9]+"
@@ -30,10 +30,7 @@ export default function TextFieldTelephonePortable() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            <label className="label-and-placeholder">
-                Téléphone portable *
-            </label>
             {error && <div className="error error--none">{error}</div>}
-        </div>
+        </>
     );
 }

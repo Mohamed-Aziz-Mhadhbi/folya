@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Speciale() {
+export default function TextFieldSpeciale() {
     const [selectedValue, setSelectedValue] = useState('');
     const [error, setError] = useState('');
 
@@ -17,7 +17,7 @@ export default function Speciale() {
     };
 
     return (
-        <div className="field-wrapper" data-row={1} data-step="false">
+        <>
             <select
                 autoComplete="off"
                 name="doctolib_speciality_id"
@@ -159,8 +159,7 @@ export default function Speciale() {
                 </option>
                 <option value={25}>Stomatologue </option>
             </select>
-            <label className="label-and-placeholder">Spécialité *</label>
             {error && <div className="error error--none">{error}</div>}
-        </div>
+        </>
     );
 }

@@ -1,8 +1,13 @@
+"use client"
 import { useState } from 'react';
 import { useToast } from '@chakra-ui/react';
 import { sendContactForm } from '../lib/api';
-import TextFieldNom from '@/components/form/TextFieldNom';
-import TextFieldPrenom from '@/components/form/TextFieldPrenom';
+import TextFieldNom from './devis/TextFieldNom';
+import TextFieldPrenom from './devis/TextFieldPrenom';
+import TextFieldTelephonePortable from './devis/TextFieldTelephonePortable';
+import TextFieldEmailAdresse from './devis/TextFieldEmailAdresse';
+import TextFieldCodePostal from './devis/TextFieldCodePostal';
+import TextFieldSpeciale from './devis/TextFieldSpecialte';
 
 // Define a type for the form values
 interface FormValues {
@@ -108,11 +113,11 @@ const Devis = () => {
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
                     <form method="POST" onSubmit={onSubmit}>
-                    <div className="wrapper-input flex-row">
-                        <TextFieldNom />
-                        <TextFieldPrenom />
-                        </div>
                         <div className="wrapper-input flex-row">
+                            <TextFieldNom />
+                            <TextFieldPrenom />
+                        </div>
+                        {/* <div className="wrapper-input flex-row">
                             <input
                                 type="text"
                                 name="name"
@@ -135,8 +140,12 @@ const Devis = () => {
                             {touched.lastname && validationErrors.lastname && (
                                 <p className="error">{validationErrors.lastname}</p>
                             )}
-                        </div>
+                        </div> */}
                         <div className="wrapper-input flex-row">
+                            <TextFieldTelephonePortable />
+                            <TextFieldEmailAdresse />
+                        </div>
+                        {/* <div className="wrapper-input flex-row">
                             <input
                                 type="text"
                                 name="phone"
@@ -159,8 +168,12 @@ const Devis = () => {
                             {touched.email && validationErrors.email && (
                                 <p className="error">{validationErrors.email}</p>
                             )}
-                        </div>
+                        </div> */}
                         <div className="wrapper-input flex-row">
+                            <TextFieldCodePostal />
+                            <TextFieldSpeciale/>
+                        </div>
+                        {/* <div className="wrapper-input flex-row">
                             <input
                                 type="text"
                                 name="ville"
@@ -183,7 +196,7 @@ const Devis = () => {
                             {touched.sp && validationErrors.sp && (
                                 <p className="error">{validationErrors.sp}</p>
                             )}
-                        </div>
+                        </div> */}
                         <div className="wrapper-input flex-row">
                             <input
                                 type="text"
