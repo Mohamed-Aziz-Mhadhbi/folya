@@ -108,8 +108,10 @@ const Devis = () => {
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
                     <form method="POST" onSubmit={onSubmit}>
+                    <div className="wrapper-input flex-row">
                         <TextFieldNom />
                         <TextFieldPrenom />
+                        </div>
                         <div className="wrapper-input flex-row">
                             <input
                                 type="text"
