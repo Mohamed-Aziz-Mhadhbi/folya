@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useToast } from '@chakra-ui/react';
 import { sendContactForm } from '../lib/api';
+import TextFieldNom from '@/components/form/TextFieldNom';
+import TextFieldPrenom from '@/components/form/TextFieldPrenom';
 
 // Define a type for the form values
 interface FormValues {
@@ -106,6 +108,8 @@ const Devis = () => {
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
                     <form method="POST" onSubmit={onSubmit}>
+                        <TextFieldNom />
+                        <TextFieldPrenom />
                         <div className="wrapper-input flex-row">
                             <input
                                 type="text"
