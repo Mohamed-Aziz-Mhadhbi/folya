@@ -98,8 +98,7 @@ const Devis = () => {
                 duration: 2000,
                 position: 'top',
             });
-            // Optionally navigate to another page after successful submission
-            router.push('/success'); // Replace with your success route
+            // router.push('/success'); // Replace with your success route
         } catch (error: any) {
             setState((prev) => ({
                 ...prev,
