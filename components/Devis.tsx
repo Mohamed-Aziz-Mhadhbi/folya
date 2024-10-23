@@ -8,6 +8,7 @@ import TextFieldTelephonePortable from './devis/TextFieldTelephonePortable';
 import TextFieldEmailAdresse from './devis/TextFieldEmailAdresse';
 import TextFieldCodePostal from './devis/TextFieldCodePostal';
 import TextFieldSpeciale from './devis/TextFieldSpecialte';
+import TextFieldMessage from './devis/TextFieldMessage';
 
 // Define a type for the form values
 
@@ -109,20 +110,7 @@ const Devis = () => {
                                 <p className="error">{validationErrors.sp}</p>
                             )}
                         </div> */}
-                        {/* <div className="wrapper-input flex-row">
-                            <input
-                                type="text"
-                                name="message"
-                                placeholder="Message"
-                                className="large-input"
-                                value={values.message}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.message && validationErrors.message && (
-                                <p className="error">{validationErrors.message}</p>
-                            )}
-                        </div> */}
+                        <TextFieldMessage />
                         <button className="btn" id="sendbook" type="submit" >
                             Obtenez votre devis
                         </button>
