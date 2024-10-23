@@ -1334,7 +1334,7 @@ h3 {
 
 .wrapper-aboutus {
     margin-top: 40px;
-    /* Space above the about us section */
+    transform: translateX(0%);
 }
 
 .wrapper-aboutus .aboutus-img img {
