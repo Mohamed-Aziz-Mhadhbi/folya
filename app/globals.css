@@ -643,6 +643,7 @@ h3 {
 #aboutus {
     position: relative;
     padding-top: 0px;
+    padding-bottom: 30px;
     -webkit-box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
     box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
 }
