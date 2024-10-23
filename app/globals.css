@@ -1334,9 +1334,6 @@ h3 {
 
 .wrapper-aboutus {
     margin-top: 40px;
-    -webkit-transform: translateX(30%);
-    -ms-transform: translateX(30%);
-    transform: translateX(30%);
     -webkit-box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
     box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
 }
