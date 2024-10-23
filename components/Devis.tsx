@@ -1,7 +1,5 @@
 "use client"
-import { useState } from 'react';
 import { useToast } from '@chakra-ui/react';
-import { sendContactForm } from '../lib/api';
 import TextFieldNom from './devis/TextFieldNom';
 import TextFieldPrenom from './devis/TextFieldPrenom';
 import TextFieldTelephonePortable from './devis/TextFieldTelephonePortable';
@@ -10,13 +8,7 @@ import TextFieldCodePostal from './devis/TextFieldCodePostal';
 import TextFieldSpeciale from './devis/TextFieldSpecialte';
 import TextFieldMessage from './devis/TextFieldMessage';
 
-// Define a type for the form values
-
-
-
 const Devis = () => {
-    const toast = useToast();
-
     return (
         <section id="booking" className="ptb">
             <div className="container">
