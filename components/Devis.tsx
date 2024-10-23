@@ -1,5 +1,4 @@
 "use client"
-import { useToast } from '@chakra-ui/react';
 import TextFieldNom from './devis/TextFieldNom';
 import TextFieldPrenom from './devis/TextFieldPrenom';
 import TextFieldTelephonePortable from './devis/TextFieldTelephonePortable';
@@ -76,7 +75,7 @@ const Devis = () => {
                         </div> */}
                         <div className="wrapper-input flex-row">
                             <TextFieldCodePostal />
-                            <TextFieldSpeciale/>
+                            <TextFieldSpeciale />
                         </div>
                         {/* <div className="wrapper-input flex-row">
                             <input
@@ -106,6 +105,9 @@ const Devis = () => {
                         <button className="btn" id="sendbook" type="submit" >
                             Obtenez votre devis
                         </button>
+                        <p className="res-booking" >
+                            <span className="send">Thanks. We will contact you shortly.</span>
+                        </p>
                     </form>
                 </div>
                 <div className="booking-working-hours">
