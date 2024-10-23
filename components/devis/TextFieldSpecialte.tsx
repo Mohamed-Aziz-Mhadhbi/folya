@@ -20,7 +20,6 @@ export default function TextFieldSpeciale() {
         <>
             <select
                 autoComplete="off"
-                name="doctolib_speciality_id"
                 data-placeholder=""
                 required
                 value={selectedValue}
