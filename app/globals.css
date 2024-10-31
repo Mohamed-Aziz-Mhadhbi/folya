@@ -1124,10 +1124,6 @@ h3 {
     transition-duration: 0.5s;
 }
 
-.wrapper-input div {
-    font-size: 5px;
-}
-
 .wrapper-input input::-webkit-input-placeholder {
     color: var(--color-dark-blue);
 }
