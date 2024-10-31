@@ -41,7 +41,7 @@ export default function SimpleDropdown() {
             <label className="label-and-placeholder">
                 Objet de votre demande *
             </label>
-            {error && <div className="error error--none">{error}</div>}
+            {error && <div className="error">{error}</div>}
         </div>
     );
 }

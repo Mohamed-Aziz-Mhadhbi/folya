@@ -533,6 +533,7 @@ h3 {
 
 .res-booking .error {
     color: #ff0000;
+    font-size: small;
 }
 
 .res-booking .send {
