@@ -29,7 +29,7 @@ export default function TextFieldEmailAdresse() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error">{error}</div>}
+            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
             <div className="block-autocomplete">
                 <ul className="auto-list" />
             </div>
