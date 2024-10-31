@@ -32,7 +32,7 @@ export default function TextFieldCodePostal() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error error--none">{error}</div>}
+            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
         </>
     );
 }

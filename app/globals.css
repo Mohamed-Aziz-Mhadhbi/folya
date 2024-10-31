@@ -1081,6 +1081,12 @@ h3 {
     align-items: center;
 }
 
+.error-message {
+    margin-top: 5px; /* Adjust the margin as needed */
+    font-size: 12px; /* Adjust the font size as needed */
+    color: red; /* Adjust the color as needed */
+}
+
 .wrapper-input input,
 .wrapper-input select  {
     display: block;
