@@ -2696,7 +2696,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 .form-wrapper .field-wrapper div.error {
     color: var(--poppy-600);
     font-family: Roboto, Helvetica Neue, sans-serif;
-    font-size: 12px;
+    font-size: 5px;
     line-height: 16px;
     order: 4;
     width: 100%
