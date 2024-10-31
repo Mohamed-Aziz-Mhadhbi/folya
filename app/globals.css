@@ -533,7 +533,6 @@ h3 {
 
 .res-booking .error {
     color: #ff0000;
-    font-size: small;
 }
 
 .res-booking .send {
@@ -1123,6 +1122,10 @@ h3 {
     -webkit-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
+}
+
+.wrapper-input div {
+    font-size: 5px;
 }
 
 .wrapper-input input::-webkit-input-placeholder {
@@ -2696,7 +2699,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 .form-wrapper .field-wrapper div.error {
     color: var(--poppy-600);
     font-family: Roboto, Helvetica Neue, sans-serif;
-    font-size: 5px;
+    font-size: 12px;
     line-height: 16px;
     order: 4;
     width: 100%
