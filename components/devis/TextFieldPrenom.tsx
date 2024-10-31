@@ -29,7 +29,7 @@ export default function TextFieldPrenom() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error error--none">{error}</div>}
+            {error && <div className="error">{error}</div>}
         </>
     );
 }
