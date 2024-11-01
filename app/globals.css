@@ -2702,7 +2702,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     position: absolute;
     right: 36px;
     top: 20px;
-    width: 24px
+    width: 100%
 }
 
 .form-wrapper .field-wrapper.is-hidden .error--none {
