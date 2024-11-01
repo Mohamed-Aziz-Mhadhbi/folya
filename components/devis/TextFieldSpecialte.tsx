@@ -158,7 +158,7 @@ export default function TextFieldSpeciale() {
                 </option>
                 <option value={25}>Stomatologue </option>
             </select>
-            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

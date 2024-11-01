@@ -29,7 +29,7 @@ export default function TextFieldMessage() {
                 className={error ? 'error' : 'large-input'}
                 aria-invalid="true"
             />
-            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

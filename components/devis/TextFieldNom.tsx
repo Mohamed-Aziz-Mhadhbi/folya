@@ -30,7 +30,7 @@ export default function TextFieldNom() {
                 className={error ? 'error' : 'valid'}
                 aria-invalid="true"
             />
-            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }

@@ -30,7 +30,7 @@ export default function TextFieldTelephonePortable() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
+            {error && <div className="error error--none">{error}</div>}
         </div>
     );
 }
