@@ -26,7 +26,7 @@ export default function TextFieldMessage() {
                 value={Message}
                 onChange={handleInputChange}
                 onBlur={handleBlur}
-                className={error ? 'error' : 'large-input'}
+                className={error ? 'error' : 'large-input valid'}
                 aria-invalid="true"
             />
             {error && <div className="error error--none">{error}</div>}
