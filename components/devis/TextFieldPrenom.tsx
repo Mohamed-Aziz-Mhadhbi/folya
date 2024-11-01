@@ -17,7 +17,7 @@ export default function TextFieldPrenom() {
     };
 
     return (
-        <>
+        <div>
             <input
                 type="text"
                 name="first_name"
@@ -30,6 +30,6 @@ export default function TextFieldPrenom() {
                 className={error ? 'error' : 'valid'}
             />
             {error && <div className="error error--none">{error}</div>}
-        </>
+        </div>
     );
 }

@@ -17,7 +17,7 @@ export default function TextFieldTelephonePortable() {
     };
 
     return (
-        <>
+        <div>
             <input
                 type="tel"
                 pattern="[0-9]+"
@@ -31,6 +31,6 @@ export default function TextFieldTelephonePortable() {
                 className={error ? 'error' : 'valid'}
             />
             {error && <div className="error error--none">{error}</div>}
-        </>
+        </div>
     );
 }

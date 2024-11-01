@@ -17,7 +17,7 @@ export default function TextFieldNom() {
     };
 
     return (
-        <div className='flex-column'>
+        <div>
             <input
                 type="text"
                 name="last_name"
