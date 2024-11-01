@@ -17,7 +17,7 @@ export default function TextFieldSpeciale() {
     };
 
     return (
-        <div>
+        <div className='fields'>
             <select
                 autoComplete="off"
                 data-placeholder=""

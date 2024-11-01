@@ -491,6 +491,14 @@ h3 {
     justify-content: center;
 }
 
+.fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Selection */
 .selection {
     color: var(--color-blue);

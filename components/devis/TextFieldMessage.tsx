@@ -17,7 +17,7 @@ export default function TextFieldMessage() {
     };
 
     return (
-        <>
+        <div className='fields'>
             <input
                 type="text"
                 name="message"
@@ -30,6 +30,6 @@ export default function TextFieldMessage() {
                 aria-invalid="true"
             />
             {error && <label className="error error--none">{error}</label>}
-        </>
+        </div>
     );
 }

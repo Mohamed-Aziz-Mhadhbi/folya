@@ -17,15 +17,15 @@ const Devis = () => {
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
                     <form method="POST">
-                        <div className="wrapper-input flex-row">
+                        <div className="wrapper-input">
                             <TextFieldNom />
                             <TextFieldPrenom />
                         </div>
-                        <div className="wrapper-input flex-row">
+                        <div className="wrapper-input ">
                             <TextFieldTelephonePortable />
                             <TextFieldEmailAdresse />
                         </div>
-                        <div className="wrapper-input flex-row">
+                        <div className="wrapper-input">
                             <TextFieldCodePostal />
                             <TextFieldSpeciale />
                         </div>

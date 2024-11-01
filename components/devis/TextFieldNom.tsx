@@ -17,7 +17,7 @@ export default function TextFieldNom() {
     };
 
     return (
-        <>
+        <div className='fields'>
             <input
                 type="text"
                 name="last_name"
@@ -31,6 +31,6 @@ export default function TextFieldNom() {
                 aria-invalid="true"
             />
             {error && <label className="error error--none">{error}</label>}
-        </>
+        </div>
     );
 }

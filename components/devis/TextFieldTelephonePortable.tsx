@@ -17,7 +17,7 @@ export default function TextFieldTelephonePortable() {
     };
 
     return (
-        <div>
+        <div className='fields'>
             <input
                 type="tel"
                 pattern="[0-9]+"
