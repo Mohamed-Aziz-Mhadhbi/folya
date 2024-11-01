@@ -17,7 +17,7 @@ export default function TextFieldPrenom() {
     };
 
     return (
-        <div className='flex-col'>
+        <div className='flex-column'>
             <input
                 type="text"
                 name="first_name"
