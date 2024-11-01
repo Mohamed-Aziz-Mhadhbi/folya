@@ -17,7 +17,7 @@ const Devis = () => {
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
                     <form method="POST">
-                        <div className=" flex-row">
+                        <div className="wrapper-input flex-row">
                             <TextFieldNom />
                             <TextFieldPrenom />
                         </div>
@@ -45,7 +45,7 @@ const Devis = () => {
                                 <p className="error">{validationErrors.lastname}</p>
                             )}
                         </div> */}
-                        <div className=" flex-row">
+                        <div className="wrapper-input flex-row">
                             <TextFieldTelephonePortable />
                             <TextFieldEmailAdresse />
                         </div>
