@@ -17,7 +17,7 @@ export default function TextFieldCodePostal() {
     };
 
     return (
-        <div>
+        <>
             <input
                 name="zipcode"
                 type="text"
@@ -32,7 +32,7 @@ export default function TextFieldCodePostal() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error error--none">{error}</div>}
-        </div>
+            {error && <label className="error error--none">{error}</label>}
+        </>
     );
 }

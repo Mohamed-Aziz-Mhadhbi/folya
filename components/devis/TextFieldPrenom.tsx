@@ -17,7 +17,7 @@ export default function TextFieldPrenom() {
     };
 
     return (
-        <div>
+        <>
             <input
                 type="text"
                 name="first_name"
@@ -29,7 +29,7 @@ export default function TextFieldPrenom() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error error--none">{error}</div>}
-        </div>
+            {error && <label className="error error--none">{error}</label>}
+        </>
     );
 }

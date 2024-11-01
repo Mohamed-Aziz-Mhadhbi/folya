@@ -17,7 +17,7 @@ export default function TextFieldEmailAdresse() {
     };
 
     return (
-        <div>
+        <>
             <input
                 type="email"
                 name="email"
@@ -29,10 +29,10 @@ export default function TextFieldEmailAdresse() {
                 onBlur={handleBlur}
                 className={error ? 'error' : 'valid'}
             />
-            {error && <div className="error error--none">{error}</div>}
+            {error && <label className="error error--none">{error}</label>}
             <div className="block-autocomplete">
                 <ul className="auto-list" />
             </div>
-        </div>
+        </>
     );
 }

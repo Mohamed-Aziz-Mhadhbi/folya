@@ -17,7 +17,7 @@ export default function TextFieldNom() {
     };
 
     return (
-        <div>
+        <>
             <input
                 type="text"
                 name="last_name"
@@ -30,7 +30,7 @@ export default function TextFieldNom() {
                 className={error ? 'error' : 'valid'}
                 aria-invalid="true"
             />
-            {error && <div className="error error--none">{error}</div>}
-        </div>
+            {error && <label className="error error--none">{error}</label>}
+        </>
     );
 }
