@@ -21,58 +21,10 @@ const Devis = () => {
                             <TextFieldNom />
                             <TextFieldPrenom />
                         </div>
-                        {/* <div className="wrapper-input flex-row">
-                            <input
-                                type="text"
-                                name="name"
-                                placeholder="Prénom*"
-                                value={values.name}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.name && validationErrors.name && (
-                                <p className="error">{validationErrors.name}</p>
-                            )}
-                            <input
-                                type="text"
-                                name="lastname"
-                                placeholder="Nom*"
-                                value={values.lastname}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.lastname && validationErrors.lastname && (
-                                <p className="error">{validationErrors.lastname}</p>
-                            )}
-                        </div> */}
                         <div className="wrapper-input flex-row">
                             <TextFieldTelephonePortable />
                             <TextFieldEmailAdresse />
                         </div>
-                        {/* <div className="wrapper-input flex-row">
-                            <input
-                                type="text"
-                                name="phone"
-                                placeholder="Numéro de téléphone*"
-                                value={values.phone}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.phone && validationErrors.phone && (
-                                <p className="error">{validationErrors.phone}</p>
-                            )}
-                            <input
-                                type="text"
-                                name="email"
-                                placeholder="Adresse email*"
-                                value={values.email}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.email && validationErrors.email && (
-                                <p className="error">{validationErrors.email}</p>
-                            )}
-                        </div> */}
                         <div className="wrapper-input flex-row">
                             <TextFieldCodePostal />
                             <TextFieldSpeciale />

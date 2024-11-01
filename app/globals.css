@@ -1079,7 +1079,7 @@ h3 {
 }
 
 .wrapper-input {
-    display:block;
+    display:contents ;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
