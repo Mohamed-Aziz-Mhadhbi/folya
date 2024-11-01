@@ -17,7 +17,7 @@ export default function TextFieldCodePostal() {
     };
 
     return (
-        <>
+        <div className='flex-column'>
             <input
                 name="zipcode"
                 type="text"
@@ -33,6 +33,6 @@ export default function TextFieldCodePostal() {
                 className={error ? 'error' : 'valid'}
             />
             <div className="error-message">{error && <div className="error error--none">{error}</div>}</div>
-        </>
+        </div>
     );
 }

@@ -17,7 +17,7 @@ export default function TextFieldMessage() {
     };
 
     return (
-        <div className="wrapper-input flex-row">
+        <div className='flex-column'>
             <input
                 type="text"
                 name="message"
