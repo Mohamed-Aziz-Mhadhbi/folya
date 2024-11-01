@@ -17,7 +17,7 @@ export default function TextFieldNom() {
     };
 
     return (
-        <>
+        <div className='flex-column'>
             <input
                 type="text"
                 name="last_name"
@@ -31,6 +31,6 @@ export default function TextFieldNom() {
                 aria-invalid="true"
             />
             {error && <div className="error error--none">{error}</div>}
-        </>
+        </div>
     );
 }

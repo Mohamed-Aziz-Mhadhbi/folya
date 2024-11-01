@@ -491,13 +491,6 @@ h3 {
     justify-content: center;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 /* Selection */
 .selection {
     color: var(--color-blue);
@@ -1079,7 +1072,7 @@ h3 {
 }
 
 .wrapper-input {
-    display:block;
+    display:flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
