@@ -32,27 +32,27 @@ const AboutUs = () => {
                                 </div>
                                 <div className="progress-content">
                                     <h3>Accès rapide aux informations</h3>
-                                    <p>Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
+                                    <p>Moins de  30 secondes pour accéder aux dossiers patients avec Folya.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="single-progress-wrapper flex-column">
                             <div className="single-progress flex-row">
-                                <div className="progress-img">
-                                    <img src={`${prefix}/image/improve.png`} alt="" />
-                                </div>
                                 <div className="progress-content">
                                     <h3>Amélioration de l'efficacité</h3>
                                     <p>80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
                                 </div>
+                                <div className="progress-img">
+                                    <img src={`${prefix}/image/improve.png`} alt="" />
+                                </div>
                             </div>
                             <div className="single-progress flex-row">
-                                <div className="progress-img">
-                                    <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
-                                </div>
                                 <div className="progress-content">
                                     <h3>Réduction des coûts</h3>
                                     <p>Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet.</p>
+                                </div>
+                                <div className="progress-img">
+                                    <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
                                 </div>
                             </div>
                         </div>
