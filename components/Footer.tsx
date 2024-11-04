@@ -105,14 +105,12 @@ const Footer = () => {
                                     <ul>
                                         <li>
                                             <a href="mailto:Contact@Folya.co">
-                                                <i className="fas fa-envelope" />
-                                                Contact@Folya.co
+                                            &gt; Contact@Folya.co
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i className="fas fa-map-marker-alt" />
-                                                Cité El Wafa - Nabeul 8062
+                                                &gt; Cité El Wafa - Nabeul 8062
                                             </a>
                                         </li>
                                     </ul>
