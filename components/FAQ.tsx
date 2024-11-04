@@ -10,7 +10,7 @@ const FAQ = () => {
                     <div className="wrapper-accordion">
                         <h3>
                             <i className="fa-solid fa-chevron-up" />
-                            Qu'est-ce que Folya ?
+                            `&gt;` Qu'est-ce que Folya ?
                         </h3>
                         <div className="content-accordion">
                             <p>
@@ -19,7 +19,7 @@ const FAQ = () => {
                         </div>
                         <h3>
                             <i className="fa-solid fa-chevron-down" />
-                            Comment puis-je commencer à utiliser Folya ?
+                            `&gt;` Comment puis-je commencer à utiliser Folya ?
                         </h3>
                         <div
                             className="content-accordion"
