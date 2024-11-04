@@ -8137,8 +8137,8 @@
 }
 
 :host,:root {
-    --fa-style-family-classic: "Font Awesome 6 Free";
-    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"
+    --fa-style-family: "Font Awesome 6 Free";
+    --font-fa-solid: normal 900 1em/1 "Font Awesome 6 Free"
 }
 
 @font-face {
