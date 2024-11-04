@@ -19,7 +19,7 @@ const FAQ = () => {
                         </div>
                         <h3>
                             <i className="fa-solid fa-chevron-down" />
-                            `&gt;` Comment puis-je commencer à utiliser Folya ?
+                            Comment puis-je commencer à utiliser Folya ?
                         </h3>
                         <div
                             className="content-accordion"
