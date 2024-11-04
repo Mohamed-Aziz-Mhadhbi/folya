@@ -9,8 +9,8 @@ const FAQ = () => {
                     <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
-                            <i className="fa-solid fa-chevron-up" />
-                            `&gt;` Qu'est-ce que Folya ?
+                            <i/>
+                            &gt; Qu'est-ce que Folya ?
                         </h3>
                         <div className="content-accordion">
                             <p>
