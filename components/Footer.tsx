@@ -20,7 +20,7 @@ const Footer = () => {
                                 Folya vous permet de gérer efficacement votre portefeuille patient, du planning des rendez-vous à la facturation en passant par la gestion de vos bilans.
                                 Notre application transforme votre pratique quotidienne et améliore votre vie professionnelle.
                             </p>
-                            <div className="social-link flex-row">
+                            {/* <div className="social-link flex-row">
                                 <ul>
                                     <li>
                                         <a href="#">
@@ -48,7 +48,7 @@ const Footer = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-2 col-md-6">
                             <div className="single-footer-item">
