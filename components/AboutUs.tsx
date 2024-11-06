@@ -15,7 +15,8 @@ const AboutUs = () => {
                     <p>Nous comprenons les défis spécifiques de votre profession et l'impact que les tâches administratives peuvent avoir sur votre pratique.</p>
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme :  c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.  </p>
-                    <div className="wrapper-aboutus-progress flex-row">
+                </div>
+                <div className="wrapper-aboutus-progress flex-row">
                         <div className="single-progress-wrapper flex-column">
                             <div className="single-progress flex-row">
                                 <div className="progress-img">
@@ -57,7 +58,6 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
     );
