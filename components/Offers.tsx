@@ -30,7 +30,7 @@ const Offers = () => {
                         </div>
                     </div>
                     <div >
-                    <img src={`${prefix}/image/faq.png`} alt="" />
+                    {/* <img src={`${prefix}/image/faq.png`} alt="" /> */}
                     </div>
                 </div>
             </div>
