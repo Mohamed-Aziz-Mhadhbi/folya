@@ -2,6 +2,22 @@ import { prefix } from "@/prefix";
 
 const Offers = () => {
     return (
+    <>
+        <section id="offer" className="ptb">
+            <div className="wrapper-offer container flex-row">
+                <div className="offer-content">
+                    <span className="suptitle">Free Consultation</span>
+                    <h2>Special Discounts of 50% on All Dental Procedures!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quis dolorem quas esse reprehenderit possimus alias numquam, odit iure commodi.</p>
+                    <a className="btn appointment" href="#booking">Appointment</a>
+                </div>
+                <div className="offer-img">
+                <img src={`${prefix}/img-header.png`} alt="" />
+                </div>
+            </div>
+        </section>
+
+
         <section id="offer" className="ptb">
             <div className="wrapper-offer container">
                 {/* Heading section */}
@@ -30,11 +46,12 @@ const Offers = () => {
                         </div>
                     </div>
                     <div className="offer-img">
-                    <img src={`${prefix}/img-header.png`} alt="" />
-                </div>
+                        <img src={`${prefix}/img-header.png`} alt="" />
+                    </div>
                 </div>
             </div>
         </section>
+    </>
     );
 };
 
