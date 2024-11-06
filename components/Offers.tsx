@@ -1,3 +1,5 @@
+import { prefix } from "@/prefix";
+
 const Offers = () => {
     return (
         <section id="offer" className="ptb">
@@ -27,16 +29,8 @@ const Offers = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="offer-video">
-                        <iframe
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/9_nyG2TUDcQ"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen>
-                        </iframe>
+                    <div >
+                    <img src={`${prefix}/image/faq.png`} alt="" />
                     </div>
                 </div>
             </div>
