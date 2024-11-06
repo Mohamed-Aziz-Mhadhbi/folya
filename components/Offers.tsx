@@ -29,9 +29,9 @@ const Offers = () => {
                             </ul>
                         </div>
                     </div>
-                    <div >
-                    {/* <img src={`${prefix}/image/faq.png`} alt="" /> */}
-                    </div>
+                    <div className="offer-img">
+                    <img src={`${prefix}/img-header.png`} alt="" />
+                </div>
                 </div>
             </div>
         </section>
