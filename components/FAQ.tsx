@@ -9,7 +9,7 @@ const FAQ = () => {
                     <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
-                            {/* <i/> */}
+                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Qu'est-ce que Folya ?
                         </h3>
                         <div className="content-accordion">
@@ -82,7 +82,6 @@ const FAQ = () => {
                     <img src={`${prefix}/image/faq.png`} alt="" />
                 </div>
             </div>
-            {/*/.wrapper-faq */}
         </section>
     );
 }
