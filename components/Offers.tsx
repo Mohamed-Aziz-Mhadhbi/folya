@@ -6,7 +6,7 @@ const Offers = () => {
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
                 <div className="offer-img">
-                    <img src={`${prefix}/offers.png`} alt="" />
+                    <img src={`${prefix}/aboutus.png`} alt="" />
                 </div>
                     <h2 className="offer-heading">
                         <span className="selection">Folya,</span>
