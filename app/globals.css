@@ -740,6 +740,32 @@ h3 {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .single-progress-wrapper {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper-aboutus-progress {
+        flex-direction: column; /* Stack items vertically on very small screens */
+    }
+    
+    .single-progress-wrapper {
+        width: 100%; /* Full width on very small screens */
+    }
+    
+    .single-progress {
+        flex-direction: column; /* Stack image and content vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+    
+    .progress-img {
+        margin-bottom: 10px; /* Space below the image when stacked */
+        margin-right: 0; /* Remove right margin when stacked */
+    }
+}
+
 .single-progress-wrapper {
     width: 50%; /* Each wrapper takes half the width */
     padding: 10px; /* Optional: Add some spacing */
