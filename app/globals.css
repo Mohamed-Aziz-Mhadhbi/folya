@@ -842,33 +842,40 @@ h3 {
 *
 **************************************/
 
-/*  video  */
-.background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    overflow: hidden;
-  }
-  
-  .background-video iframe {
-    width: 100%;
-    height: 100vh;
-  }
 
-
-/* Container setup */
 .wrapper-offer {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center content horizontally */
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px; /* Add some padding */
+	background-color: var(--color-gray);
+	-webkit-box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+	box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+
 }
+
+.offer-content {
+	width: 60%;
+	padding: 50px 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.offer-content p {
+	margin-bottom: 20px;
+}
+
+.offer-img {
+	width: 40%;
+	padding: 50px 20px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.offer-img img {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 
 /* Heading styling */
 .heading-section {
@@ -892,33 +899,8 @@ h3 {
     width: 100%;
 }
 
-/* Text content section */
-.offer-content {
-    flex: 1; /* Make the text content take available space */
-    max-width: 600px; /* Limit max width */
-}
-
-.offer-content p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 20px;
-}
-
 .hero-btn {
     margin-top: 20px;
-}
-
-/* Video section */
-.offer-video {
-    flex: 1; /* Make video take available space */
-    max-width: 600px; /* Limit max width */
-}
-
-/* Adjust iframe styling */
-.offer-video iframe {
-    width: 100%; /* Make iframe responsive */
-    height: 50%; /* Maintain aspect ratio */
 }
 
 /* Responsive design */
@@ -927,24 +909,6 @@ h3 {
         flex-direction: column; /* Stack text and video vertically on small screens */
     }
 }
-
-/* .offer-img {
-    width: 40%;
-    padding: 300px 20px;
-    box-sizing: border-box;
-    position: relative;
-    flex: 1;
-    text-align: right;
-} */
-
-/* .offer-img img {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    max-width: 100%;
-    height: auto;
-} */
 
 /**************************************
 *
