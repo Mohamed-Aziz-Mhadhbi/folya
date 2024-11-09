@@ -717,6 +717,8 @@ h3 {
 
 .wrapper-aboutus-progress {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .single-progress {
