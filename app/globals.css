@@ -709,6 +709,9 @@ h3 {
 
 .aboutus-img {
     width: 45%;
+    flex: 1; 
+    display: flex; 
+    justify-content: center;
 }
 
 .aboutus-content p {
