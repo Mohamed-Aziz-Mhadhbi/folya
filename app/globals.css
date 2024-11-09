@@ -397,12 +397,6 @@ h3 {
     position: relative;
 }
 
-.ptb-feature{
-    padding-top: 120px;
-    /* padding-bottom: 20px; */
-    /* position: relative; */
-}
-
 .align-center {
     text-align: center;
     display: flex;
@@ -2005,6 +1999,7 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
 .ptb-feature {
     padding: 100px 0;
     background-color: #f9f9f9;
+    padding-top: 120px;
 }
 
 .wrapper-title {
