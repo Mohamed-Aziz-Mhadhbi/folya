@@ -1358,6 +1358,9 @@ h3 {
 
 .wrapper-aboutus {
     margin-top: 40px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .wrapper-aboutus .aboutus-img img {
