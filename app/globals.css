@@ -698,9 +698,10 @@ h3 {
 
 .aboutus-content {
     width: 55%;
-    padding-left: 50px;
+    padding-left: 20px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    flex: 2
 }
 
 .aboutus-img img {
