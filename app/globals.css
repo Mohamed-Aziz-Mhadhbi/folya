@@ -740,6 +740,11 @@ h3 {
     margin: 0 auto;
 }
 
+.single-progress-wrapper {
+    width: 50%; /* Each wrapper takes half the width */
+    padding: 10px; /* Optional: Add some spacing */
+}
+
 .progress-content {
     width: calc(100% - 50px);
     padding-left: 20px;
