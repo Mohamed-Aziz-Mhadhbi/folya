@@ -3,7 +3,6 @@ import { prefix } from "@/prefix";
 const Offers = () => {
     return (
         <section id="offer" className="ptb">
-
             <div className="wrapper-offer container flex-row">
                 <div className="offer-content">
                     <h2 className="offer-heading">
