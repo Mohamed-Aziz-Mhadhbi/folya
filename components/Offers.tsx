@@ -4,7 +4,7 @@ const Offers = () => {
     return (
         <section id="offer" className="ptb">
             <div className="wrapper-offer container flex-row">
-                <div className="offer-content">
+                {/* <div className="offer-content">
                     <h2 className="offer-heading">
                         <span className="selection">Folya,</span>
                         votre solution de gestion du cabinet paramédical.
@@ -15,10 +15,10 @@ const Offers = () => {
                     <p>
                         Adoptez FOLYA dès aujourd'hui et boostez votre efficacité !
                     </p><a className="btn appointment" href="#booking">Demandez votre devis</a>
-                </div>
-                {/* <div className="offer-img"> */}
+                </div> */}
+                <div className="offer-img">
                     <img src={`${prefix}/offers.png`} alt="" />
-                {/* </div> */}
+                </div>
             </div>
         </section>
     );
