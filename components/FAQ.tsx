@@ -9,7 +9,7 @@ const FAQ = () => {
                     <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
-                            &gt; Qu'est-ce que Folya ?
+                            Qu'est-ce que Folya ?
                         </h3>
                         <div className="content-accordion">
                             <p>
