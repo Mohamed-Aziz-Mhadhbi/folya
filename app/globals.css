@@ -412,7 +412,7 @@ h3 {
 }
 
 .fields{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     width: 100%;
 }
