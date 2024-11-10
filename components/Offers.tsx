@@ -18,7 +18,7 @@ const Offers = () => {
                     <a className="btn appointment" href="#booking">Demandez votre devis</a>
                 </div>
                 <div className="offer-img">
-                    <img src={`${prefix}/offers.png`} alt="" />
+                    <img src={`${prefix}/image/offers.png`} alt="" />
                 </div>
             </div>
         </section>
