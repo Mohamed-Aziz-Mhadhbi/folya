@@ -48,22 +48,22 @@ const Footer = () => {
                                     <h3>FAQ</h3>
                                     <ul>
                                         <li id="faq">
-                                            <a href="#">Qu'est-ce que Folya?</a>
+                                            <a>Qu'est-ce que Folya?</a>
                                         </li>
                                         <li id="faq">
-                                            <a href="#">Comment puis-je commencer à utiliser Folya?</a>
+                                            <a>Comment puis-je commencer à utiliser Folya?</a>
                                         </li>
                                         <li id="faq">
-                                            <a href="#">Folya est-elle compatible avec mon appareil?</a>
+                                            <a>Folya est-elle compatible avec mon appareil?</a>
                                         </li>
                                         <li id="faq">
-                                            <a href="#">Folya est-elle sécurisée?</a>
+                                            <a>Folya est-elle sécurisée?</a>
                                         </li>
                                         <li id="faq">
-                                            <a href="#">Puis-je essayer Folya gratuitement?</a>
+                                            <a>Puis-je essayer Folya gratuitement?</a>
                                         </li>
                                         <li id="faq">
-                                            <a href="#">Comment puis-je obtenir de l'aide avec Folya?</a>
+                                            <a>Comment puis-je obtenir de l'aide avec Folya?</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                                     <ul>
                                         <li>
                                             <a href="mailto:Contact@Folya.co">
-                                            &gt; Contact@Folya.co
+                                                &gt; Contact@Folya.co
                                             </a>
                                         </li>
                                         <li>
