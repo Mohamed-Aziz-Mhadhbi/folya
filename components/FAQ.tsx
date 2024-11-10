@@ -17,7 +17,7 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            &gt; Comment puis-je commencer à utiliser Folya ?
+                            Comment puis-je commencer à utiliser Folya ?
                         </h3>
                         <div
                             className="content-accordion"
@@ -28,7 +28,7 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            &gt; Folya est-elle compatible avec mon appareil ?
+                            Folya est-elle compatible avec mon appareil ?
                         </h3>
                         <div
                             className="content-accordion"
@@ -40,7 +40,7 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            &gt; Folya est-elle sécurisée ?
+                            Folya est-elle sécurisée ?
                         </h3>
                         <div
                             className="content-accordion"
@@ -51,7 +51,7 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            &gt; Puis-je essayer Folya gratuitement ?
+                            Puis-je essayer Folya gratuitement ?
                         </h3>
                         <div
                             className="content-accordion"
@@ -61,7 +61,7 @@ const FAQ = () => {
                                 Oui, vous pouvez profiter d'un essai gratuit de 30 jours pour découvrir toutes les fonctionnalités de Folya et voir comment elle peut vous aider à améliorer votre pratique. Inscrivez-vous dès aujourd'hui pour commencer votre essai gratuit ! </p>
                         </div>
                         <h3>
-                            &gt; Comment puis-je obtenir de l'aide avec Folya ?
+                            Comment puis-je obtenir de l'aide avec Folya ?
                         </h3>
                         <div
                             className="content-accordion"
