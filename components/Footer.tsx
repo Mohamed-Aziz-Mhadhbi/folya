@@ -47,22 +47,22 @@ const Footer = () => {
                                 <div className="title">
                                     <h3>FAQ</h3>
                                     <ul>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Qu'est-ce que Folya?</a>
                                         </li>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Comment puis-je commencer à utiliser Folya?</a>
                                         </li>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Folya est-elle compatible avec mon appareil?</a>
                                         </li>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Folya est-elle sécurisée?</a>
                                         </li>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Puis-je essayer Folya gratuitement?</a>
                                         </li>
-                                        <li>
+                                        <li id="faq">
                                             <a href="#">Comment puis-je obtenir de l'aide avec Folya?</a>
                                         </li>
                                     </ul>
