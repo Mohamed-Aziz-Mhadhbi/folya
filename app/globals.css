@@ -2861,14 +2861,12 @@ section.hero-area .hero-content .hero-btn ul li a .wave1 {
     width: 100%;
     max-width: 400px;
     cursor: pointer;
-  }
-  
-  label {
+}
+label {
     font-size: 14px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: -30px;
     display: block;
-  }
-  
-
+}
 
 
