@@ -964,15 +964,15 @@ h3 {
     margin-bottom: 20px;
 }
 
-/* .wrapper-input {
+.wrapper-input {
     display:flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
+    /* -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
-} */
+    align-items: center; */
+} 
 
 .error-message {
     margin-top: 5px; /* Adjust the margin as needed */
