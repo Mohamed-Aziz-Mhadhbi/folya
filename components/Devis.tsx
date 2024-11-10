@@ -29,30 +29,6 @@ const Devis = () => {
                             <TextFieldCodePostal />
                             <TextFieldSpeciale />
                         </div>
-                        {/* <div className="wrapper-input flex-row">
-                            <input
-                                type="text"
-                                name="ville"
-                                placeholder="Ville d'exercice*"
-                                value={values.ville}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.ville && validationErrors.ville && (
-                                <p className="error">{validationErrors.ville}</p>
-                            )}
-                            <input
-                                type="text"
-                                name="sp"
-                                placeholder="Votre spécialité paramédicale*"
-                                value={values.sp}
-                                onChange={handleChange}
-                                onBlur={onBlur}
-                            />
-                            {touched.sp && validationErrors.sp && (
-                                <p className="error">{validationErrors.sp}</p>
-                            )}
-                        </div> */}
                         <TextFieldMessage />
                         <button className="btn" id="sendbook" type="submit" >
                             Obtenez votre devis
