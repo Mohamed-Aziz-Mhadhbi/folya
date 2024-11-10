@@ -17,7 +17,7 @@ export default function TextFieldSpeciale() {
     };
 
     return (
-        <div className='fields'>
+        <>
             <select
                 autoComplete="off"
                 data-placeholder=""
@@ -159,6 +159,6 @@ export default function TextFieldSpeciale() {
                 <option value={25}>Stomatologue </option>
             </select>
             {error && <label className="error error--none">{error}</label>}
-        </div>
+        </>
     );
 }
