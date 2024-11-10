@@ -29,7 +29,9 @@ const Devis = () => {
                             <TextFieldCodePostal />
                             <TextFieldSpeciale />
                         </div>
+                        <div className="wrapper-input">
                         <TextFieldMessage />
+                        </div>
                         <button className="btn" id="sendbook" type="submit" >
                             Obtenez votre devis
                         </button>

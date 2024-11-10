@@ -18,8 +18,7 @@ export default function TextFieldMessage() {
 
     return (
         <div className='fields'>
-            <input
-                type="text"
+            <textarea
                 name="message"
                 placeholder="Message"
                 autoComplete="off"
