@@ -412,12 +412,11 @@ h3 {
 }
 
 .fields{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 100%;
 }
 
-/* Selection */
 .selection {
     color: var(--color-blue);
 }
