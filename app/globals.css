@@ -665,7 +665,7 @@ h3 {
 
 @media (max-width: 768px) {
     .single-progress-wrapper {
-        width: 100%; /* Full width on smaller screens */
+        width: 100%; 
     }
 }
 
