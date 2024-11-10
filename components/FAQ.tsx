@@ -66,7 +66,6 @@ const FAQ = () => {
                                 Oui, vous pouvez profiter d'un essai gratuit de 30 jours pour découvrir toutes les fonctionnalités de Folya et voir comment elle peut vous aider à améliorer votre pratique. Inscrivez-vous dès aujourd'hui pour commencer votre essai gratuit ! </p>
                         </div>
                         <h3>
-                            <i className="fa-solid fa-chevron-down" />
                             &gt; Comment puis-je obtenir de l'aide avec Folya ?
                         </h3>
                         <div
