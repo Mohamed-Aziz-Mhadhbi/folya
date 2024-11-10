@@ -36,7 +36,7 @@ const Devis = () => {
                             Obtenez votre devis
                         </button>
                         <p className="res-booking" >
-                            <span className="send">Thanks. We will contact you shortly.</span>
+                            <span className="send">Merci. Nous vous contacterons sous peu.</span>
                         </p>
                     </form>
                 </div>
