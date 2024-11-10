@@ -9,7 +9,6 @@ const FAQ = () => {
                     <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
-                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Qu'est-ce que Folya ?
                         </h3>
                         <div className="content-accordion">
@@ -18,7 +17,6 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Comment puis-je commencer à utiliser Folya ?
                         </h3>
                         <div
@@ -30,7 +28,6 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Folya est-elle compatible avec mon appareil ?
                         </h3>
                         <div
@@ -43,7 +40,6 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Folya est-elle sécurisée ?
                         </h3>
                         <div
@@ -55,7 +51,6 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                            {/* <i className="fa-solid fa-chevron-down" /> */}
                             &gt; Puis-je essayer Folya gratuitement ?
                         </h3>
                         <div
