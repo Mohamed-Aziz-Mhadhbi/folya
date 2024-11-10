@@ -787,6 +787,7 @@ h3 {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	position: relative;
+    padding-bottom: 50px;
 }
 
 .offer-img img {
