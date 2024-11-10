@@ -1,5 +1,4 @@
 import { prefix } from '@/prefix';
-import Link from 'next/link';
 
 const Navbar = () => {
     return (
