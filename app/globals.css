@@ -981,9 +981,7 @@ h3 {
     color: red; 
 }
 
-.wrapper-input input,
-.wrapper-input select,
-.wrapper-input textarea {
+.wrapper-input input{
     display: flex;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -994,6 +992,51 @@ h3 {
     width: calc(85% - 0px);
     margin-bottom: 40px;
     color: var(--color-dark);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid var(--color-dark-blue);
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.wrapper-input select{
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0px 20px 0px;
+    border: 0.5px solid var(--color-white);
+    outline: none;
+    border-radius: 0.5px;
+    background-color: var(--color-white);
+    width: calc(85% - 0px);
+    margin-bottom: 40px;
+    color: var(--color-dark);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid var(--color-dark-blue);
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all 0.3s ease;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.wrapper-input textarea {
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 0px 20px 0px;
+    border: none;
+    outline: none;
+    background-color: var(--color-white);
+    width: calc(93% - 0px);
+    margin-bottom: 40px;
+    color: var(--color-dark-blue);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     border-bottom: 1px solid var(--color-dark-blue);
