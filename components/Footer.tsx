@@ -76,12 +76,12 @@ const Footer = () => {
                                     <ul>
                                         <li>
                                             <a href="mailto:Contact@Folya.co">
-                                            &gt; Contact@Folya.co
+                                                Contact@Folya.co
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                &gt; Cité El Wafa - Nabeul 8062
+                                                Cité El Wafa - Nabeul 8062
                                             </a>
                                         </li>
                                     </ul>
