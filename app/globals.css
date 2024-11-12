@@ -668,13 +668,22 @@ h3 {
 
 @media (max-width: 768px) {
     .wrapper-aboutus-progress {
-        flex-direction: column; 
+        height: 100vh;
     }
 
     .single-progress-wrapper {
-        flex: 1 1 100%; 
+        flex: 1 1 45%; 
+    }
+
+    .single-progress{
+        padding: 15px;
+    }
+
+    .progress-img{
+        flex: 0 0 70px;
     }
 }
+
 .single-progress-wrapper {
     width: 50%; 
     padding: 10px; 
