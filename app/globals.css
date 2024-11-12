@@ -668,11 +668,14 @@ h3 {
 
 @media (max-width: 768px) {
     .wrapper-aboutus-progress {
-        height: 100vh;
+        /* height: auto; */
+        flex-direction: column;
+
     }
 
     .single-progress-wrapper {
-        flex: 1 1 45%; 
+        width: 100%; 
+        flex: 1 1 100%; 
     }
 
     .single-progress{
@@ -684,17 +687,16 @@ h3 {
     }
 
     h3 {
-        font-size: 1.5em; 
+        font-size: 1.6em; 
     }
 
     p {
-        font-size: 1em; 
+        font-size: 1.1em; 
     }
 }
 
 .single-progress-wrapper {
-    width: 50%; 
-    padding: 10px; 
+    width: 100%; 
 }
 
 .progress-content {
