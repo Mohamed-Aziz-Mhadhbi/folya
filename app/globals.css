@@ -62,9 +62,9 @@
 }
 
 header {
-    position: static; /* Ensures it's not fixed */
-    width: 100%; /* Makes sure it spans the entire width */
-    top: auto; /* No fixed top */
+    position: static; 
+    width: 100%; 
+    top: auto; 
 }
 
 #colorsp{
@@ -667,12 +667,26 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .wrapper-aboutus-progress {
+        flex-direction: column; 
+    }
+
     .single-progress-wrapper {
-        width: 100%; 
+        flex-basis: 100%; 
+    }
+
+    .single-progress {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .progress-img {
+        margin-bottom: 10px; 
+        margin-right: 0;
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .wrapper-aboutus-progress {
         flex-direction: column; 
     }
@@ -688,9 +702,8 @@ h3 {
     
     .progress-img {
         margin-bottom: 10px; 
-        /* margin-right: 0;  */
     }
-}
+} */
 
 .single-progress-wrapper {
     width: 50%; 
