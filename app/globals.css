@@ -682,6 +682,14 @@ h3 {
     .progress-img{
         flex: 0 0 70px;
     }
+
+    h3 {
+        font-size: 1.5em; 
+    }
+
+    p {
+        font-size: 1em; 
+    }
 }
 
 .single-progress-wrapper {
