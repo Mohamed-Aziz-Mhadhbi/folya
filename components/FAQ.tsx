@@ -9,9 +9,7 @@ const FAQ = () => {
                     <h2>Questions fréquentes</h2>
                     <div className="wrapper-accordion">
                         <h3>
-                        <i className="fa-solid fa-chevron-up">
                             Qu'est-ce que Folya ?
-                        </i>
                         </h3>
                         <div className="content-accordion">
                             <p>
@@ -19,9 +17,7 @@ const FAQ = () => {
                             </p>
                         </div>
                         <h3>
-                        <i className="fa-solid fa-chevron-down">
                             Comment puis-je commencer à utiliser Folya ?
-                        </i>
                         </h3>
                         <div
                             className="content-accordion"
