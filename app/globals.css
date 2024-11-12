@@ -182,6 +182,7 @@ nav {
 
 .menu li {
     margin-left: 20px;
+    float: left;
 }
 
 .menu li a {
