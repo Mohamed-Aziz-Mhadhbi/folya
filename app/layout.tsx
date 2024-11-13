@@ -40,7 +40,7 @@ export default function RootLayout({
         {/* Mobile Specific Meta */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* Favicon */}
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         {/* Custom style CSS */}
         <link rel="stylesheet" href="styles/all.min.css" />
         {/* Responsive CSS */}
