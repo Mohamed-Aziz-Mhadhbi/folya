@@ -282,7 +282,7 @@ nav {
     }
 }
 
-@media (min-width: 769px) {
+/* @media (min-width: 769px) {
     .menu {
         display: flex !important;
     }
@@ -302,7 +302,7 @@ nav {
     .menu-buttons {
         display: none;
     }
-}
+} */
 
 a {
     display: inline-block;
