@@ -155,6 +155,7 @@ a {
 	-webkit-transition-duration: 0.5s;
 	-o-transition-duration: 0.5s;
 	transition-duration: 0.5s;
+    color: var(--color-blue);
 }
 
 img {
@@ -316,6 +317,8 @@ h3 {
 #openmenu {
 	display: none;
 }
+
+
 
 .res-booking {
     display: none;
