@@ -458,7 +458,7 @@ h3 {
 
 #avantage {
     position: relative;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
@@ -1386,7 +1386,7 @@ h3 {
 .ptb-feature {
     padding: 100px 0;
     background-color: #f9f9f9;
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 
 .wrapper-title {
