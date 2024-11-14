@@ -27,7 +27,7 @@ const Feature = () => {
                 </div>
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/factures.png`} alt="Facturation automatisée et suivi des finances" />
+                        <img src={`${prefix}/image/facture.png`} alt="Facturation automatisée et suivi des finances" />
                     </div>
                     <h3>Facturation automatisée et suivi des finances</h3>
                     <p>
