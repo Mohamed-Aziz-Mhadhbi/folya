@@ -65,6 +65,7 @@ header {
 
 #colorsp{
     color: var(--color-dark-blue);
+    font-weight: bold;
 }
 
 textarea::placeholder {
@@ -1239,6 +1240,7 @@ h3 {
     .menu li a {
         color: var(--color-dark);
         text-transform: uppercase;
+        font-size: larger;
     }
 
     #closemenu,
