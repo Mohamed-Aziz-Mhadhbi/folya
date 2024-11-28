@@ -20,8 +20,8 @@ export default function Home() {
                     <AboutUs />
                     <Feature />
                     <Service />
-                    <FAQ />
                     <Tarif />
+                    <FAQ />
                     <Devis />
                 </main>
             </div>
