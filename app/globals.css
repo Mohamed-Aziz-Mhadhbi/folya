@@ -508,13 +508,13 @@ h3 {
 
 .aboutus-img img {
     width: 100%;
+    border-radius: 20%;
 }
 
 .aboutus-img {
     width: 45%;
     flex: 1; 
     display: flex; 
-    border-radius: 20%;
     justify-content: center;
 }
 
