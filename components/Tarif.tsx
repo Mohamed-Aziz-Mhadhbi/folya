@@ -2,7 +2,7 @@ import { prefix } from '@/prefix';
 
 const Tarif = () => {
     return (
-        <section id="pricing" className="ptb">
+        <section id="tarif" className="ptb">
             <div className="wrapper-title container align-center">
                 <span className="suptitle">Tarifs</span>
                 <h2>Nous Offrons Les <span className="selection">Meilleurs Tarifs</span></h2>

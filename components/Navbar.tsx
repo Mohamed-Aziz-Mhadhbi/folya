@@ -28,6 +28,9 @@ const Navbar = () => {
                             <li>
                                 <a href="#faq">FAQ</a>
                             </li>
+                            <li>
+                                <a href="#tarif">TARIF</a>
+                            </li>
                         </ul>
                     </nav>
                     <nav>
