@@ -6,7 +6,8 @@ import Offers from "@/components/Offers";
 import Devis from "@/components/Devis";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
-import Loader from '@/components/Loader';
+import Loader from "@/components/Loader";
+import Tarif from "@/components/Tarif";
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
                     <Feature />
                     <Service />
                     <FAQ />
+                    <Tarif />
                     <Devis />
                 </main>
             </div>
