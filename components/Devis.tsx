@@ -33,7 +33,7 @@ const Devis = () => {
                             <TextFieldMessage />
                         </div>
                         <button className="btn" id="sendbook" type="submit" >
-                            Demander une démonstration
+                            Soumettez votre démonstration
                         </button>
                         <p className="res-booking" >
                             <span className="send">Merci. Nous vous contacterons sous peu.</span>
