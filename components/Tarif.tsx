@@ -12,7 +12,7 @@ const Tarif = () => {
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Blanchiment Dentaire</h3>
+                        <h3>Tarif </h3>
                     </div>
 
                     <div className="pricing-content">
@@ -29,7 +29,7 @@ const Tarif = () => {
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Soins Esthétiques</h3>
+                        <h3>tarif</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -46,7 +46,7 @@ const Tarif = () => {
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Essentiels Dentaires</h3>
+                        <h3>tarif</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -63,7 +63,7 @@ const Tarif = () => {
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Soins Esthétiques</h3>
+                        <h3>tarif</h3>
                     </div>
 
                     <div className="pricing-content">
