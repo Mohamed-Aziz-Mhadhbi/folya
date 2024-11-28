@@ -49,7 +49,7 @@ const AboutUs = () => {
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                <img src={`${prefix}/image/gestionDonnees.png`} alt="" />
+                                <img src={`${prefix}/image/gestionDonnees2.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Réduction des coûts</h3>
