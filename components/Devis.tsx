@@ -30,10 +30,10 @@ const Devis = () => {
                             <TextFieldSpeciale />
                         </div>
                         <div className="wrapper-input">
-                        <TextFieldMessage />
+                            <TextFieldMessage />
                         </div>
                         <button className="btn" id="sendbook" type="submit" >
-                            Obtenez votre devis
+                            Demander une démonstration
                         </button>
                         <p className="res-booking" >
                             <span className="send">Merci. Nous vous contacterons sous peu.</span>
