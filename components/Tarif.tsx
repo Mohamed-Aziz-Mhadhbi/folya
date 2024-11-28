@@ -4,15 +4,15 @@ const Tarif = () => {
     return (
         <section id="pricing" className="ptb">
             <div className="wrapper-title container align-center">
-                <span className="suptitle">Pricing</span>
-                <h2>We Are Offering The <span className="selection">Best Pricing</span></h2>
+                <span className="suptitle">Tarifs</span>
+                <h2>Nous Offrons Les <span className="selection">Meilleurs Tarifs</span></h2>
             </div>
 
             <div className="wrapper-pricing container flex-row">
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Teeth Whitening</h3>
+                        <h3>Blanchiment Dentaire</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -21,16 +21,15 @@ const Tarif = () => {
                     </div>
 
                     <div className="single-price">
-                        <p>$130</p>
-                        <span>Per Monthly</span>
+                        <p>130€</p>
+                        <span>Par Mois</span>
                     </div>
-
                 </div>
 
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Cosmetic Treatments</h3>
+                        <h3>Soins Esthétiques</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -39,16 +38,15 @@ const Tarif = () => {
                     </div>
 
                     <div className="single-price">
-                        <p>$240</p>
-                        <span>Per Monthly</span>
+                        <p>240€</p>
+                        <span>Par Mois</span>
                     </div>
-
                 </div>
 
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Dental Essentials</h3>
+                        <h3>Essentiels Dentaires</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -57,16 +55,15 @@ const Tarif = () => {
                     </div>
 
                     <div className="single-price">
-                        <p>$420</p>
-                        <span>Per Monthly</span>
+                        <p>420€</p>
+                        <span>Par Mois</span>
                     </div>
-
                 </div>
 
                 <div className="single-pricing align-center">
                     <div className="pricing-title">
                         <img src={`${prefix}/image/improve.png`} alt="" />
-                        <h3>Cosmetic Treatments</h3>
+                        <h3>Soins Esthétiques</h3>
                     </div>
 
                     <div className="pricing-content">
@@ -75,8 +72,8 @@ const Tarif = () => {
                     </div>
 
                     <div className="single-price">
-                        <p>$380</p>
-                        <span>Per Monthly</span>
+                        <p>380€</p>
+                        <span>Par Mois</span>
                     </div>
                 </div>
             </div>
@@ -85,4 +82,3 @@ const Tarif = () => {
 }
 
 export default Tarif;
-
