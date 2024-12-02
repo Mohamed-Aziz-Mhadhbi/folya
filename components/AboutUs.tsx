@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                <img src={`${prefix}/image/reduc.png`} alt="" />
+                                <img src={`${prefix}/image/reduc2.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Réduction des erreurs administratives</h3>
@@ -49,7 +49,7 @@ const AboutUs = () => {
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-img">
-                                <img src={`${prefix}/image/gestionDonnees2.png`} alt="" />
+                                <img src={`${prefix}/image/gestiondeDonner.png`} alt="" />
                             </div>
                             <div className="progress-content">
                                 <h3>Réduction des coûts</h3>
