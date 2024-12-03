@@ -20,22 +20,22 @@ const AboutUs = () => {
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
                             <div className="progress-content">
-                                <h3>Réduction des erreurs administratives</h3>
                                 <p>-30% d'erreurs de saisie grâce à la gestion optimisée des dossiers.</p>
+                                <h3>Réduction des erreurs administratives</h3>
                             </div>
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-content">
-                                <h3>Accès rapide aux informations</h3>
                                 <p>-30% d'erreurs administratives.</p>
+                                <h3>Accès rapide aux informations</h3>
                             </div>
                         </div>
                     </div>
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
                             <div className="progress-content">
-                                <h3>Amélioration de l'efficacité</h3>
                                 <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine.</p>
+                                <h3>Amélioration de l'efficacité</h3>
                             </div>
                         </div>
                     </div>
