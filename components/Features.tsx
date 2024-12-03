@@ -34,15 +34,7 @@ const Feature = () => {
                         Dites adieu aux factures manuelles et aux erreurs de saisie ! Folya automatise la facturation et le suivi des paiements, tout en optimisant votre trésorerie.
                     </p>
                 </div>
-                <div className="feature-card">
-                    <div className="icon">
-                        <img src={`${prefix}/image/analyses.png`} alt="Rapports précieux de l'activité du cabinet" />
-                    </div>
-                    <h3>Rapports précieux de l'activité du cabinet</h3>
-                    <p>
-                        Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des analyses personnalisées. Anticipez vos périodes de congé et prenez des décisions plus efficaces.
-                    </p>
-                </div>
+                
             </div>
         </section>
     );
