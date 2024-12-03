@@ -15,7 +15,7 @@ const Offers = () => {
                     <p>
                         Adoptez FOLYA dès aujourd'hui et boostez votre efficacité !
                     </p>
-                    <a className="btn appointment" href="#booking">Soumettre</a>
+                    <a className="btn appointment" href="#booking">Inscription</a>
                 </div>
                 <div className="offer-img">
                     <img src={`${prefix}/image/offers.png`} alt="" />
