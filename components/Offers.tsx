@@ -18,7 +18,7 @@ const Offers = () => {
                     <a className="btn appointment" href="#booking">Inscription</a>
                 </div>
                 <div className="offer-img">
-                    <img src={`${prefix}/image/offers.png`} alt="" />
+                    <img src={`${prefix}/image/MacBook Air (15 inch).png`} alt="" />
                 </div>
             </div>
         </section>
