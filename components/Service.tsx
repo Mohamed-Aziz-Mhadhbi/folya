@@ -29,7 +29,7 @@ const Service = () => {
                 <article className="align-center">
                     <img src={`${prefix}/image/analyses.png`} alt="" />
                     <h3>Compte-rendu standardisé</h3>
-                    <p>Générez automatiquement vos comptes rendus avec Folya en quelques clics. Profitez d'un processus simple, standardisé et parfaitement adapté à vos besoins.
+                    <p>Générez automatiquement vos comptes rendus en quelques clics. Profitez d'un processus simple, standardisé et parfaitement adapté à vos besoins.
                     </p>
                 </article>
             </div>
