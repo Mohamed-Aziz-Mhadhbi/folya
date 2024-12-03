@@ -5,8 +5,7 @@ const AboutUs = () => {
         <section id="aboutus" className="ptb flex-row">
             <div className="wrapper-aboutus container flex-row">
                 <div className="aboutus-img">
-                    {/* <img src={`${prefix}/image/aboutus2.png`} alt="" /> */}
-                    <img src="./image/aboutus2.png" alt="" />
+                    <img src={`${prefix}/image/aboutus2.png`} alt="" />
                 </div>
                 <div className="aboutus-content">
                     <br />
