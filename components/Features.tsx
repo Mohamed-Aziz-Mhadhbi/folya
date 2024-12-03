@@ -25,7 +25,7 @@ const Feature = () => {
                     <p>
                     Folya vous donnez la accédez aux dossiers-patients, suivez l'évolution de l'état de vos patients, prenez des notes cliniques et stockez des informations en toute sécurité .</p>
                 </div>
-                <div className="feature-card">
+                {/* <div className="feature-card">
                     <div className="icon">
                         <img src={`${prefix}/image/facture.png`} alt="Facturation automatisée et suivi des finances" />
                     </div>
@@ -42,7 +42,7 @@ const Feature = () => {
                     <p>
                         Obtenez des informations clés sur votre pratique et l’activité de votre cabinet grâce à des analyses personnalisées. Anticipez vos périodes de congé et prenez des décisions plus efficaces.
                     </p>
-                </div>
+                </div> */}
             </div>
         </section>
     );
