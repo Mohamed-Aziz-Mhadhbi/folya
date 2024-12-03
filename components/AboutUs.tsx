@@ -5,7 +5,8 @@ const AboutUs = () => {
         <section id="aboutus" className="ptb flex-row">
             <div className="wrapper-aboutus container flex-row">
                 <div className="aboutus-img">
-                    <img src={`${prefix}/image/aboutus2.png`} alt="" />
+                    {/* <img src={`${prefix}/image/aboutus2.png`} alt="" /> */}
+                    <img src="./image/aboutus2.png" alt="" />
                 </div>
                 <div className="aboutus-content">
                     <br />
@@ -16,25 +17,24 @@ const AboutUs = () => {
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme : c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.</p>
                 </div>
-                <div className="wrapper-aboutus-progress flex-row">
-                    <div className="single-progress-wrapper flex-column">
-                        <div className="single-progress flex-row">
+                <div className="wrapper-aboutus-progress">
+                    <div className="single-progress-wrapper">
+                    <p>Folya en chiffres</p>
+                        <div className="single-progress">
                             <div className="progress-content">
-                                <h3>-25% d'erreurs de saisie </h3>
+                                <h3>-25% d'erreurs de saisie</h3>
                                 <p>grâce à une gestion administrative optimisée.</p>
                             </div>
                         </div>
-                        <div className="single-progress flex-row">
+                        <div className="single-progress">
                             <div className="progress-content">
                                 <h3>30 secondes</h3>
                                 <p>Suffisents pour accéder aux dossiers patients.</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="single-progress-wrapper flex-column">
-                        <div className="single-progress flex-row">
+                        <div className="single-progress">
                             <div className="progress-content stat">
-                                <h3>80 % des utilisateurs </h3>
+                                <h3>80 % des utilisateurs</h3>
                                 <p>constatent une meilleure organisation dès la première semaine.</p>
                             </div>
                         </div>
