@@ -34,8 +34,9 @@ const AboutUs = () => {
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
                             <div className="progress-content">
-                                <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine.</p>
-                                <h3>Amélioration de l'efficacité</h3>
+                                <h3>80 % des utilisateurs </h3>
+                                    <p>constatent une meilleure organisation dès la première semaine.</p>
+                                {/* <h3>Amélioration de l'efficacité</h3> */}
                             </div>
                         </div>
                     </div>
