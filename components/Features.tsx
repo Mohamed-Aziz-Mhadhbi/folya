@@ -4,7 +4,8 @@ const Feature = () => {
     return (
         <section id="avantage" className="ptb-feature">
             <div className="wrapper-title container align-center">
-                <h2>Avantages</h2>
+            <span className="suptitle">Avantages</span>
+                <h2>Nos point fort</h2>
             </div>
             <div className="wrapper-features container grid-layout">
                 <div className="feature-card">
