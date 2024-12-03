@@ -30,12 +30,12 @@ export default function TextFieldSpeciale() {
                 <option value="" disabled selected>
                     Spécialité *
                 </option>
-                <option value={271}>kinésithérapeute </option>
-                <option value={497}>orthophoniste </option>
-                <option value={57}>ergothérapeute </option>
-                <option value={15}>psychologue </option>
-                <option value={49}>psychomotricien </option>
-                <option value={925}>autre précisez </option>
+                <option value={271}>Kinésithérapeute </option>
+                <option value={497}>Orthophoniste </option>
+                <option value={57}>Ergothérapeute </option>
+                <option value={15}>Psychologue </option>
+                <option value={49}>Psychomotricien </option>
+                <option value={925}>Orthoptiste </option>
             </select>
             {error && <label className="error error--none">{error}</label>}
         </div>
