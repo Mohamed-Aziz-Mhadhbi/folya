@@ -27,7 +27,7 @@ const AboutUs = () => {
                         <div className="single-progress flex-row">
                             <div className="progress-content">
                                 <h3>Accès rapide aux informations</h3>
-                                <p>Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
+                                <p>-30% d'erreurs administratives.</p>
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const AboutUs = () => {
                         <div className="single-progress flex-row">
                             <div className="progress-content">
                                 <h3>Amélioration de l'efficacité</h3>
-                                <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine</p>
+                                <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine.</p>
                             </div>
                         </div>
                     </div>
