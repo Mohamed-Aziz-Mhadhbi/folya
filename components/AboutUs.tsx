@@ -21,7 +21,7 @@ const AboutUs = () => {
                         <div className="single-progress flex-row">
                             <div className="progress-content">
                                 <h3>Réduction des erreurs administratives</h3>
-                                <p>20 à 30 % de diminution des erreurs liées à la gestion des dossiers.</p>
+                                <p>-30% d'erreurs de saisie grâce à la gestion optimisée des dossiers.</p>
                             </div>
                         </div>
                         <div className="single-progress flex-row">
