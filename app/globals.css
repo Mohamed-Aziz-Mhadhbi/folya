@@ -163,17 +163,6 @@ body {
     border-radius: 8px;
 }
 
-.suptitle {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #555;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #333;
-}
-
 .single-progress-wrapper {
     flex: 1;
     padding: 1rem;
@@ -188,22 +177,6 @@ h2 {
     width: 60px;
     height: 60px;
     object-fit: cover;
-}
-
-.progress-content h3 {
-    font-size: 1.5rem;
-    margin: 0;
-    color: #444;
-}
-
-.progress-content p {
-    font-size: 1rem;
-    color: #666;
-}
-
-.highlight {
-    color: #007bff;
-    font-weight: bold;
 }
 
 
