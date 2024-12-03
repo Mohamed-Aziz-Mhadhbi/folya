@@ -30,6 +30,8 @@ const AboutUs = () => {
                                 <p>Suffisents pour accéder aux dossiers patients.</p>
                             </div>
                         </div>
+                    </div>
+                    <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
                             <div className="progress-content stat">
                                 <h3>80 % des utilisateurs </h3>
