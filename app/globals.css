@@ -136,64 +136,32 @@ body {
 
 /* avantage  */
 
+.wrapper-features {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr; /* One column */
+    gap: 20px; /* Space between cards */
+}
+
 .feature-card {
+    display: flex; /* Use flexbox for each card */
+    align-items: center; /* Center items vertically */
+    padding: 15px; /* Add some padding */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.icon {
+    margin-right: 20px; /* Space between image and text */
+}
+
+.icon img {
+    max-width: 100px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-content {
     display: flex;
-    align-items: center;
-    background-color: #f3f8ff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-  }
-  
-  .feature-card .icon {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .feature-card .icon img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-  }
-  
-  .feature-card .content {
-    flex: 2;
-    margin-left: 20px;
-  }
-  
-  .feature-card .content h3 {
-    color: #1e2a4a;
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .feature-card .content p {
-    color: #5a6474;
-    font-size: 16px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-  }
-  
-  .feature-card .content button {
-    background-color: #0066cc;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .feature-card .content button:hover {
-    background-color: #005bb5;
-  }
-  
+    flex-direction: column; /* Stack text vertically */
+}
 
 /*  modification in about us */
 
