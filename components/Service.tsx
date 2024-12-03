@@ -8,10 +8,10 @@ const Service = () => {
                 <h2>Fonctionnalités clés <span className="selection">de Folya</span></h2>
             </div>
             <div className="wrapper-service container flex-row">
-                <article className="align-center">
-                    <img src={`${prefix}/image/service-4.png`} alt="" />
-                    <h3>Tests d’évaluation personnalisés</h3>
-                    <p>Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.
+            <article className="align-center">
+                    <img src={`${prefix}/image/rendez-vous.png`} alt="" />
+                    <h3>Gestion des rendez-vous</h3>
+                    <p>Planifiez, modifiez et annulez vos rendez-vous en quelques clics en consultant votre calendrier.
                     </p>
                 </article>
                 <article className="align-center">
@@ -21,15 +21,15 @@ const Service = () => {
                     </p>
                 </article>
                 <article className="align-center">
-                    <img src={`${prefix}/image/rendez-vous.png`} alt="" />
-                    <h3>Gestion des rendez-vous</h3>
-                    <p>Planifiez, modifiez et annulez vos rendez-vous en quelques clics en consultant votre calendrier.
+                    <img src={`${prefix}/image/service-4.png`} alt="" />
+                    <h3>Tests d’évaluation personnalisés</h3>
+                    <p>Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.
                     </p>
                 </article>
                 <article className="align-center">
                     <img src={`${prefix}/image/analyses.png`} alt="" />
-                    <h3>Activité du cabinet optimisée</h3>
-                    <p>Bénéficiez de rapports et d'analyses sur mesure adaptés à votre cabinet. Optimisez vos dépenses et votre trésorerie.
+                    <h3>Compte-rendu standardisé</h3>
+                    <p>Générez automatiquement vos comptes rendus avec Folya en quelques clics. Profitez d'un processus simple, standardisé et parfaitement adapté à vos besoins.
                     </p>
                 </article>
             </div>
