@@ -12,7 +12,7 @@ const Devis = () => {
         <section id="booking" className="ptb">
             <div className="container">
                 <span className="suptitle">Démo</span>
-                <h2>échanger avec un conseiller</h2>
+                <h2>Échanger avec un conseiller</h2>
             </div>
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
