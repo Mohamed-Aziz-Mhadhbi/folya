@@ -195,6 +195,14 @@ body {
     gap: 1rem;
 }
 
+/* fonctionnalites */
+.wrapper-service {
+    display: flex; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 20px; /* Space between articles */
+}
+
+
 /* Additional Styles for Responsive Navbar */
 
 .bottom-header {
