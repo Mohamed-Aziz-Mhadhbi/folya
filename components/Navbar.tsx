@@ -13,7 +13,7 @@ const Navbar = () => {
                             <i className="fa-solid fa-xmark" />
                         </a>
                         <ul className="menu">
-                        <li>
+                            <li>
                                 <a href="#offer">ACCEUIL</a>
                             </li>
                             <li>
@@ -39,6 +39,9 @@ const Navbar = () => {
                         </a>
                         <a className="btn appointment" href="https://www.folya.co/login">
                             Connexion
+                        </a>
+                        <a className="btn appointment" href="">
+                            Inscription
                         </a>
                     </nav>
                     <a id="openmenu" className="btn" href="#">
