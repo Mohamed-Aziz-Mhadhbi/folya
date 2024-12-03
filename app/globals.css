@@ -137,7 +137,6 @@ body {
 
 /* avantage  */
 
-/* General styling for the feature card */
 .feature-card {
     display: flex;
     align-items: center;
@@ -148,7 +147,6 @@ body {
     margin: 20px 0;
   }
   
-  /* Styling for the icon container */
   .feature-card .icon {
     flex: 1;
     display: flex;
@@ -156,7 +154,6 @@ body {
     align-items: center;
   }
   
-  /* Circular image styling */
   .feature-card .icon img {
     border-radius: 50%;
     width: 100px;
@@ -164,13 +161,11 @@ body {
     object-fit: cover;
   }
   
-  /* Content section styling */
   .feature-card .content {
     flex: 2;
     margin-left: 20px;
   }
   
-  /* Heading style */
   .feature-card .content h3 {
     color: #1e2a4a;
     font-size: 20px;
@@ -178,7 +173,6 @@ body {
     font-weight: bold;
   }
   
-  /* Paragraph style */
   .feature-card .content p {
     color: #5a6474;
     font-size: 16px;
@@ -186,7 +180,6 @@ body {
     line-height: 1.6;
   }
   
-  /* Button styling */
   .feature-card .content button {
     background-color: #0066cc;
     color: #fff;
@@ -198,7 +191,6 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  /* Button hover effect */
   .feature-card .content button:hover {
     background-color: #005bb5;
   }
