@@ -5,7 +5,7 @@ const Tarif = () => {
         <section id="tarif" className="ptb">
             <div className="wrapper-title container align-center">
                 <span className="suptitle">Tarifs</span>
-                <h2>Nous Offrons Les <span className="selection">Meilleurs Tarifs</span></h2>
+                <h2>Notre offre <span className="selection">budgétaire</span></h2>
             </div>
             <div className="wrapper-pricing container flex-row">
                 <div className="single-pricing align-center">
