@@ -5,7 +5,7 @@ const Feature = () => {
         <section id="avantage" className="ptb-feature">
             <div className="wrapper-title container align-center">
             <span className="suptitle">Avantages</span>
-                <h2>Nos Point <span className="selection">Forts</span></h2>
+                <h2>Nos points <span className="selection">forts</span></h2>
             </div>
             <div className="wrapper-features container grid-layout">
                 <div className="feature-card">
