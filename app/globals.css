@@ -66,6 +66,7 @@ header {
 #colorsp{
     color: var(--color-dark-blue);
     font-weight: bold;
+    font-size: 16px;
 }
 
 textarea::placeholder {
