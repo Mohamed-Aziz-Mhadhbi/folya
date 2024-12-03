@@ -21,19 +21,19 @@ const AboutUs = () => {
                         <div className="single-progress flex-row">
                             <div className="progress-content">
                                 <h3>-25% d'erreurs de saisie </h3>
-                                <p>grâce à la gestion optimisée des dossiers.</p>
+                                <p>grâce à une gestion administrative optimisée.</p>
                             </div>
                         </div>
                         <div className="single-progress flex-row">
                             <div className="progress-content">
                                 <h3>30 secondes</h3>
-                                <p>Suffisent pour accéder aux dossiers patients</p>
+                                <p>Suffisents pour accéder aux dossiers patients.</p>
                             </div>
                         </div>
                     </div>
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
-                            <div className="progress-content">
+                            <div className="progress-content stat">
                                 <h3>80 % des utilisateurs </h3>
                                 <p>constatent une meilleure organisation dès la première semaine.</p>
                             </div>
