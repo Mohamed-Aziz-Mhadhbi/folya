@@ -136,10 +136,6 @@ body {
 
 /*  modification in about us */
 
-.ptb {
-    padding: 2rem 0;
-}
-
 .flex-row {
     display: flex;
     justify-content: space-between;
