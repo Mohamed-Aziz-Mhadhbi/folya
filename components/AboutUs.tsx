@@ -44,16 +44,7 @@ const AboutUs = () => {
                             </div>
                             <div className="progress-content">
                                 <h3>Amélioration de l'efficacité</h3>
-                                <p>80 % des premiers utilisateurs rapportent une meilleure organisation dès les premières semaines d'utilisation.</p>
-                            </div>
-                        </div>
-                        <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/reducCout.png`} alt="" />
-                            </div>
-                            <div className="progress-content">
-                                <h3>Réduction des coûts</h3>
-                                <p>Jusqu'à 45 % de baisse de vos dépenses administratives grâce à l'automatisation et l’optimisation de la gestion de votre cabinet.</p>
+                                <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine</p>
                             </div>
                         </div>
                     </div>
