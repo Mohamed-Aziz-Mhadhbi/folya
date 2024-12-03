@@ -12,7 +12,7 @@ const Devis = () => {
         <section id="booking" className="ptb">
             <div className="container">
                 <span className="suptitle">Démo</span>
-                <h2>Démo</h2>
+                <h2>échanger avec un conseiller</h2>
             </div>
             <div className="container wrapper-booking flex-row">
                 <div className="bookong-form">
@@ -33,7 +33,7 @@ const Devis = () => {
                             <TextFieldMessage />
                         </div>
                         <button className="btn" id="sendbook" type="submit" >
-                            Soumettez votre démonstration
+                            Valider votre demande
                         </button>
                         <p className="res-booking" >
                             <span className="send">Merci. Nous vous contacterons sous peu.</span>
