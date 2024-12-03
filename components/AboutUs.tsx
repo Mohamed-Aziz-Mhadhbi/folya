@@ -19,18 +19,12 @@ const AboutUs = () => {
                 <div className="wrapper-aboutus-progress flex-row">
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/reduc2.png`} alt="" />
-                            </div>
                             <div className="progress-content">
                                 <h3>Réduction des erreurs administratives</h3>
                                 <p>20 à 30 % de diminution des erreurs liées à la gestion des dossiers.</p>
                             </div>
                         </div>
                         <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/gestiondeDonner.png`} alt="" />
-                            </div>
                             <div className="progress-content">
                                 <h3>Accès rapide aux informations</h3>
                                 <p>Moins de 30 secondes pour accéder aux dossiers patients avec Folya.</p>
@@ -39,9 +33,6 @@ const AboutUs = () => {
                     </div>
                     <div className="single-progress-wrapper flex-column">
                         <div className="single-progress flex-row">
-                            <div className="progress-img">
-                                <img src={`${prefix}/image/improve.png`} alt="" />
-                            </div>
                             <div className="progress-content">
                                 <h3>Amélioration de l'efficacité</h3>
                                 <p>80 % des utilisateurs constatent une meilleure organisation dès la première semaine</p>
