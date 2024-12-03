@@ -34,11 +34,11 @@ const Navbar = () => {
                         <a className="appointment">
                             Vous êtes professionnel paramédical ?
                         </a>
+                        <a className="btn appointment" href="https://www.folya.co/register">
+                            Inscription
+                        </a>
                         <a className="btn appointment" href="https://www.folya.co/login">
                             Connexion
-                        </a>
-                        <a className="btn appointment" href="">
-                            Inscription
                         </a>
                     </nav>
                     <a id="openmenu" className="btn" href="#">
