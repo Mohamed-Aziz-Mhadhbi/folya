@@ -10,7 +10,7 @@ const Feature = () => {
             <div className="wrapper-features container">
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/espace.png`} alt="Digitalisation de votre travail" />
+                        <img src={`${prefix}/image/degital.png`} alt="Digitalisation de votre travail" />
                     </div>
                     <div className="text-content">
                         <h3>Digitalisation de votre activité</h3>
@@ -32,7 +32,7 @@ const Feature = () => {
                 </div>
                 <div className="feature-card">
                     <div className="icon">
-                        <img src={`${prefix}/image/facture.png`} alt="Facturation automatisée et suivi des finances" />
+                        <img src={`${prefix}/image/factura.png`} alt="Facturation automatisée et suivi des finances" />
                     </div>
                     <div className="text-content">
                         <h3>Facturation automatisée et suivi des finances</h3>
