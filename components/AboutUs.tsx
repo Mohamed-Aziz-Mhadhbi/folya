@@ -18,22 +18,22 @@ const AboutUs = () => {
                 </div>
                 <div className="wrapper-aboutus-progress">
                     <div className="single-progress-wrapper">
-                    <p>Folya en chiffres</p>
+                    <h3 className='dl-text'>Folya en chiffres</h3>
                         <div className="single-progress">
                             <div className="progress-content">
-                                <h3>-25% d'erreurs de saisie</h3>
+                                <h3 className='title-about-us'>-25% d'erreurs de saisie</h3>
                                 <p>grâce à une gestion administrative optimisée.</p>
                             </div>
                         </div>
                         <div className="single-progress">
                             <div className="progress-content">
-                                <h3>30 secondes</h3>
+                                <h3 className='title-about-us'>30 secondes</h3>
                                 <p>Suffisents pour accéder aux dossiers patients.</p>
                             </div>
                         </div>
                         <div className="single-progress">
                             <div className="progress-content stat">
-                                <h3>80 % des utilisateurs</h3>
+                                <h3 className='title-about-us'>80% des utilisateurs</h3>
                                 <p>constatent une meilleure organisation dès la première semaine.</p>
                             </div>
                         </div>
