@@ -149,7 +149,7 @@ body {
 
 .icon img {
     max-width: 100px; /* Set a maximum width for the image */
-    height: auto; /* Maintain aspect ratio */
+    height:max-content; /* Maintain aspect ratio */
 }
 
 .text-content {
