@@ -24,7 +24,7 @@ const Service = () => {
                     <p>Stockez et accédez aux bilans spécifiques à votre métier. Plus besoin d’imprimer vos grilles ou de noter vos observations sur papier.</p>
                 </article>
                 <article className="align-center">
-                    <img src={`${prefix}/image/analyses.png`} alt="" />
+                    <img src={`${prefix}/image/comp.png`} alt="" />
                     <h3>Compte-rendu standardisé</h3>
                     <p>Générez automatiquement vos comptes rendus en quelques clics. Profitez d'un processus simple, standardisé et professionnel.</p>
                 </article>
