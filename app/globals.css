@@ -321,7 +321,18 @@ unicode-bidi: isolate;
 .wrapper-service {
     display: flex; /* Use grid layout */
     grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    flex-direction: column;
     gap: 20px; /* Space between articles */
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between; /* Space between articles */
+}
+
+.service-row article {
+    flex: 0 0 48%; /* Each article takes up about 48% of the row */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 
