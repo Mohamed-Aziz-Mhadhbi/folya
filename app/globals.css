@@ -265,6 +265,7 @@ unicode-bidi: isolate;
 .single-progress-wrapper {
     display: flex;
     flex-direction: row; /* Stack progress items vertically */
+    width: 100%;
 }
 
     
@@ -272,7 +273,7 @@ unicode-bidi: isolate;
     margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center; 
     text-align: center;  
     box-sizing: border-box;
@@ -743,7 +744,7 @@ h3 {
 
 @media (max-width: 768px) {
     .wrapper-aboutus-progress {
-        flex-direction: row;
+        flex-direction: column;
         }
 
     .single-progress-wrapper {
@@ -766,10 +767,6 @@ h3 {
     p {
         font-size: 1em; 
     }
-}
-
-.single-progress-wrapper {
-    width: 100%; 
 }
 
 .progress-content {
