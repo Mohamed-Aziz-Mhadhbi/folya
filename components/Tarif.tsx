@@ -14,8 +14,8 @@ const Tarif = () => {
                     <div className="pricing-title">
                         <h2>Cabinet</h2>
                     </div>
-                    <div className='flex-row'>
-                        <div className="align-center">
+                    <div className='flex-row pricing-options'>
+                        <div className="align-center pricing-option">
                             <div className="pricing-title">
                                 <h3>Mensuel</h3>
                             </div>
@@ -30,7 +30,7 @@ const Tarif = () => {
                                 <span>Par Mois</span>
                             </div>
                         </div>
-                        <div className="align-center">
+                        <div className="align-center pricing-option">
                             <div className="pricing-title">
                                 <h3>Annuel</h3>
                             </div>
