@@ -16,7 +16,7 @@ const AboutUs = () => {
                     <p id='colorsp'>Folya est bien plus qu’une simple plateforme : c'est votre allié.</p>
                     <p>Conçu par des professionnels paramédicaux pour vous simplifier la vie et vous permettre de relever les défis quotidiens liés à la gestion des patients et de votre cabinet, où que vous soyez et quand vous le désirez.</p>
                 </div>
-                <div className="wrapper-aboutus-progress ">
+                <div className="wrapper-aboutus-progress">
                     <div className="single-progress-wrapper">
                     <h3 className='dl-text'>Folya en chiffres</h3>
                         <div className="single-progress">

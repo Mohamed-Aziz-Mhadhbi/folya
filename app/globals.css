@@ -743,9 +743,8 @@ h3 {
 
 @media (max-width: 768px) {
     .wrapper-aboutus-progress {
-        flex-direction: column;
-
-    }
+        flex-direction: row;
+        }
 
     .single-progress-wrapper {
         width: 100%; 
