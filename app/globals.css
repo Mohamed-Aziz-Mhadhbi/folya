@@ -259,7 +259,7 @@ unicode-bidi: isolate;
 
 .aboutus-column {
     display: flex;
-    flex-direction: row; /* Stack image and content vertically */
+    flex-direction: row; 
 }
 
 .single-progress-wrapper {
@@ -317,25 +317,25 @@ unicode-bidi: isolate;
 
 /* fonctionnalites */
 .wrapper-service {
-    display: flex; /* Use grid layout */
-    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    display: flex; 
+    grid-template-columns: repeat(2, 1fr); 
     flex-direction: column;
-    gap: 20px; /* Space between articles */
+    gap: 20px; 
 }
 
 .service-row {
     display: flex;
-    justify-content: space-between; /* Space between articles */
+    justify-content: space-between; 
 }
 
 .service-row article {
-    flex: 0 0 48%; /* Each article takes up about 48% of the row */
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    flex: 0 0 48%;
+    box-sizing: border-box; 
 }
 
 @media (max-width: 768px) {
     .service-row {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column; 
     }
 }
 
@@ -901,6 +901,7 @@ h3 {
 .single-pricing {
 	width: 25%;
 	padding: 40px;
+    margin: 20px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
