@@ -1082,6 +1082,7 @@ h3 {
     padding: 10px 0px 20px 0px;
     border: 0.5px solid var(--color-white);
     outline: none;    
+    border-radius: 0.5px;
     background-color: var(--color-white);
     width: calc(85% - 0px);
     margin-bottom: 40px;
