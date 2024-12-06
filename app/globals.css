@@ -1080,8 +1080,8 @@ h3 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 10px 0px 20px 0px;
-    border: none;
-    outline: none;
+    border: 0.5px solid var(--color-white);
+    outline: none;    
     background-color: var(--color-white);
     width: calc(85% - 0px);
     margin-bottom: 40px;
